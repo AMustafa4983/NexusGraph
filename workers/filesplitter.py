@@ -1,4 +1,3 @@
-
 class FileSplitter:
     def __init__(self):
         self.sections = {}
@@ -6,9 +5,8 @@ class FileSplitter:
                               ,'Abstract', 'Background', 'Introduction', 'Literature Review', 'Methods',
                               'Results', 'Discussion', 'Conclusion', 'Keywords']
 
-    def split_file_by_section(self, file_path):
-        with open(file_path, 'r', encoding='utf-8') as f:
-            text = f.read()
+    def split_file_by_section(self, filetext):
+        text = filetext['row']['text']
         
         for section_name in self.section_names:
             index = text.find(section_name)

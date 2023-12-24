@@ -10,7 +10,7 @@ class Organizer:
             port=port
         )
         self.cur = self.conn.cursor()
-        print('Organiezer Initialized')
+        print('Organizer Initialized')
 
     def create_tables(self):
         try:

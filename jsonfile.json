@@ -1,0 +1,123 @@
+[
+    {
+        "title": "Expression and functional role of circCORO1C in laryngeal squamous cell carcinoma",
+        "authors": [
+            {"name": "Wu Yongyan", "affiliation": "National Natural Science Foundation of China"},
+            {"name": "Liu Hongliang", "affiliation": "National Natural Science Foundation of China"},
+            {"name": "Gao Wei", "affiliation": "National Natural Science Foundation of China"},
+            {"name": "Wen Shuxin", "affiliation": "Youth Science and Technology Research Fund of Shanxi Province"},
+            {"name": "Guo Huina", "affiliation": "Youth Science and Technology Research Fund of Shanxi Province"}
+        ],
+        "tags": [
+            "Laryngeal squamous cell carcinoma",
+            "circRNA",
+            "oncogenic role",
+            "diagnostic biomarker",
+            "prognostic biomarker"
+        ]
+    },
+    {
+        "instructions": [
+            "Perform RNA sequencing on 57 pairs of LSCC and matched adjacent normal mucosa tissues",
+            "Construct circRNA, miRNA, and mRNA expression profiles",
+            "Undertake RT-PCR, qPCR, Sanger sequencing, and FISH to study the expression, localization, and clinical significance of circCORO1C in LSCC tissues and cells",
+            "Investigate the functions of circCORO1C in LSCC by RNAi-mediated knockdown, proliferation analysis, EdU staining, colony formation assay, Transwell assay, and apoptosis analysis",
+            "Investigate the regulatory mechanisms among circCORO1C, let-7c-5p, and PBX3 by luciferase assay, RNA immunoprecipitation, western blotting, and immunohistochemistry"
+        ],
+        "methodologies": []
+    },
+    {
+        "experiments": [
+            {
+                "experiment_title": "RNA sequencing",
+                "experiment_items": [
+                    {"material": "LSCC and matched adjacent normal mucosa tissues", "supplier": "", "material_usage": "To construct circRNA, miRNA, and mRNA expression profiles"}
+                ]
+            },
+            {
+                "experiment_title": "RT-PCR",
+                "experiment_items": [
+                    {"material": "LSCC tissues and cells", "supplier": "", "material_usage": "To study the expression of circCORO1C"}
+                ]
+            },
+            {
+                "experiment_title": "qPCR",
+                "experiment_items": [
+                    {"material": "LSCC tissues and cells", "supplier": "", "material_usage": "To study the expression of circCORO1C"}
+                ]
+            },
+            {
+                "experiment_title": "Sanger sequencing",
+                "experiment_items": [
+                    {"material": "LSCC tissues and cells", "supplier": "", "material_usage": "To study the expression of circCORO1C"}
+                ]
+            },
+            {
+                "experiment_title": "FISH",
+                "experiment_items": [
+                    {"material": "LSCC tissues and cells", "supplier": "", "material_usage": "To study the expression of circCORO1C"}
+                ]
+            },
+            {
+                "experiment_title": "RNAi-mediated knockdown",
+                "experiment_items": [
+                    {"material": "LSCC tissues and cells", "supplier": "", "material_usage": "To investigate the functions of circCORO1C in LSCC"}
+                ]
+            },
+            {
+                "experiment_title": "Proliferation analysis",
+                "experiment_items": [
+                    {"material": "LSCC tissues and cells", "supplier": "", "material_usage": "To investigate the functions of circCORO1C in LSCC"}
+                ]
+            },
+            {
+                "experiment_title": "EdU staining",
+                "experiment_items": [
+                    {"material": "LSCC tissues and cells", "supplier": "", "material_usage": "To investigate the functions of circCORO1C in LSCC"}
+                ]
+            },
+            {
+                "experiment_title": "Colony formation assay",
+                "experiment_items": [
+                    {"material": "LSCC tissues and cells", "supplier": "", "material_usage": "To investigate the functions of circCORO1C in LSCC"}
+                ]
+            },
+            {
+                "experiment_title": "Transwell assay",
+                "experiment_items": [
+                    {"material": "LSCC tissues and cells", "supplier": "", "material_usage": "To investigate the functions of circCORO1C in LSCC"}
+                ]
+            },
+            {
+                "experiment_title": "Apoptosis analysis",
+                "experiment_items": [
+                    {"material": "LSCC tissues and cells", "supplier": "", "material_usage": "To investigate the functions of circCORO1C in LSCC"}
+                ]
+            },
+            {
+                "experiment_title": "Luciferase assay",
+                "experiment_items": [
+                    {"material": "", "supplier": "", "material_usage": "To investigate the regulatory mechanisms among circCORO1C, let-7c-5p, and PBX3"}
+                ]
+            },
+            {
+                "experiment_title": "RNA immunoprecipitation",
+                "experiment_items": [
+                    {"material": "", "supplier": "", "material_usage": "To investigate the regulatory mechanisms among circCORO1C, let-7c-5p, and PBX3"}
+                ]
+            },
+            {
+                "experiment_title": "Western blotting",
+                "experiment_items": [
+                    {"material": "", "supplier": "", "material_usage": "To investigate the regulatory mechanisms among circCORO1C, let-7c-5p, and PBX3"}
+                ]
+            },
+            {
+                "experiment_title": "Immunohistochemistry",
+                "experiment_items": [
+                    {"material": "", "supplier": "", "material_usage": "To investigate the regulatory mechanisms among circCORO1C, let-7c-5p, and PBX3"}
+                ]
+            }
+        ]
+    }
+]
