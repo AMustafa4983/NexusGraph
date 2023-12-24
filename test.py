@@ -15,6 +15,7 @@ print(sections.keys())
 end = time.time()
 print("Calculated time for splitting: ",end - start)
 
+
 start = time.time()
 
 FMiner = FeaturesMiner()
@@ -54,12 +55,10 @@ print("Calculated time for MaterialsSuppliersMiner: ",end - start)
 
 start = time.time()
 print('\n Phase4 \n')
-'''org = Organizer('railway',
-                      'postgres',
-                      'B*Cc6Ga2cac1EDE6dFggC*6F-ge25aGD',
-                      'roundhouse.proxy.rlwy.net',
-                      '57938')
-
-'''
+org = Organizer('railway',
+                'postgres',
+                'ba**64B3f3*dd521Egef3g4*B-E-cA-3',
+                'viaduct.proxy.rlwy.net',
+                '36793')
 print("Calculated time for Organizer: ",end - start)
 end = time.time()

@@ -1,8 +1,8 @@
 from openai import OpenAI
-
+import os 
 class MaterialsSuppliersMiner:
     def __init__(self):
-        self.client = OpenAI()
+        self.client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
         print('MaterialsSuppliersMiner Initialized')
 
     

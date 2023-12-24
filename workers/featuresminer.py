@@ -1,8 +1,10 @@
 from openai import OpenAI
+import os
 
 class FeaturesMiner:
     def __init__(self):
-        self.client = OpenAI()
+        
+        self.client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
         print('FeaturesMiner Initialized')
     
     def predict(self, section_text):
