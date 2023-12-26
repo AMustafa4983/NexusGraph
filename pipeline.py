@@ -35,42 +35,57 @@ def extraction_process(filetext):
         print("Extracted features formed in json file: ",features)
     
     if 'methods' in sections.keys():
+        try:
+            # Materials and Suppliers extraction phase
+            materials_suppliers = msminer.predict(sections['methods'])
+            materials_suppliers = json.loads(materials_suppliers.choices[0].message.content)
+            print("Materials and Suppliers formed in json file: ", materials_suppliers)
+            try:
+                # Instruction phase
+                Instruction = instructor.predict(sections['methods'])
 
-        # Materials and Suppliers extraction phase
-        materials_suppliers = msminer.predict(sections['methods'])
-        materials_suppliers = json.loads(materials_suppliers.choices[0].message.content)
-        print("Materials and Suppliers formed in json file: ", materials_suppliers)
-
-        # Instruction phase
-        Instruction = instructor.predict(sections['methods'])
-
-        Instruction = json.loads(Instruction.choices[0].message.content)
-        print("instuction formed in json file: ", Instruction)
-
+                Instruction = json.loads(Instruction.choices[0].message.content)
+                print("instuction formed in json file: ", Instruction)
+            except:
+                print('Instrcutor cannot give steps for this one!')
+        except:
+            print('No Materials or Suppliers Found')
+            
     else:
-        # Materials and Suppliers extraction phase
-        materials_suppliers = msminer.predict(sections['introduction'])
-        materials_suppliers = json.loads(materials_suppliers.choices[0].message.content)
-        print("Materials and Suppliers formed in json file: ", materials_suppliers)
+        try:
+            # Materials and Suppliers extraction phase
+            materials_suppliers = msminer.predict(sections['introduction'])
+            print("Materials and Suppliers formed in json file: ", materials_suppliers)
+            materials_suppliers = json.loads(materials_suppliers.choices[0].message.content)
+            try:
+                # Instruction phase
+                Instruction = instructor.predict(sections['introduction'])
 
-        # Instruction phase
-        Instruction = instructor.predict(sections['introduction'])
+                Instruction = json.loads(Instruction.choices[0].message.content)
+                print("instuction formed in json file: ", Instruction)
+            except:
+                print('Instrcutor cannot give steps for this one!')
+        except:
+            print('No Materials or Suppliers Found!')
 
-        Instruction = json.loads(Instruction.choices[0].message.content)
-        print("instuction formed in json file: ", Instruction)
+
     
-    #json files merging
-    merged_data = [
-        features,
-        materials_suppliers,
-        Instruction
-    ]
-    print("Merged File: ",merged_data)
-
+    try:
+        #json files merging
+        merged_data = [
+            features,
+            materials_suppliers,
+            Instruction
+        ]
+        print("Merged File: ",merged_data)
+    except:
+        print('Can\'t merge jsons!')
+    
     # Organizing phase
     organizer.process_json(merged_data)
     organizer.close()
     print("Organizer Saved information in database successfully!")
+
     end = time.time()
 
-    print(f"process done! - {end - start}s")
+    print(f"process done! - {round(end - start)}s")

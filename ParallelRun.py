@@ -10,4 +10,4 @@ files = content['rows']
 
 
 if __name__ == "__main__":
-    extraction_process(files[1])
+    extraction_process(files[3])
