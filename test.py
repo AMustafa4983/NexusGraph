@@ -1,9 +1,4 @@
-from workers.filesplitter import FileSplitter
-from workers.featuresminer import FeaturesMiner
-from workers.materialssuppliersminer import MaterialsSuppliersMiner
-from workers.instructor import Instructor
 from workers.organizer import Organizer
-import json 
 import time
 
 start = time.time()

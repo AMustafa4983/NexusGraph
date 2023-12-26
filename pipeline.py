@@ -18,6 +18,7 @@ organizer = Organizer('railway',
                 '36793')
 
 def extraction_process(filetext):
+    
     start = time.time()
     # Splitting Phase
     sections = splitter.split_file_by_section(filetext)
@@ -70,14 +71,13 @@ def extraction_process(filetext):
             materials_suppliers,
             Instruction
         ]
+        # Organizing phase
+        organizer.process_json(merged_data)
+        organizer.close()
+        print("Organizer Saved information in database successfully!")
     except:
         print('Can\'t merge jsons!')
-    
-    # Organizing phase
-    organizer.process_json(merged_data)
-    organizer.close()
-    print("Organizer Saved information in database successfully!")
-
+        
     end = time.time()
 
     print(f"process done! - {round(end - start)}s")
