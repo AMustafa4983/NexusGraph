@@ -1,13 +1,17 @@
-import multiprocessing
+from multiprocessing import Pool
 from  pipeline import extraction_process
 import requests
 import json
 
-link = "https://datasets-server.huggingface.co/rows?dataset=TaylorAI%2Fpubmed_commercial&config=default&split=train&offset=0&length=100"
-req = requests.get(link)
-content = json.loads(req.content)
-files = content['rows']
+def check_dataset(url):
+    req = requests.get(url)
+    content = json.loads(req.content)
+    files = content['rows']
+
+    return files
 
 
 if __name__ == "__main__":
-    extraction_process(files[3])
+    url = input('Enter api url: ')
+    files = check_dataset(url)
+    extraction_process(files[50])
