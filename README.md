@@ -16,97 +16,114 @@ NexusGraph offers the following features:
 
 - **Methodological Breakdown:** The tool breaks down the instructions or methodologies used in the studies, enhancing the user's ability to grasp and apply the research techniques.
 
-## Database Schema
+Certainly! Below is a description of each database table you can include in your GitHub README file. This description will help users understand the structure and purpose of each table in your database.
 
-### 1. papers
-- **Description:** Stores information about academic papers.
-- **Fields:**
-  - `paper_id`: A unique identifier for each paper (auto-incrementing integer, primary key).
-  - `title`: The title of the academic paper (variable character string).
+---
 
-### 2. authors
-- **Description:** Contains detailed information about authors of the papers.
-- **Fields:**
-  - `author_id`: A unique identifier for each author (auto-incrementing integer, primary key).
-  - `name`: The name of the author (variable character string).
-  - `affiliation_id`: A foreign key referencing the affiliation_id in the affiliations table (institution or organization affiliation).
+## Database Tables Description
 
-### 3. affiliations
-- **Description:** Lists the various academic or research affiliations.
-- **Fields:**
-  - `affiliation_id`: A unique identifier for each affiliation (auto-incrementing integer, primary key).
-  - `name`: The name of the institution or organization (variable character string).
+### `papers`
 
-### 4. tags
-- **Description:** Categorizes papers into different thematic areas or keywords.
-- **Fields:**
-  - `tag_id`: A unique identifier for each tag (auto-incrementing integer, primary key).
-  - `Description`: A description or name of the tag (text).
+This table stores information about research papers.
 
-### 5. materials
-- **Description:** Details the materials used in the research studies.
-- **Fields:**
-  - `material_id`: A unique identifier for each material (auto-incrementing integer, primary key).
-  - `name`: The name of the material (variable character string).
-  - `supplier_id`: A foreign key linking to the suppliers table (identifying the supplier of the material).
+- **paper_id**: A unique identifier for each paper (Primary Key).
+- **title**: The title of the research paper.
 
-### 6. suppliers
-- **Description:** Contains information about suppliers of various materials.
-- **Fields:**
-  - `supplier_id`: A unique identifier for each supplier (auto-incrementing integer, primary key).
-  - `name`: The name of the supplier (variable character string).
-  - `item_specifics`: Specific details or descriptions of the items supplied (text).
+### `affiliations`
 
-### 7. methodologies
-- **Description:** Describes the different methodologies used in the research papers.
-- **Fields:**
-  - `methodology_id`: A unique identifier for each methodology (auto-incrementing integer, primary key).
-  - `Description`: A detailed description of the research methodology (text).
+This table holds details about the affiliations of authors.
 
-### 8. instructions
-- **Description:** Provides specific instructions or methodologies used in the studies.
-- **Fields:**
-  - `instruction_id`: A unique identifier for each set of instructions (auto-incrementing integer, primary key).
-  - `paper_id`: A foreign key referencing the paper_id in the papers table.
-  - `methodology_id`: A foreign key referencing the methodology_id in the methodologies table.
-  - `content`: The textual content of the instructions (text).
+- **affiliation_id**: A unique identifier for each affiliation (Primary Key).
+- **name**: The name of the affiliation, such as a university or research institution.
 
-### 9. experiments
-- **Description:** Records the different experiments conducted within the research studies.
-- **Fields:**
-  - `experiment_id`: A unique identifier for each experiment (auto-incrementing integer, primary key).
-  - `title`: The title or name of the experiment (variable character string).
-  - `paper_id`: A foreign key linking to the papers table (indicating the paper associated with the experiment).
+### `authors`
 
-### 10. experiment_items
-- **Description:** Details about items or materials used in each experiment.
-- **Fields:**
-  - `experiment_item_id`: A unique identifier for each experiment item (auto-incrementing integer, primary key).
-  - `experiment_id`: A foreign key linking to the experiments table.
-  - `material_id`: A foreign key linking to the materials table (identifying the material used).
-  - `Usage`: Description of how the material is used in the experiment (text).
+This table contains information about the authors of the papers.
 
-## Junction Tables for Many-to-Many Relationships
+- **author_id**: A unique identifier for each author (Primary Key).
+- **name**: The name of the author.
+- **affiliation_id**: The identifier for the author's affiliation, linking to the `affiliations` table (Foreign Key).
 
-These tables manage the many-to-many relationships between various entities:
+### `tags`
 
-### paper_authors
-- **Description:** Links papers to their respective authors.
-- **Fields:**
-  - `paper_id`: A foreign key referencing the papers table.
-  - `author_id`: A foreign key referencing the authors table.
+This table is used to store tags related to the papers.
 
-### paper_tags
-- **Description:** Associates papers with multiple tags.
-- **Fields:**
-  - `paper_id`: A foreign key referencing the papers table.
-  - `tag_id`: A foreign key referencing the tags table.
+- **tag_id**: A unique identifier for each tag (Primary Key).
+- **description**: A description or name of the tag.
 
-### paper_methodologies
-- **Description:** Connect papers to various methodologies used in them.
-- **Fields:**
-  - `paper_id`: A foreign key referencing the papers table.
-  - `methodology_id`: A foreign key referencing the methodologies table.
+### `suppliers`
+
+This table keeps track of suppliers for various materials used in experiments.
+
+- **supplier_id**: A unique identifier for each supplier (Primary Key).
+- **name**: The name of the supplier.
+
+### `materials`
+
+This table lists materials used in the experiments.
+
+- **material_id**: A unique identifier for each material (Primary Key).
+- **name**: The name of the material.
+- **supplier_id**: The identifier for the supplier of the material, linking to the `suppliers` table (Foreign Key).
+
+### `methodologies`
+
+This table records different methodologies used in the research.
+
+- **methodology_id**: A unique identifier for each methodology (Primary Key).
+- **description**: A detailed description of the methodology.
+
+### `instructions`
+
+This table includes instructions or procedures followed in the research.
+
+- **instruction_id**: A unique identifier for each instruction (Primary Key).
+- **paper_id**: The identifier of the paper these instructions relate to, linking to the `papers` table (Foreign Key).
+- **methodology_id**: The identifier of the methodology used, linking to the `methodologies` table (Foreign Key).
+- **content**: The detailed content of the instruction.
+
+### `experiments`
+
+This table stores information about experiments conducted in the research.
+
+- **experiment_id**: A unique identifier for each experiment (Primary Key).
+- **title**: The title or name of the experiment.
+- **paper_id**: The identifier of the paper this experiment is associated with, linking to the `papers` table (Foreign Key).
+
+### `experiment_items`
+
+This table details the items used in each experiment.
+
+- **experiment_item_id**: A unique identifier for each experiment item (Primary Key).
+- **experiment_id**: The identifier of the experiment, linking to the `experiments` table (Foreign Key).
+- **material_id**: The identifier of the material used, linking to the `materials` table (Foreign Key).
+- **supplier_id**: The identifier of the supplier of the material, linking to the `suppliers` table (Foreign Key).
+- **usage**: A description of how the material is used in the experiment.
+
+### Junction Tables
+
+#### `paper_authors`
+
+A many-to-many relationship table linking papers and authors.
+
+- **paper_id**: The identifier of the paper (Foreign Key).
+- **author_id**: The identifier of the author (Foreign Key).
+
+#### `paper_tags`
+
+A many-to-many relationship table linking papers and tags.
+
+- **paper_id**: The identifier of the paper (Foreign Key).
+- **tag_id**: The identifier of the tag (Foreign Key).
+
+#### `paper_methodologies`
+
+A many-to-many relationship table linking papers and methodologies.
+
+- **paper_id**: The identifier of the paper (Foreign Key).
+- **methodology_id**: The identifier of the methodology (Foreign Key).
+
+---
 
 ## Conclusion
 
