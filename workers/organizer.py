@@ -13,6 +13,34 @@ class Organizer:
         self.cur = self.conn.cursor()
         print('Organizer Initialized')
 
+    def clear_database(self):
+        try:
+            # Connect to the PostgreSQL database
+            conn = self.conn
+            cur = self.cur
+
+            # SQL statements to clear all tables
+            tables = [
+                'paper_tags', 'paper_methodologies', 'paper_authors',
+                'experiment_items', 'experiments', 'instructions',
+                'methodologies', 'materials', 'suppliers',
+                'tags', 'authors', 'affiliations', 'papers'
+            ]
+
+            for table in tables:
+                cur.execute(f"DELETE FROM {table};")
+
+            # Commit the changes and close the connection
+            conn.commit()
+            cur.close()
+            conn.close()
+
+            print("Database cleared successfully.")
+
+        except Exception as e:
+            print(f"Error: {e}")
+    
+    
     def create_tables(self):
         try:
             # Connect to the PostgreSQL database

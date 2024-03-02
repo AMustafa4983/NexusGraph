@@ -81,27 +81,10 @@ def process_external_data():
     content = json.loads(response.content)
     files = content.get('rows', [])
 
-    extracted_data = []
-    for file_info in files:
-        file_url = file_info.get('file_url')
-        file_response = requests.get(file_url)
-        if file_response.status_code != 200:
-            return jsonify({'error': f'Failed to retrieve file from URL: {file_url}'}), 500
+    for file in files:
+        extraction_process(file)
 
-        file_content = file_response.content
-        if file_info.get('file_type') == 'pdf':
-            text = extract_text_from_pdf(file_content)
-        elif file_info.get('file_type') == 'txt':
-            text = file_content.decode('utf-8')
-        else:
-            return jsonify({'error': f'Unsupported file type: {file_info.get("file_type")}'}), 400
-
-        # Insert the extracted data into the database
-        # Implement your logic here
-
-        extracted_data.append({'file_name': file_info.get('file_name'), 'text': text})
-
-    return jsonify({'message': 'Data extracted and processed successfully', 'extracted_data': extracted_data}), 200
+    return jsonify({'message': 'Data extracted and processed successfully'}), 200
 
 if __name__ == '__main__':
     app.run(debug=True)
