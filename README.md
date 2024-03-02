@@ -124,6 +124,32 @@ A many-to-many relationship table linking papers and methodologies.
 - **methodology_id**: The identifier of the methodology (Foreign Key).
 
 ---
+# APIs
+
+1. **GET /api/papers**: 
+   - This endpoint retrieves all papers stored in the database along with their details such as title, authors, and tags.
+   - It calls the `get_all_papers()` method of the `Organizer` class, which queries the database to fetch all paper records.
+   - The retrieved papers are returned as a JSON response to the frontend.
+
+2. **GET /api/papers/<paper_id>**: 
+   - This endpoint retrieves the details of a specific paper identified by its ID.
+   - It calls the `get_paper_details(paper_id)` method of the `Organizer` class, which queries the database to fetch the details of the specified paper.
+   - The paper details, including title, authors, tags, experiments, methodologies, materials, suppliers, and instructions, are returned as a JSON response to the frontend.
+
+3. **POST /api/upload**: 
+   - This endpoint allows users to upload a file (either PDF or TXT) and extract data from it.
+   - Upon receiving the file, it saves it to the server and extracts the text content using the `extract_text_from_pdf()` function for PDF files or directly reading text from TXT files.
+   - The extracted text is then passed to the `extraction_process()` function from the `pipeline` module, which processes the text data.
+   - After extraction, a success message along with the extracted text is returned to the frontend.
+
+4. **POST /api/process_external_data**: 
+   - This endpoint allows users to provide a URL of an external API that returns a JSON response containing information about files.
+   - It makes a request to the provided URL, retrieves the JSON response, and extracts the list of files.
+   - For each file in the list, it retrieves the file content from its URL and extracts the text content.
+   - The extracted text content is then processed and stored in the database (logic for database storage needs to be implemented).
+   - Finally, a success message along with the extracted data is returned to the frontend.
+
+---
 
 ## Conclusion
 
