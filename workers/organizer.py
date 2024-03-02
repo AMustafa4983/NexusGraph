@@ -1,4 +1,5 @@
 import psycopg2
+from flask import jsonify
 
 class Organizer:
     def __init__(self, dbname, user, password, host='localhost', port='5432'):
@@ -292,3 +293,71 @@ CREATE TABLE paper_methodologies (
             if 'instructions' in data and paper_id:
                 self.insert_methodology_and_instructions(paper_id, data.get('methodologies', []), data.get('instructions', []))
 
+    def get_all_papers(self):
+        try:
+            select_papers_query = """
+                SELECT p.paper_id, p.title, a.name AS author, t.description AS tag
+                FROM papers p
+                LEFT JOIN paper_authors pa ON p.paper_id = pa.paper_id
+                LEFT JOIN authors a ON pa.author_id = a.author_id
+                LEFT JOIN paper_tags pt ON p.paper_id = pt.paper_id
+                LEFT JOIN tags t ON pt.tag_id = t.tag_id;
+            """
+            self.cur.execute(select_papers_query)
+            papers = {}
+            for row in self.cur.fetchall():
+                paper_id, title, author, tag = row
+                if paper_id not in papers:
+                    papers[paper_id] = {'title': title, 'authors': [], 'tags': []}
+                if author:
+                    papers[paper_id]['authors'].append(author)
+                if tag:
+                    papers[paper_id]['tags'].append(tag)
+            return papers
+        except Exception as e:
+            print(f"Error: {e}")
+
+    def get_paper_details(self, paper_id):
+        try:
+            select_paper_query = """
+                SELECT p.title, a.name AS author, t.description AS tag, e.title AS experiment_title, m.name AS material, s.name AS supplier, ei.usage AS material_usage, meth.description AS methodology, i.content AS instruction
+                FROM papers p
+                LEFT JOIN paper_authors pa ON p.paper_id = pa.paper_id
+                LEFT JOIN authors a ON pa.author_id = a.author_id
+                LEFT JOIN paper_tags pt ON p.paper_id = pt.paper_id
+                LEFT JOIN tags t ON pt.tag_id = t.tag_id
+                LEFT JOIN experiments e ON p.paper_id = e.paper_id
+                LEFT JOIN experiment_items ei ON e.experiment_id = ei.experiment_id
+                LEFT JOIN materials m ON ei.material_id = m.material_id
+                LEFT JOIN suppliers s ON ei.supplier_id = s.supplier_id
+                LEFT JOIN instructions i ON p.paper_id = i.paper_id
+                LEFT JOIN methodologies meth ON i.methodology_id = meth.methodology_id
+                WHERE p.paper_id = %s;
+            """
+            self.cur.execute(select_paper_query, (paper_id,))
+            paper_details = {}
+            for row in self.cur.fetchall():
+                title, author, tag, experiment_title, material, supplier, material_usage, methodology, instruction = row
+                if not paper_details:
+                    paper_details = {
+                        'title': title,
+                        'authors': [author] if author else [],
+                        'tags': [tag] if tag else [],
+                        'experiments': [],
+                        'methodologies': [],
+                        'materials': [],
+                        'suppliers': [],
+                        'instructions': []
+                    }
+                if experiment_title:
+                    paper_details['experiments'].append({
+                        'experiment_title': experiment_title,
+                        'experiment_items': [{'material': material, 'supplier': supplier, 'material_usage': material_usage}]
+                    })
+                if methodology:
+                    paper_details['methodologies'].append(methodology)
+                if instruction:
+                    paper_details['instructions'].append(instruction)
+            return paper_details
+        except Exception as e:
+            print(f"Error: {e}")
