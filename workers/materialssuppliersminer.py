@@ -19,18 +19,19 @@ class MaterialsSuppliersMiner:
                                         {
                                         experiments: [
                                         {
-                                        'experiment_title1' : 'output_title',
-                                        'experiment_items' : [ {'material' : 'output_material' , 'supplier' : 'output_supplier', 'material_usage':'output_material_usage'}, ... ],
+                                        "experiment_title1" : "output_title",
+                                        "experiment_items" : [ {"material" : "output_material" , "supplier" : "output_supplier", "material_usage":"output_material_usage"}, ... ],
                                         },
                                         {
-                                        'experiment_title2' : 'output_title',
-                                        'experiment_items' : [ {'material' : 'output_material' , 'supplier' : 'output_supplier','material_usage':'output_material_usage'}, ... ],
+                                        "experiment_title2" : "output_title",
+                                        "experiment_items" : [ {"material" : "output_material" , "supplier" : "output_supplier","material_usage":"output_material_usage"}, ... ],
                                         },
                                         ...
                                         ]
-                                        }'''},
+                                        }
+                                        return a json file.'''},
             {'role':'user', 'content':section_text[:4050]},
-            {'role':'user', 'content':section_text[4050:]},
+            {'role':'user', 'content':section_text[4050:] if len(section_text[4050:]) < 4050 else section_text[4050:4050+4050]},
 
         ]
     )    

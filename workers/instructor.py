@@ -15,19 +15,20 @@ class Instructor:
             {'role':'system','content':'''you're an ner system used to extract and form instructions and methodolgies to help researcher do an experiment from a given text and form it in a JSON file.
                                             the output should be in this structure:
                                             {
-                                            'instructions' : [
+                                            "instructions" : [
                                             "Obtain...",
                                             "Provide the mice with free...",
 
                                             ],
-                                            'methodolgies' : [
+                                            "methodolgies": [
                                             "Conduct a late-on...",
                                             "...",
 
                                             ]
-                                            }'''},
+                                            }
+                                            return a json file.'''},
             {'role':'user', 'content':section_text[:4050]},
-            {'role':'user', 'content':section_text[4050:]},
+            {'role':'user', 'content':section_text[4050:] if len(section_text[4050:]) < 4050 else section_text[4050:4050+4050]},
 
         ]
     )    

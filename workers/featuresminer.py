@@ -16,13 +16,13 @@ class FeaturesMiner:
                 {'role':'system','content':'''you're an ner system used to extract features from a given text and form it in a JSON file
                                             the output should be in this structure.
                                             {
-                                            'title' : 'output_title',
-                                            'authors' : [ {'name' : 'output_name' , 'affiliation' : 'output_affiliation'}, ... ],
-                                            'tags': ['tag1', 'tag2',  ..],
+                                            "title" : "output_title",
+                                            "authors" : [ {"name" : "output_name" , "affiliation" : "output_affiliation"}, ... ],
+                                            "tags": ["tag1", "tag2",  ..],
                                             }
-
+                                            return a json file.
                                             tags are the paper categories mentioned in the text.'''},
-                {'role':'user', 'content':section_text[:2500]},
+                {'role':'user', 'content':section_text[:600]},
             ]
         )
         

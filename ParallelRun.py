@@ -82,9 +82,9 @@ def process_external_data():
     files = content.get('rows', [])
 
     for file in files:
-        extraction_process(file)
+        extraction_process(file['row']['text'])
 
     return jsonify({'message': 'Data extracted and processed successfully'}), 200
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', debug=True)
