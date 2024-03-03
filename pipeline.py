@@ -60,26 +60,26 @@ def extraction_process(filetext):
         except:
             print('No Materials or Suppliers Found!')
 
-    # JSON files merging
-    merged_data = [
-        features,
-        materials_suppliers,
-        Instruction
-    ]
-    print("\n\n Data Merged Successfully!")
-    # Organizing phase
-    organizer = Organizer('railway',
-                'postgres',
-                'ba**64B3f3*dd521Egef3g4*B-E-cA-3',
-                'viaduct.proxy.rlwy.net',
-                '36793')
-    organizer.process_json(merged_data)
-    organizer.close()
-    end = time.time()
-    print(f"Process done! - {round(end - start)}s")
+    try:
+        # JSON files merging
+        merged_data = [
+            features,
+            materials_suppliers,
+            Instruction
+        ]
+        print("\n\n Data Merged Successfully!")
+        # Organizing phase
+        organizer = Organizer('railway',
+                    'postgres',
+                    'ba**64B3f3*dd521Egef3g4*B-E-cA-3',
+                    'viaduct.proxy.rlwy.net',
+                    '36793')
+        organizer.process_json(merged_data)
+        organizer.close()
+        end = time.time()
+        print(f"Process done! - {round(end - start)}s")
 
-    print("Organizer saved information in the database successfully!")
-'''    try:
+        print("Organizer saved information in the database successfully!")
     except:
-        print('Can\'t merge JSONs!')
-'''     
+        print('Can\'t mergea and store JSONs!')
+ 
