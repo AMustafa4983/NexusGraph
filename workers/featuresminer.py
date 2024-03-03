@@ -11,7 +11,7 @@ class FeaturesMiner:
         print('FeaturesMiner Mining for Titles and Authors...')
         prediction = self.client.chat.completions.create(
             model='gpt-3.5-turbo',
-            temperature=0.2,
+            temperature=0.5,
             messages=[
                 {'role':'system','content':'''you're an ner system used to extract features from a given text and form it in a JSON file
                                             the output should be in this structure.

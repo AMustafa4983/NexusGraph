@@ -10,7 +10,7 @@ class MaterialsSuppliersMiner:
         print('MaterialsSuppliersMiner Mining for Materials and Suppliers...')
         prediction = self.client.chat.completions.create(
         model='gpt-3.5-turbo',
-        temperature=0.2,
+        temperature=0.8,
         messages=[
             {'role':'system','content':'''you're an ner system used to extract features from a given text and form it in a JSON file
                                         the output should be in this structure.
@@ -19,11 +19,11 @@ class MaterialsSuppliersMiner:
                                         {
                                         experiments: [
                                         {
-                                        "experiment_title1" : "output_title",
+                                        "experiment_title" : "output_title",
                                         "experiment_items" : [ {"material" : "output_material" , "supplier" : "output_supplier", "material_usage":"output_material_usage"}, ... ],
                                         },
                                         {
-                                        "experiment_title2" : "output_title",
+                                        "experiment_title" : "output_title",
                                         "experiment_items" : [ {"material" : "output_material" , "supplier" : "output_supplier","material_usage":"output_material_usage"}, ... ],
                                         },
                                         ...

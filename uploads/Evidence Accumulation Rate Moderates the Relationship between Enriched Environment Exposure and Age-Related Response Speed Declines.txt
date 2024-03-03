@@ -1,0 +1,1444 @@
+The Journal of Neuroscience, September 13, 2023 • 43(37):6401–6414 • 6401
+
+Behavioral/Cognitive
+
+Evidence Accumulation Rate Moderates the Relationship
+between Enriched Environment Exposure and Age-Related
+Response Speed Declines
+Méadhbh Brosnan,1,2,3,4,5 Daniel J. Pearce,1 Megan H. O’Neill,1 Gerard M. Loughnane,7,8 Bryce Fleming,1
+Shou-Han Zhou,6 Trevor Chong,1 Anna C. Nobre,2,3,4 Redmond G. O Connell,1,7 and Mark A. Bellgrove1
+1
+
+Turner Institute for Brain and Mental Health and School of Psychological Sciences, Monash University, Melbourne, Victoria 3800, Australia, 2Department of
+Experimental Psychology, University of Oxford, Oxford OX2 6GG, United Kingdom, 3Oxford Centre for Human Brain Activity, University of Oxford, Oxford
+OX3 7JX, United Kingdom, 4Wellcome Centre for Integrative Neuroimaging, University of Oxford, Oxford OX3 9DU, United Kingdom, 5School of
+Psychology, University College Dublin, Dublin 2, Ireland, 6Department of Psychology, James Cook University, Brisbane, Queensland 4000, Australia,
+7
+School of Business, National College of Ireland, Dublin 1, Ireland, and 8Trinity College Institute of Neuroscience and School of Psychology, Trinity
+College Dublin, Dublin 2, Ireland
+
+Older adults exposed to enriched environments (EEs) maintain relatively higher levels of cognitive function, even in the face of compromised markers of brain health. Response speed (RS) is often used as a simple proxy to measure the preservation of global cognitive function in older adults. However, it is unknown which specific selection, decision, and/or motor processes provide the most
+specific indices of neurocognitive health. Here, using a simple decision task with electroencephalography (EEG), we found that the efficiency with which an individual accumulates sensory evidence was a critical determinant of the extent to which RS was preserved in
+older adults (63% female, 37% male). Moreover, the mitigating influence of EE on age-related RS declines was most pronounced
+when evidence accumulation rates were shallowest. These results suggest that the phenomenon of cognitive reserve, whereby high EE
+individuals can better tolerate suboptimal brain health to facilitate the preservation of cognitive function, is not just applicable to neuroanatomical indicators of brain aging but can be observed in markers of neurophysiology. Our results suggest that EEG metrics of
+evidence accumulation may index neurocognitive vulnerability of the aging brain.
+Key words: aging; cognitive reserve; decision-making; enriched environments; neurocognitive resilience; response speed
+Significance Statement
+Response speed in older adults is closely linked with trajectories of cognitive aging. Here, by recording brain activity while individuals
+perform a simple computer task, we identify a neural metric that is a critical determinant of response speed. Older adults exposed to
+greater cognitive and social stimulation throughout a lifetime could maintain faster responding, even when this neural metric was
+impaired. This work suggests EEG is a useful technique for interrogating how a lifetime of stimulation benefits brain health in aging.
+
+Received Nov. 15, 2021; revised July 10, 2023; accepted July 20, 2023.
+Author contributions: M.B., M.H.O., and M.A.B. designed research; D.J.P., M.H.O., and B.F. performed
+research; M.B., G.M.L., R.G.O., and M.B. contributed unpublished reagents/analytic tools; M.B., D.J.P., M.H.O.,
+G.M.L., B.F., S.-H.Z., and R.G.O. analyzed data; M.B., D.J.P., T.C., A.C.N., and M.A.B. wrote the paper.
+This work was supported by European Commission Grant 844246 and a Cullen Junior Research Fellowship at Corpus
+Christi College, University of Oxford, to M.B.B.; Wellcome Trust Grant 104571/Z/14/Z, James S. McDonnell Foundation Grant
+220020448, and EU European Training Network Grant 860563 to A.C.N.; National Institute for Health Research Oxford
+Health Biomedical Research Center; and Wellcome Centre for Integrative Neuroimaging Wellcome Trust Grant 203139/Z/
+16/Z; Australian Research Council Grants DP150100986 and DP180102066 to M.A.B and R.G.O; Australian National Health
+and Medical Research Council Fellowship APP1154378 to M.A.B.; European Research Council Grant 865474 to R.G.O.;
+Australian Research Council Grants 180102383 and 180100389, Judith Jane Mason and Harold Stannett Williams Memorial
+Foundation, Brain Foundation, and the Society for Mental Health Research to T.C.; an Australian Government Research
+Training Program (RTP) Scholarship to D.J.P.; We thank Rory Boyle for discussions on cognitive reserve.
+The authors declare no competing financial interests.
+Correspondence should be addressed to Méadhbh Brosnan at meadhbh.brosnan@ucd.ie or Mark A.
+Bellgrove at mark.bellgrove@monash.edu.
+https://doi.org/10.1523/JNEUROSCI.2260-21.2023
+Copyright © 2023 Brosnan et al.
+This is an open-access article distributed under the terms of the Creative Commons Attribution 4.0
+International license, which permits unrestricted use, distribution and reproduction in any medium provided
+that the original work is properly attributed.
+
+Introduction
+Cognitive deficits occurring with healthy or pathologic aging
+catalyze a broad range of challenging consequences (Ball et al.,
+2010; Barker-Collo and Feigin, 2006; O’Halloran et al., 2013;
+Prince et al., 2015; Weaver et al., 2009) and are marked by large
+interindividual variability (Habib et al., 2007; Norton et al.,
+2014; Rapp and Amaral, 1992). Robust evidence has emerged
+over the past three decades demonstrating a powerful positive
+influence of enriched environments (EEs), such as education,
+leisure, and work activities, on the preservation of cognitive
+function (Cabeza et al., 2018, 2019; Opdebeeck et al., 2016;
+Stern et al., 1992, 2019, 2020; Valenzuela and Sachdev, 2006). It
+has become increasingly apparent that exposure to EE is
+associated with high levels of cognitive function in older adults,
+despite structural changes indicative of compromised brain
+health, a phenomenon commonly referred to as cognitive reserve
+
+6402 • J. Neurosci., September 13, 2023 • 43(37):6401–6414
+
+(Chan et al., 2018; Stern et al., 1992; Xu et al., 2019). Whether the
+benefits of EE can compensate for suboptimal neural function
+revealed by neurophysiological markers remains unexplored.
+The speed with which older adults respond to sensory input
+(hereafter referred to as response speed) has been accepted as a
+robust index of an individual’s vulnerability to cognitive decline
+(Bublak et al., 2011; Deary et al., 2010; Gregory et al., 2008;
+Kochan et al., 2016; Ritchie et al., 2014; Salthouse, 1996). Yet
+response speed is the aggregate outcome of target selection,
+decisional, and motoric computations. Thus, it remains unclear
+which of these neural processes account for the close association between response speed and neurocognitive health in older
+adults. Sequential sampling models, including the drift-diffusion model (DDM), have offered several explanatory accounts
+of age-related response slowing (McKoon and Ratcliff, 2012;
+Ratcliff et al., 2004, 2006a,b; Ratcliff and McKoon, 2015).
+However, these models cannot isolate the precise neurophysiological processes driving behavior. Therefore, the neural mechanisms underpinning age-related declines in response speed
+remain unclear. To address this question, we have developed
+EEG tasks and analysis methods that give insight into the underlying selection (early target selection (Loughnane et al., 2016;
+Zhou et al., 2021), decisional (sensory evidence accumulation;
+Kelly and O’Connell, 2013; O’Connell et al., 2012; Kelly et al.,
+2021; Steinemann et al., 2018), and motoric (motor preparatory
+activity; Kelly et al., 2021; McGovern et al., 2018; Steinemann et
+al., 2018) computations that underpin interindividual differences
+in response speed (Brosnan et al., 2020; Newman et al., 2017).
+A critical extracranial human EEG signal emerging from
+these investigations is the centroparietal positivity (CPP). This
+exhibits the key characteristics of evidence-accumulation signals observed using invasive electrophysiological recordings
+in animals (Kelly and O’Connell, 2013; O’Connell et al., 2012)
+and conforms to the dynamics predicted by sequential sampling models in two-alternative choice scenarios (Kelly et al.,
+2021; Twomey et al., 2015). In younger adults, the CPP has
+been repeatedly shown to capture individual variability in
+response speed (Brosnan et al., 2020; Murphy et al., 2015;
+O’Connell et al., 2012). In older adults, recent work on a perceptual decision-making (choice reaction time) task showed
+that CPP build-up rates were shallower than in a younger control group, indicative of less efficient evidence accumulation
+(McGovern et al., 2018). However, the specific potential for
+CPP build-up rate to account for individual differences in
+response times (RTs) in older adults, over and above sensory
+and motoric processes, remains unclear.
+The aims of our study were twofold. First, using our EEG
+framework we tested the hypothesis that neural markers of sensory evidence accumulation (build-up rates of the CPP) would
+best capture individual variations in speeded target detections,
+over and above any influence of other neurophysiological processes contributing to the timing of response. Second, we predicted
+that EE would moderate the relationship between our EEG metrics of evidence accumulation and behavior. Specifically, that relatively faster response speed would be facilitated by EE, even when
+the capacity to accumulate sensory evidence, as measured with
+EEG, was compromised.
+
+Materials and Methods
+
+Experimental design and statistical analyses
+Seventy-eight healthy volunteers of either sex were recruited for this
+study. Two older adults were excluded because of age ranges more
+than two SDs from the mean (these participants were originally
+
+Brosnan et al. · Evidence Accumulation and Neurocognitive Ageing
+
+Table 1. Demographic information reported values are Mean (SD)
+Age (years)
+
+Gender
+
+Education (years) MoCA
+
+Experiment 1
+Younger adults 23.65 (2.87) 17 female (54.80%) 15.90 (2.27)
+(N ¼ 31)
+14 male (45.20%)
+Older adults
+72.41 (5.61) 26 female (63.40%) 16.49 (3.48)
+(N ¼ 41)
+15 male (36.60%)
+
+NA
+27.46 (1.75)
+
+recruited as age-matched controls for a parallel stroke study). A further four older participants were excluded from analysis for various
+reasons; one was ambidextrous, one was experiencing a current
+depressive episode, and two had scores of 19 and 21, respectively, on
+the Montreal Cognitive Assessment (MoCA (Nasreddine et al.,
+2005), suggesting possible cognitive impairment. The final sample
+included 31 and 41 older participants (Table 1). All participants
+reported being right-handed, had normal or corrected-to-normal
+vision, no history of neurologic or psychiatric disorder, and no head
+injury resulting in loss of consciousness. Ethical approval was
+obtained from the Monash Health and Monash University Human
+Research Ethics Committee before the commencement of the study.
+The experimental protocol was approved and conducted in accordance with the approved guidelines. All participants were volunteers
+naive to the experimental hypothesis being tested and each provided
+written informed consent.
+Neurophysiological investigation of response speed
+EEG was recorded continuously while participants performed a variant
+of the random-dot motion perceptual decision-making task (Fig. 1;
+Newsome et al., 1989; Kelly and O’Connell, 2013; Loughnane et al.,
+2016; Newman et al., 2017) During this task, participants fixated centrally and monitored two patches of 150 moving dots (each dot ¼ 6 
+6 pixels), presented peripherally in each hemifield. During random
+motion, these dots were placed randomly throughout the patch on each
+frame. During coherent motion, within one hemifield a proportion
+(90%) of the dots was randomly selected on each frame to be displaced
+in either a downward or upward direction on the following frame, with a
+motion speed of 5° per second. Targets were defined by this seamless
+transition from random motion to coherent motion (Fig. 1; Figs. 1, 2,
+and 3 images are composite images). Participants signaled target detection with a speeded button press using their right index finger (RT).
+Targets were separated by intervals of random motion of 1.8, 2.8, or 3.8 s
+(randomized throughout each block). Targets remained on the screen
+for 3 s or until the participant pressed the button indicating their detection of coherent motion. The 12 possible trial types (each a combination
+of one of the three periods of random motion, two target locations, and
+two coherent motion directions) occurred in a pseudorandom order
+with the constraint that each different trial type arose twice every 24 trials. All younger adults (N ¼ 31) performed eight to nine blocks of the
+task. Older adults (N ¼ 22), who were initially recruited for the study,
+similarly performed eight to nine blocks, and the remaining older adults
+(N ¼ 19), who were later recruited for the study, performed four to five
+blocks of the task at 90% coherent motion and a further four to five
+blocks of the task at 25% coherent motion, the latter of which was not
+analyzed for the current study. Critically, a series of t tests revealed there
+were no significant behavioral differences between the older participants
+recruited for the longer versus shorter task duration (RT, F(1,0.39) ¼ 1.72,
+p ¼ 0.19; accuracy, F(1,39) ¼ 0.02, p ¼ 0.88) or any of the neurophysiological markers (N2c amplitude, F(1,39) ¼ 0.08, p ¼ 0.77; N2c latency,
+F(1,39) ¼ 0.10, p ¼ 0.76; CPP onset, F(1,39) ¼ 0.82, p ¼ 0.37; CPP slope,
+F(1,39) ¼ 0.67, p ¼ 0.42; CPP amplitude, F(1,39) ¼ 0.11, p ¼ 0.74; Lefthemisphere beta (LHB) slope, F(1,39) ¼ 0.90, p ¼ 0.35), LHB amplitude,
+F(1,39) ¼ 0.52, p ¼ 0.48), or LHB latency, F(1,39) ¼ 0.0, p ¼ 0.99). As such,
+the data were combined to examine the impact of environmental enrichment on neural and behavioral signatures of response speed. All participants were given a short break of 30–60 s between each block. An
+EyeLink eye tracker (and software version 2.04, SR Research) recorded
+eye movements to ensure participants maintained fixation. The center of
+
+Brosnan et al. · Evidence Accumulation and Neurocognitive Ageing
+
+Figure 1. Depiction of the measures obtained on a trial-by-trial basis during the randomdot motion detection task. During the random-dot motion detection task, participants fixated
+centrally while patches of randomly moving dots were presented peripherally (centered at
+10° of visual angle either side and 4° visual angle below the fixation square) in both hemifields. During target trials, 90% of the dots in one hemifield transitioned from random to
+coherent motion in either an upward or a downward direction. Targets remained on the
+screen for 3 s or until the participant pressed the button signaling the detection of coherent
+motion in either direction. If a fixation break occurred during a trial (either a blink or a gaze
+deviation .4° left or right of center), the task halted (stationary dots) until fixation returned
+to the central fixation dot. Participant response speed was assessed via a right-hand button
+press for target detection (coherent motion in either upward or downward direction). The
+blue section illustrates the isolated EEG processes, which cannot be obtained from behavioral
+estimates of speed alone. Each of these processes are derived at each individual trial and collapsed across trials to give an estimation of individuals’ capacity for each process. ITI,
+Intertarget interval.
+each random-dot motion patch was at a visual angle 10° either side
+and 4° below the fixation square; each patch covered 8° visual angle
+and consisted of 150 6  6 pixel white dots. If a fixation break
+occurred during a trial (either a blink or a gaze deviation .4° left or
+right of center, detected via EyeLink 1000, SR Research), the task
+halted (stationary dots). Once fixation returned to the central fixation dot, the trial restarted. The fixation dot remained on screen
+throughout the entire task; however, the two peripheral patches
+were only present when the trial was initiated by the participant’s
+fixation on the central point. The task was run using MATLAB
+(MathWorks) and Psychophysics Toolbox extensions (Brainard,
+1997; Pelli, 1997; Cornelissen et al., 2002).
+
+J. Neurosci., September 13, 2023 • 43(37):6401–6414 • 6403
+
+EEG preprocessing
+Continuous EEG was acquired from 64 scalp electrodes using a
+BrainAmp DC system (Brain Products), digitized at 500 Hz. Data were
+processed using a combination of custom scripts and EEGLAB toolbox
+(Delorme and Makeig, 2004) routines implemented in MATLAB
+(MathWorks). First, noisy channels were identified using visual inspection of channel variances across the entire recording to be interpolated
+at a later stage below. Next, the EEG was detrended, then notch filtered
+at 50, 100, and 150 Hz to eliminate line noise and its harmonics then
+high-pass filtered at 0.1 Hz using a Hamming windowed-sinc Finite
+Impulse Response (FIR) filter via EEGLAB. Channels with zero or
+extreme variance identified from the first inspection were interpolated
+via spherical spline. A 35 Hz low-pass filter was then applied to the
+data using a Hamming windowed-sinc FIR filter also, and the data
+were rereferenced to the average reference. Epochs were extracted from
+the continuous data from 200 to 1500 ms from target onset. For both
+the ERP and stimulus-aligned LHB signals, the epochs were baselined
+with respect to 100 to 0 ms before target onset. For the responsealigned beta waveforms, the data were baselined between 450 and
+350 ms preresponse. Using triggers recorded by the EEG, we defined
+trials as the period between the beginning of random (i.e., nontarget)
+motion and either a valid response, a fixation break, or the onset of the
+next period of random motion (i.e., a nonresponse). To minimize the
+interaction between overlapping ERP components, the data were subjected to Current Source Density transformation with a spline flexibility of four (Kayser and Tenke, 2006).
+A trial was excluded from the analysis if any of the following conditions applied: (1) if RTs were 150 ms (pre-emptive responses) or
+1800 ms (responses after coherent motion offset), (2) if the EEG from
+any channel exceeded 100 mV during the interval from 100 ms before target onset to 100 ms after response, or (3) if central fixation was broken
+by blinking or eye movement 3° left or right of center during the interval
+between 100 ms before target onset and 100 ms after response. Please
+note that EyeLink data were not saved for N ¼ 5 of the N ¼ 41 older
+adults because of a technical error, and this final step was therefore not
+included for this subset of participants. Nonetheless fixation was monitored in real-time using EyeLink during task performance as described
+in the preceding section, so no trials with eye movements .4° from center were included.
+With the remaining trials for each participant, CPP and N2 waveforms were aggregated by averaging the baseline-corrected epochs for
+right and left hemifield targets at the relevant electrode sites. The N2c
+component was measured contralateral to the target location, respectively, at electrodes P7 and P8 (Brosnan et al., 2020; Loughnane et al.,
+2016; Newman et al., 2017), and the CPP was measured centrally at electrode Pz (Kelly and O’Connell, 2013; Loughnane et al., 2016; Newman et
+al., 2017; O’Connell et al., 2012; Twomey et al., 2015). Subsequently, N2c
+latency was identified on a subject level as the time point with the most
+negative amplitude value in the stimulus-locked waveform between 150
+and 400 ms, whereas N2c amplitude was measured as the mean amplitude inside a 100 ms window centered on the stimulus-locked grand average peak of the N2c collapsed across hemifield (Loughnane et al.,
+2016). Onset latency of the CPP was measured by performing running
+sample-point-by-sample-point t tests against zero using a 25 ms sliding
+window across each participant’s stimulus-locked CPP waveforms. CPP
+onset was defined as the first point at which the amplitude reached significance at the 0.05 level for 90 consecutive points (Foxe and Simpson,
+2002; Kelly et al., 2008; Loughnane et al., 2016). CPP build-up rate was
+defined as the slope of a straight line fitted to the response-locked
+waveform (Brosnan et al., 2020; Loughnane et al., 2016; O’Connell et
+al., 2012), with the time window defined individually for each participant from 150 to 50 ms postresponse (Stefanac et al., 2019; Brosnan
+et al., 2020). CPP amplitude was measured as the mean CPP amplitude
+between 50 and 150 ms around the participants’ individual response
+(Kelly and O’Connell, 2013; Van Kempen et al., 2019).
+Finally, LHB power was calculated using the temporal spectral evolution approach (Thut et al., 2006). All epochs were bandpass filtered
+between 20 and 35 Hz, converted to absolute values (rectified), and
+trimmed by 200 ms at each end of the epoch to remove filter warm-up
+
+6404 • J. Neurosci., September 13, 2023 • 43(37):6401–6414
+
+Brosnan et al. · Evidence Accumulation and Neurocognitive Ageing
+
+Figure 2. Response speed measures on the decision task sensitive to both age and EE. A, Healthy aging was associated with markedly slower RTs to perceptual targets, with large interindividual differences in response speed. During a variant of the random-dot motion task, older participants were in general slower to respond relative to their younger peers, suggesting this measure was sensitive to age-related deficits in response speed. Each individual dot represents a participant (bottom) and the upper/lower edges of the whiskers represent the upper/lower
+quartiles plus/minus 1.5 times the interquartile range. The distribution is captured by a violin plot for the two groups (top). B, A lifetime of EEs, captured by the composite CRIq score (Nucci et
+al., 2012) varied according to individual differences in response speed in the older adults. This effect was driven by the Leisure subscale of the assessment, which is visualized here as a function
+of RT (Extended Data Figs. 2-1, 2-2, 2-3, 2-4, 2-5).
+
+Figure 3. Individual differences in response speed are captured by sensory evidence accumulation build-up rate. A, Associations between response speed (RT) and the EEG variables. Results from
+the final regression model of RT are reported in Table 1. The absolute value of all standardized beta values were plotted for visualization purposes, and nuisance variables entered from the first step
+in the model are not visualized here. *p , .05; ***p , .001. B, The relationship between CPP build-up rate and RT for older and younger adults. CPP build-up rate was directly associated with an
+individual’s response speed. C, D, Moreover, an individual’s capacity to accumulate sensory evidence has an indirect impact on response speed by influencing CPP amplitude (C) and Beta latency (D),
+both of which mediate the association between CPP build-up rate and response speed. Extended Data Figures 3-2, 3-3, 3-4 contain further information and visualization of the neural metrics.
+artifacts. The data were then smoothed by averaging within a 100 ms
+moving window, moving incrementally forward in 50 ms increments.
+LHB latency was measured within the left hemisphere motor site (C3)
+(corresponding to the right-handed response modality) as the most
+negative-going point between 0 and 1000 ms. Beta slope was defined as
+the slope of a straight line fitted to the response-locked waveform, with
+the time window defined individually for each participant between 300
+and 50 ms preresponse. Beta amplitude was measured as the mean amplitude of a 100 ms window centered on a participants’ response (i.e.,
+50 to 150 ms around response).
+Drift-diffusion modeling
+A drift-diffusion model (DDM) was used to analyze the behavior of all
+participants at an individual (per subject) level (Wiecki et al., 2013; de
+Gee et al., 2020). The RT distributions for the response and noresponse
+choices of each individual were first split into five bins according to the
+quantiles 0.1, 0.3, 0.5, 0.7, and 0.9. Together with a single bin containing
+the number of missed responses, these six bins (five response bins and
+one missed responses bin) were then used to fit a drift-diffusion model
+
+using the G-square method, a variant of the x 2 method. This method
+was chosen for its efficiency, the availability of significant trial data for
+each individual, its robustness to outliers, and its success in similar previous experiments (Ratcliff et al., 2016; de Gee et al., 2020; Myers et al.,
+2022). The proportion of responses within each bin was determined by
+subtracting the cumulative probabilities for each successive quantile
+from the next highest quantile. These proportions were then multiplied
+by the number of observations to obtain the expected frequencies E 2 R.
+Next, the observed proportions, determined from the data (in this case,
+0.1, 0.2, 0.2, 0.2, 0.2, and 0.1), were also multiplied by the number of
+observations to obtain the observed frequencies O 2 R. G-square was
+then calculated as follows:
+G2 ¼ 2
+
+6
+X
+i¼1
+
+Oi ln
+
+ 
+Oi
+;
+Ei
+
+where i 2 N represents the quantile number. The drift-diffusion model
+parameters a, v, and t were then determined by minimizing the G-square
+
+Brosnan et al. · Evidence Accumulation and Neurocognitive Ageing
+
+statistic using the modified Powell method (Powell, 1964). The fitted
+drift-diffusion model assumed that the response caution, mean drift rate
+across trials, and nondecision time varied with the response bins.
+Further details can be found in Ratcliff et al. (2018).
+Assessment of environmental enrichment
+Participants completed the Cognitive Reserve Index questionnaire
+(CRIq; Nucci et al., 2012), a standardized semistructured interview
+designed to estimate an individual’s level of lifetime cognitive enrichment through a formal computational model. This model encompasses
+an individual’s education, work, and leisure activities across the lifespan
+with consideration given to the participant’s age, providing both an
+overall age-stratified and standardized CRI and individual standardized
+subscale scores for each of the three components. One participant did
+not complete the CRIq because of time constraints. We inputted this
+participant’s scores on all four CRI measures using the mean from the
+rest of the sample.
+Participants first reported the number of years in which they had
+engaged in formal education and additional vocational training. All
+occupations held since the individual was 18 years old were categorized
+using the 5-point scale provided by the CRI. These ranged from lowskilled manual work (e.g., level 1 includes occupations like call center
+operator and gardener) to highly responsible or intellectual occupation
+(e.g., level 5 includes managing director of a big company or surgeon).
+Participants were additionally asked about their involvement in leisure
+activities that may be repeated with varying frequencies over the lifetime
+including but not limited to reading, volunteering, socializing, managing
+accounts, and going on holidays/trips. Activities were grouped into
+weekly, monthly, annual, and fixed frequency activities, and then into
+whether they were completed never, rarely, often or always, and for
+how many years of life. Participant engagement in each of these
+domains is summarized in Extended Data Figure 2-2.
+Data processing
+Outliers were defined in IBM SPSS Statistics software using the interquartile
+range (IQR), separately for the younger and older adults. The interquartile
+range is the third quartile (75th percentile) minus the first quartile (25th
+percentile). A value was identified as an outlier if either of the following conditions were met: if the value was ,25th percentile  3 * IQR, or if the
+value was .75th percentile 1 3 * IQR. Using this method, no outliers were
+identified on any of the behavioral, EEG, or EE measures used in the analyses below.
+Statistical Analysis
+The relationship between age, behavior, and EEG. To assess agerelated differences in behavior, two one-way ANOVAs were conducted
+on accuracy and RT. Next, to test whether the older and younger adults
+differed across N2c, CPP, and LHB dynamics, eight one-way ANOVAs
+were conducted with the EEG variables (N2c latency, N2c amplitude,
+CPP onset, CPP build-up rate, CPP amplitude, LHB build-up rate, LHB
+amplitude, and LHB latency) as dependent variables, and age as a factor.
+To assess whether interindividual differences in RT on the perceptual
+decision-making paradigm (RT) varied as a function of EEG signals of
+perceptual decision-making, the EEG parameters that differed in older
+versus younger adults (BF10 .1) were each added sequentially into
+regression models in a hierarchical fashion (Newman et al., 2017). Order
+of entry was determined by the temporal order in the perceptual decision-making process, that is, early target selection (N2c latency), evidence accumulation (CPP onset, build-up rate, and amplitude), and
+motor preparation (LHB build-up rate, LHB latency, and LHB amplitude). This hierarchical entry method was implemented to assess
+whether each of the separate neurophysiological signals improved the
+model fit for RT over and above the signals that temporally preceded
+them. All neurophysiological signals that improved the model fit for RT
+were entered into a separate regression model to obtain accurate parameter estimates. Age was entered as the first predictor, centered (i.e., all
+raw scores for each participant were subtracted from the mean score of
+the variable), to reduce multicollinearity. Please note all statistical tests
+were two sided. Effect sizes of regression models were calculated using
+
+J. Neurosci., September 13, 2023 • 43(37):6401–6414 • 6405
+
+Cohen’s F2 using the following formula: [R2 / (1  R2)]. Behavioral data
+were visualized using RainCloudPlots for MATLAB (Allen et al., 2018,
+2019). The EEG signals were visualized using gramm for MATLAB
+(Morel, 2018).
+Moderation models. To elucidate the moderating effects of evidence
+accumulation rate, amplitude, and beta latency on the relationship
+between EE and response speed, three moderation analyses were performed using the Process computational toolbox (Hayes, 2012, 2014),
+Bonferroni corrected for multiple comparisons (alpha 0.05/3 moderation
+models).
+Confirmatory Bayesian analyses. For the confirmatory Bayesian
+modeling, results were compared with the null model, and JASP default
+settings were used (for the regression and ANOVA analyses, JZS prior;
+Rouder and Morey, 2009); regression analyses, r scale 0.354; ANOVA
+analyses, r scale fixed effects 0.5; Cauchy prior of 0.707 for the one-sample t test). BFinclusion, or BF10 values are reported throughout and can be
+interpreted such that values above 1 indicate strength of evidence in
+favor of the alternative and values below 1 strength of evidence in favor
+of the null hypothesis.
+Minimum trial analysis. The minimum trial analyses included all
+participants (N ¼ 53) who completed eight or more blocks of the task.
+One individual was identified as an outlier (.2 SDs from the mean)
+with regard to the number of trials included (N ¼ 109 trials) and was
+excluded, therefore resulting in a total of N ¼ 52 participants. All these
+52 participants had a minimum of 129 valid response-locked trials,
+which we used to investigate remaining questions (mean ¼ 183.06;
+SD ¼ 19.95; range, 129–207).
+We first created new estimates of both RT and CPP build-up rate by
+randomly selecting N trials (either 20, 40, 60, 80, 100, or 120) from the
+total pool of 129 trials. We repeated this random data sampling using N
+trials, 1000 times for each bin size. Accordingly, for each participant, we
+derived 1000 estimates of RT and CPP build-up rate for each of the six
+trial sizes. We then tested whether the likelihood that the estimates of
+RT and CPP build-up rate were more likely to deviate from the true
+mean estimates with reduced trial numbers. We addressed this question
+using two approaches. First, we calculated the signal-to-noise ratio
+(SNR) of the CPP build-up rate and RT (calculated as mean/SD) and ran
+two repeated measures ANOVAs (again with trial bin as the repeated
+measure). Next, to verify this pattern of results, we ran Kolmogorov–
+Smirnov tests on the mean estimates of CPP build-up rate and RT to
+assess whether the cumulative distribution function (CDF) increased
+with each reduction in trial number.
+In the results reported in the main body of the article, we demonstrated a large effect size for the relationship between CPP build-up rate
+and RT (Pearson’s r ¼ 0.60). Cohen’s (1988) cutoff for a large effect
+size is 0.5. As such, we defined the minimum number of trials at which a
+reliable CPP estimate can be derived as the number at which we can
+observe a strong effect size (i.e., an effect size greater or equal to 0.5) for
+the relationship between RT and CPP build-up rate. To investigate this,
+we calculated the direct relationship, using Pearson’s correlation,
+between CPP build-up rate and RT for each of the 1000 permutations
+for each of the 6 bin sizes (20 up until 120 trials) using MATLAB. We
+then ran a Bayesian one-sample t test to test whether the estimates of
+effect size (r) for each bin size were significantly larger than 0.5 using
+JASP. For this minimum trial Bayes factor analyses the alternative hypothesis was set at measure 1 = measure 2.
+The relationship between DDM parameters and EEG markers of
+decision-making. To examine the association between the individual subject-level DDM parameters derived using computational modeling with the
+neurophysiological signals of decision-making derived using EEG, we modeled each DDM parameter (nondecision time t, drift rate v, and response
+caution a) as a function of the EEG signals using a between-subject regression analysis. Specifically, we used three hierarchical linear regression models to model the three DDM parameters as a function of the neural metrics,
+namely early target selection (N2c amplitude, N2c latency), sensory evidence accumulation (CPP onset, CPP build-up rate, CPP amplitude), and
+motor preparation (LHB latency). The EEG signals were entered hierarchically into the regression models based on the temporal order in which they
+occur (as per the modeling procedure for response speed described in detail
+
+6406 • J. Neurosci., September 13, 2023 • 43(37):6401–6414
+
+above). Age was entered as a nuisance variable at the first stage of each
+model (centered to avoid multicollinearity).
+The influence of age on the DDM parameters. To explore whether
+older adults differed from their younger counterparts on the three DDM
+parameters (nondecision time t, drift rate v, and response caution a),
+three independent t tests were run using a Bonferroni correction for
+three multiple comparisons (alpha-corrected threshold of p , 0.02).
+Data availability
+Our internally developed EEG pipeline including the preprocessing steps
+and isolation of the EEG metrics can be found at https://github.com/
+gerontium/big_dots, openly available under a Creative Commons
+Attribution-NonCommericial-ShareAlike 3.0 international license.
+The code for the analysis exploring the minimum trial numbers
+needed to reliably isolate the CPP build-up rate as an EEG marker of
+sensory evidence accumulation rate can be found on Open Science
+Framework at the following link: https://osf.io/vupa4/files/osfstorage/
+640391f8c7472300bb10aeea, openly available under a.CC-By Attribution
+4.0 international license The code for the drift-diffusion model of the behavioral data can be found at https://github.com/shou-han/DetectionDDM.
+Note that our data were collected under a larger, multicenter international study using EEG to gain mechanistic insights into perceptual decision-making deficits occurring poststroke. Our ethics do not permit us
+to share data from the project.
+
+Results
+Individuated neurophysiological metrics indexing visual
+response speed were isolated using a perceptual decisionmaking EEG task
+Seventy two participants (41 older adults, mean ¼ 73 years, SD ¼ 5,
+range, 63–87; and N ¼ 31 younger adults, mean ¼ 24 years, SD ¼
+3, range, 18–28) performed a variant of the random-dot motion
+task (Newsome et al., 1989) while 64-channel EEG was recorded to
+isolate neurophysiological processes along the perception to
+action continuum. We have developed this formal framework
+for parsing discrete EEG metrics (Newman et al., 2017; Brosnan
+et al., 2020) to estimate an individuals’ capacity for a given neurophysiological processes (Fig. 1). For instance, we have recently
+demonstrated the utility of this framework for linking individual
+differences in MR markers of structural and functional connectivity, neurophysiology, and behavior in younger individuals
+(Brosnan et al., 2020). In the current study, we use the same
+approach to isolate eight distinct and previously validated neural
+metrics (Newman et al., 2017; Brosnan et al., 2020), namely, early
+target selection (N2c amplitude and latency; Loughnane et al.,
+2016), sensory evidence accumulation (CPP starting point;
+onset latency), build-up rate (slope), decision bound (amplitude; O’Connell et al., 2012; McGovern et al., 2018; Steinemann
+et al., 2018), and motor preparation [left hemisphere beta, (LHB)
+build-up rate (slope), timing (stimulus-aligned peak latency),
+and threshold (amplitude (O’Connell et al., 2012; McGovern et
+al., 2018; Fig. 1].
+Response speed measures are sensitive to both age and EE
+During the simple random-dot motion detection task, participants fixated centrally while two patches of randomly moving
+dots were presented to the periphery (Fig. 1). A target was
+defined as 90% of the dots in one hemifield transitioning from
+random to coherent motion, in either an upward or downward direction. Participants were required to respond to any
+coherent motion (i.e., in either direction) with a right-handed
+button press. Behavioral analyses (Fig. 2A) indicated that this
+task was sensitive to age-related deficits in response speed.
+The older adults were markedly slower at responding, as
+
+Brosnan et al. · Evidence Accumulation and Neurocognitive Ageing
+
+evidenced by significantly slower RTs to the visual targets relative to those of the younger adults (F(1,70) ¼ 38.34, p , 0.001,
+partial h 2 ¼ 0.35, BF10 ¼ 287907.20; older mean ¼ 593.33 ms,
+SD ¼ 125.40; younger mean ¼ 439.05 ms, SD ¼ 67.87; Fig.
+2A). Target detection accuracy was high for the overall sample
+95.92% (SD ¼ 5.29, range 71–100%), but nonetheless the older
+adults were less accurate at detecting coherent motion than
+their younger peers (older mean ¼ 94.40%, SD ¼ 6.3%;
+younger mean ¼ 97.90, SD ¼ 2.60%; F(1,70) ¼ 8.12, p ¼ 0.006,
+partial h 2 ¼ 0.10, BF10 ¼ 7.17). Critically, the age-related
+declines in RTs remained significant even after covarying
+for differences in accuracy (F(2,69) ¼ 27.16, p , 0.001, partial h 2 ¼ 0.44).
+We next sought to verify previously reported associations
+between a lifetime of EE and response speed (Lee et al., 2014;
+Park et al., 2014). For this, we modeled RT from the random-dot
+motion task as a function of environmental enrichment using
+the CRIq (Nucci et al., 2012) in the older adult cohort only. The
+CRIq is a previously validated semistructured interview that
+assays levels of cognitive stimulation through the assessment
+of three domains of activity throughout an individual’s lifetime—education, work activities, and leisure activities (see
+above, Materials and Methods). As the neuroprotective effects
+of EE are posited to accumulate over the course of a lifetime
+(Robertson, 2014), we collected this information in the older
+cohort only.
+As expected, this model was statistically significant, and
+EE (the overall model) explained 20.5% of the variance of RT
+(R2adj ¼ 0.21, F(3,36) ¼ 4.36, p ¼ 0.01, partial h 2 ¼ 0.27).
+Consistent with previous work (Lee et al., 2014; Park et al.,
+2014), this effect was driven by the CRI Leisure subscale,
+which accounted for independent variance in the modeling
+of RT (standardized b ¼ 0.45, t ¼ 3.13, p ¼ 0.003; 95%
+CI, 4.98, 1.06), such that older adults with greater exposure to enriched leisure activities exhibited faster visual
+response speeds (Fig. 2B). In contrast, neither CRI Education
+(standardized b ¼ 0.06, t ¼ 0.41, p ¼ 0.69; 95% CI, 2.73,
+4.10) nor CRI Work (standardized b ¼ 0.31, t ¼ 1.94, p ¼
+0.06; 95% CI, 0.09, 3.93]) accounted for independent variance in RT. To obtain accurate parameter estimates for the
+relationship between CRI Leisure and RT, not influenced by
+the noninformative signals, CRI Leisure was entered into a
+separate linear regression model. This model explained 13.2%
+of the variance (Cohen’s F2 ¼ 0.18) in RT (Standardized b ¼
+0.39, t ¼ 2.63; F(1,38) ¼ 6.93, p ¼ 0.01; 95% CI, 4.61
+0.60; partial h 2 ¼ 0.15, Fig. 2A).
+Bayesian linear regression analyses modeling RT as a function
+of each CRI subscale provided additional support for the results
+of the frequentist statistics. Any model including CRI Leisure
+indicated a Bayes factor at least 2.9 times more in favor of H1
+than H0 (Extended Data Fig. 2-1). In contrast, Bayes factors for
+both CRI Work and CRI Education (independently and combined) provided anecdotal to very strong evidence for the null
+hypothesis (i.e., there was no evidence to suggest that these factors account for independent variance in RT; all three BF10 ,
+0.88 and .0.03). This suggests that an individual’s leisure
+engagements help to mitigate age-related declines in visual
+response speed. An exploratory analysis conducted to investigate which specific aspects of leisure activities may have
+contributed to this effect implicated using modern technology
+(t(39) ¼ 4.37, p , 0.001, BF10 ¼ 240.49), engaging in social
+activities (t(26.88) ¼ 4.49, p , 0.001, BF10 ¼ 106.02), attending
+events such as conferences, exhibitions, and concerts (t(32) ¼
+
+Brosnan et al. · Evidence Accumulation and Neurocognitive Ageing
+
+J. Neurosci., September 13, 2023 • 43(37):6401–6414 • 6407
+
+Table 2. Parameter estimates from the final linear regression model for
+response time (RT) as a function of the neurophysiological signals
+Signal
+
+Stand. b
+
+t
+
+p
+
+95% CI
+
+Age
+CPP build-up rate
+CPP amplitude
+LHB Latency
+
+0.44
+0.53
+0.29
+0.26
+
+5.645
+5.67
+3.30
+3.35
+
+,0.0005
+,0.0005
+0.002
+0.001
+
+[1.48, 3.09]
+[1300.90, 623.08]
+[1.18, 4.79]
+[0.10, 0.39]
+
+Stand, Standard. Age * RT, age, evidence accumulation (CPP) build-up rate, CPP amplitude, and LHB latency
+exerted partially independent influences on RT, together accounting for 71.4% of the variation (adjusted
+R2 value) in RT. The absolute value of standardized b represents the importance of each predictor, independent of the unit of measurement. CI denotes confidence interval for b . Extended Data Table 2-1 shows
+a comparison of the older and younger adults on each of the eight neural metrics, and Extended Data Table
+2-2 contains the full output of the regression model.
+
+3.98, p , 0.001, BF10 ¼ 10658.60), and vacationing (t(24.83) ¼
+3.11, p ¼ 0.01, (BF10 ¼ 72.46; Extended Data Figures 2-2, 2-3,
+2-4, 2-5).
+Individual differences in response speed are captured by
+neural metrics of sensory evidence accumulation rate
+The analyses thus far have confirmed age-related differences in behavioral markers of response speed—a validated
+behavioral measure of cognitive resilience. We next sought
+to understand how each neural metric related to individual
+differences in response speed using a hierarchical regression
+model to isolate the contribution of each neural metric, over
+and above those that temporally preceded it.
+To determine the explanatory power of the neurophysiological signals for predicting behavior, age was entered as a nuisance
+variable (centered to avoid multicollinearity) in the first step of
+the model. Unsurprisingly, this offered a significant improvement in model fit, as compared with the intercept-only model
+(R2adj ¼ 0.36, p , 0.0005; Fig. 3). Neither the marker of early target selection (N2c latency, R2adj ¼ 0.37, p ¼ 0.21; N2c amplitude,
+R2adj ¼ 0.37, p ¼ 0.22) nor the starting point of the evidence
+accumulation process (CPP onset, R2adj ¼ 0.37, p ¼ 0.58) offered
+any additional improvement in model fit (Fig. 3A).
+Evidence accumulation build-up rate, indexed via the CPP
+build-up rate, significantly improved the model performance,
+accounting for an additional 17% of the variance (R2adj ¼ 0.54,
+R2change ¼ 0.17, p , 0.0005; Fig. 3A; Table 2), such that steeper
+CPP slopes, indicative of a faster build-up rate of sensory evidence, were associated with faster response speeds (Fig. 3B).
+Adding CPP amplitude offered a further significant improvement in the model, such that individuals with lower CPP amplitudes showed faster RTs (R2adj ¼ 0.61, R2change ¼ 0.07, p ¼
+0.001).
+Although the build-up rate of motor preparation (LHB slope)
+explained no additional variance in RT (R2adj ¼ 0.59, R2change ¼
+0, p ¼ 0.94), stimulus-aligned LHB peak latency significantly
+improved the fit, such that an earlier peak latency of this motor
+preparatory marker was associated with faster RT (R2adj ¼ 0.65,
+R2change ¼ 0.05, p ¼ 0.003). Finally, adding LHB amplitude
+offered no significant improvement in the model (R2adj ¼ 0.65,
+R2change ¼ 01, p ¼ 0.17). A post hoc power analysis indicated that
+with 72 participants, eight tested predictors (eight neural metrics), age as a control variable, and an effect size Cohen’s f2 ¼
+0.29 (based on final regression model), 88.86% power was
+achieved G*Power 3.1).
+To isolate the variables explaining independent variance in
+RT over and above that explained by other noninformative signals, age, CPP build-up rate, CPP amplitude, and LHB peak latency were entered into a single separate linear regression model.
+When these four independent variables were included in the final
+
+model, they accounted for 65.6% of the variation in RT (F(4,66) ¼
+34.43, p , 0.0005; Table 2).
+Next, to further establish the utility of these signals as specifically sensitive to individual differences in aging, we repeated this
+linear regression model (with CPP build-up rate, CPP amplitude,
+and LHB peak latency), just for the older cohort. This model
+accounted for 48.7% of the variation in RT (F(3,37) ¼ 13.66, p ,
+0.0005), and CPP build-up rate (standardized b ¼ 0.66, p ,
+0.0005), CPP amplitude (standardized b ¼ 0.27, p ¼ 0.05) and
+LHB latency (standardized b ¼ 0.31, p ¼ 0.013) all accounted
+for independent variance in response speed.
+Finally, to validate these results, we ran some confirmatory
+Bayesian analyses. In keeping with the frequentist analyses, the
+Bayesian regression model for RT indicated strong support for
+the alternative hypothesis for age (BF10 ¼ 1028.52), CPP slope
+(BF10 ¼ 4732.19), CPP amplitude (BF10 ¼ 17.67), and LHB latency (BF10 ¼ 31.74). There was no statistical evidence to suggest
+that N2c amplitude (BF10 ¼ 0.72), N2c latency (BF10 ¼ 0.62),
+CPP onset (BF10 ¼ 0.55), LHB build-up rate (BF10 ¼ 0.68), or
+LHB amplitude (BF10 ¼ 0.75) influenced RT. (Extended Data
+Fig. 3-1 contains more detailed results from this Bayesian linear
+model.)
+Together the findings above indicate that CPP build-up rate,
+CPP amplitude, and LHB latency exerted direct and partially independent influences over RT. On the basis of previous work, we
+assume that the impact of both CPP amplitude and LHB latency
+on RT is, at least in part, determined by accumulated sensory evidence, reflected in the temporally preceding CPP build-up rate
+(O’Connell et al., 2012; Kelly and O’Connell, 2013; Steinemann
+et al., 2018; Brosnan et al., 2020). We tested this here by assessing
+whether the influence of CPP amplitude and LHB latency on RT
+was mediated by CPP build-up rate. In both cases, bootstrapped
+mediation analyses (5000 samples) indicated that this was the
+case (CPP build-up rate!CPP amplitude!RT indirect effect
+281.98, bootstrapped SE 168.06; CI, 18.00, 669.46; CPP build-up
+rate!LHB latency!RT indirect effect 220.68, bootstrapped
+SE 102.48; CI, 459.99, 58.22; Fig. 3C,D). This demonstrates
+that variability in age-related deficits in RT captured by CPP amplitude and LHB latency are dependent, at least partly, on individual differences in the rate at which sensory evidence can be
+accumulated. These results suggest that the CPP build-up rate
+constitutes a critical contributor to interindividual differences in
+response speed.
+Neural metrics of evidence accumulation build-up rate
+moderate the relationship between environmental
+enrichment and response speed
+The results thus far demonstrate that both levels of environmental enrichment and task-related neural metrics (particularly the
+build-up rate of evidence accumulation) are strong determinants
+of age-related individual declines in behavior (response speed) at
+an interindividual level. This raises the possibility that the relationship between EE and response speed might differ according
+to individual differences in evidence accumulation build-up rate.
+It is well established within the (neuro)cognitive reserve literature that high EE individuals can preserve relatively high levels
+of cognitive function, despite suboptimal structural markers of
+brain health (e.g., gray matter atrophy).
+Signals displaying evidence accumulation dynamics are not
+specific to a single cortical area but rather have been found in
+a number of regions throughout the brain (Ratcliff et al., 2003;
+Cisek and Kalaska, 2005; Huk and Shadlen, 2005; Ding and
+Gold, 2010; Pape and Siegel, 2016) and therefore may represent a
+
+Brosnan et al. · Evidence Accumulation and Neurocognitive Ageing
+
+6408 • J. Neurosci., September 13, 2023 • 43(37):6401–6414
+
+Table 3. Results from a regression analysis examining the moderation of the
+relationship between RT and exposure to environmental enrichment in older
+adults by neural metrics of evidence accumulation rate
+Variable
+
+Coeff
+
+SE
+
+t
+
+p
+
+95% CI
+
+Intercept
+i1 1259.45 163.17 7.0.72 ,0.0005 [928.53, 1590.38]
+CPP build-up rate (X) b1 5420.91 1493.02 3.63
+0.0009 [8448.95, 2392.88]
+4.34
+1.20 3.62
+0.0009 [6.76, 1.91]
+EE (M)
+b2
+CPP build-up rate  b3
+32.00 10.55 3.03
+0.0045 [10.61, 53.39]
+EE (XM)
+R2 ¼ 0.53; mean squared error (MSE), 8102.33; F(3,36) ¼ 13.55, p , 0.0005. Coeff, Coefficient. SE, Standard
+Error.
+
+Figure 4. Moderation model demonstrating the relationship between EE and RT as moderated by CPP build-up rate. All analyses were conducted using continuous variables but are
+shown here with three bins of equal size for CPP build-up rate.
+
+global, widespread neurophysiological process. Previous work
+investigating cognitive reserve using similarly widespread, global
+measures of brain structure (e.g., gray matter atrophy; Chan et al.,
+2018), and neuropathology (e.g., amyloid plaques and tangles in
+Alzheimer’s patients; Xu et al., 2019) has demonstrated that higher
+EE individuals can maintain better cognitive performance despite
+these compromised markers of brain health. Here, we hypothesized that this same phenomenon would be observed using a
+neurophysiological marker of aging brain health, that is, neural
+metrics of sensory evidence accumulation rate. Specifically,
+having established evidence accumulation build-up rates as the
+critical neural marker indicative of the maintenance of response
+speed, we tested the hypothesis that high EE individuals would
+show relatively preserved response speeds, even when this core
+neurophysiological process was impaired.
+To address this, we tested whether each of the three neural
+markers significantly moderated the relationship between
+CRI Leisure and RT using three separate moderation models,
+Bonferroni corrected for multiple comparisons (alpha 0.05/3
+moderation models  alpha-corrected threshold ¼ 0.016).
+These results revealed a specific moderating influence of CPP
+build-up rate on the association between EE (CRI Leisure) and
+RT, as evidenced by a CRI Leisure by CPP build-up rate interaction (coefficient ¼ 32.00, SE ¼ 10.55, t ¼ 3.03, p ¼ 0.005; CI,
+10.61, 53.39), which remained significant when covarying for
+age (coefficient ¼ 31.45, SE ¼ 10.81, t ¼ 2.91, p ¼ 0.006; CI,
+9.51, 53.38; Table 3; Fig. 4). In contrast, no moderating influence was observed for CPP amplitude (coefficient ¼ 0.14, SE ¼
+09.71, t ¼ 1.39, p ¼ 0.17; CI, 0.06 0.33) or LHB latency (coefficient ¼ 0.02, SE ¼ 0.006, t ¼ 2.48, p ¼ 0.02; CI, 0.03, 0).
+Follow-up analyses exploring the conditional effects of the predictor at values of the moderator revealed that the relationship
+between EE and RT was strongest in the older adults with shallower evidence accumulation build-up rates (Fig 5; CPP slope
+0.0034, coefficient ¼ 4.23, SE ¼ 1.17, t ¼ 3.61, p ¼ 0.0009;
+95% CI, 6.60, 1.86; CPP slope 0.0724, coefficient ¼ 2.02,
+SE ¼ 0.80, t ¼ 2.52, p ¼ 0.02; 95% CI, 3.65, 0.39; CPP
+
+Figure 5. Reliable estimates of the relationship between RT and evidence accumulation
+build-up rate can be obtained with reduced trial numbers. A, B, For each participant we randomly selected 1000 estimates of RT (A) and CPP build-up rate (slope; B) for each of the six
+trial bin sizes (legend, top right in A). Reducing the number of trials reduced the signal-to-noise
+ratio and increased the likelihood that estimates of both RT and CPP build-up rate deviated
+from the true mean estimates. C, Critically, strong effect sizes (.0.55) for the relationship
+between CPP build-up rate and RT were observed with as few as 40 trials suggesting that this
+neurophysiological marker of sensory evidence accumulation may be developed as a translatable assessment of brain health for older adults (Extended Data Fig. 5-2).
+
+slope 0.1405, coefficient ¼ 0.16, SE ¼ 0.98, t ¼ 0.16, p ¼ 0.87;
+95% CI, 1.84, 2.16; Fig. 4). A post hoc power analysis for the
+moderation model highlighted that power in excess of 99% was
+achieved (effect size Cohen’s F2 ¼ 1.13, G*Power 3.1).
+These results suggest that the phenomenon of cognitive reserve,
+whereby high EE individuals are less reliant on typical markers of
+brain health to facilitate the preservation of cognitive function, is
+not just applicable to structural markers of brain health but can be
+observed for neurophysiological markers. This provides a platform
+for future work to harness the millisecond temporal resolution of
+Magneto- (MEG) and electroencephalography (EEG) to explore the
+neurophysiological basis of how this reserve is facilitated. As such,
+these findings further suggest that the CPP build-up rate captures
+meaningful information relating to the neurophysiological health of
+the aging brain.
+
+Brosnan et al. · Evidence Accumulation and Neurocognitive Ageing
+
+Feasibility of EEG markers of evidence accumulation
+build-up rate as a scalable proxy for neurocognitive health
+Our findings provide evidence that the CPP build-up rate is
+mechanistically linked to an extensively validated marker of neurocognitive health—response speed—in older adults. This invites
+the possibility that this neural marker may be used by large-scale
+studies as an objective, cost-effective neurophysiological marker
+of aging brain health. Both our results presented here, and a large
+body of previous research (Newman et al., 2017; McGovern et
+al., 2018; Steinemann et al., 2018; Brosnan et al., 2020), have
+measured the CPP using a single electrode (most typically, electrode Pz). This offers clear benefits for reliably assessing this signal using low-density electrode arrays with either in-lab or
+portable EEG systems. Determining the minimum number of
+trials that permits a reliable measurement of CPP parameters,
+such as the CPP build-up rate, is therefore crucial for facilitating
+eventual clinical translation.
+To determine this, we performed an analysis with a subset of
+participants who completed at least 8 task blocks, all of whom
+had a minimum of 129 valid response-locked ERP trials (see
+above, Materials and Methods). For each participant, we derived
+1000 estimates of RT and CPP build-up rate for each of the six
+trial sizes (Fig. 5A,B) and tested whether the likelihood that the
+estimates of RT and CPP build-up rate were more likely to deviate from the true mean estimates with reduced trial numbers.
+Repeated measures ANOVAS using trial bin size as the factor
+and signal-to-noise ratio as the dependent measure (see above,
+Materials and Methods) revealed a significant main effect of bin
+size for both RT (F(5,4995) ¼ 3820.14, p , 0.0005, partial h 2 ¼
+79; Fig. 5A) and CPP build-up rate (F(5,4995) ¼ 298.13, p ,
+0.0005, partial h 2 ¼ 0.23; Fig. 5B). In both cases the data were
+best explained by a linear fit (RT, F(1999) ¼ 10 900.12, p , 0.0005,
+partial h 2 ¼ 0.92, CPP build-up rate: F(1999) ¼ 859.60, p 
+0.0005, partial h 2 ¼ 0.46), indicating that increasing the number
+of trials significantly improved the signal-to-noise ratio.
+To verify this pattern of results, we ran Kolmogorov–Smirnov
+tests on the mean estimates of CPP build-up rate and RT to
+assess whether the CDF increased with each reduction in trial
+number. These results demonstrated that when the number of
+trials was reduced by 20 trials, the width of the distribution
+(CDF) changed, as can be observed in Figure 5, A and B, and
+Extended Data Figure 5-1. This pattern of results demonstrates
+the expected effect that by reducing the number of trials, we
+increase the likelihood that estimates of both RT and CPP buildup rate deviate from the true mean estimates. Our critical question here, however, is at what level of SNR do we obtain reliable
+and behaviorally meaningful estimates of the relationship between RT and evidence accumulation build-up rate?
+In the results reported in the main body of this article, we
+demonstrated a large effect size for the relationship between CPP
+build-up rate and RT (Pearson’s r ¼ 0.60). Cohen’s (1988) cutoff for a large effect size is 0.5. As such, we defined the minimum
+number of trials at which a reliable CPP estimate can be derived
+as the number at which we can observe a strong effect size (i.e.,
+an effect size .0.55) for the relationship between RT and CPP
+build-up rate. To investigate this, we calculated the direct relationship, using Pearson’s correlation, between CPP build-up rate
+and RT for each of the 1000 permutations for each of the six bin
+sizes (20 up until 120 trials; Fig. 5C). We then ran a Bayesian
+one-sample t test to test whether the estimates of effect size (r)
+for each bin size were significantly larger than 0.55.
+We found infinite support for the alternative hypothesis that
+the effect sizes for the relationship between RT and CPP build-
+
+J. Neurosci., September 13, 2023 • 43(37):6401–6414 • 6409
+
+Table 4. Effect sizes for the relationship between RT and CPP build-up rates
+for six different trial sizes
+r CPP build-up rate-CPP
+
+Mean
+
+SD
+
+BF10
+
+20 trials
+40 trials
+60 trials
+80 trials
+100 trials
+120 trials
+
+0.530
+0.567
+0.584
+0.591
+0.596
+0.599
+
+0.051
+0.035
+0.025
+0.019
+0.014
+0.007
+
+0.002
+1.014  10145
+2.829  101221
+1
+1
+1
+
+Only at 20 trials did Bayes factor analyses reveal strong support for the null hypothesis that estimates of
+effect size were not .0.5.
+
+up rate with 120, 100, 80, 60, and 40 trials were larger than 0.5
+(all BF10 values . 2.314  10 1 63; Table 4). However, this was
+not the case for the estimates derived using 20 trials. Here, Bayes
+factor analyses revealed strong support for the null hypothesis
+(BF10 ¼ 0.002), that is, that the estimates of effect size were not
+greater than 0.55 (Fig. 5C; Table 4; Extended Data Fig. 5-2). As
+such, these results indicate that 40 response-locked trials are the
+minimum number of trials that will allow for a reliable estimation of the CPP build-up rate/RT relationship. With current paradigm timings (allowing for both variability in behavioral
+performance and quality of the EEG data), 40 trials could be
+obtained in ,8 min (Extended Data Fig. 5-2), highlighting the
+potential for isolating reliable EEG metrics of evidence accumulation over relatively short time scales.
+The relationship between DDM parameters and EEG
+markers of decision-making
+Nondecision time(t)
+None of the EEG signals significantly improved the model fit for
+the nondecision time (t) derived using the DDM (Extended Data
+Fig. 6-1). Thus, no evidence was found for a clear relationship
+between the neural metrics of decision-making isolated using
+EEG and the t parameter of the DDM.
+Drift rate ()
+In contrast, the model fit for drift rate () was significantly
+improved when both age (adjusted R2 ¼ 0.06, F change ¼ 5.74,
+p ¼ 0.01) and the build-up rate of sensory evidence accumulation (CPP build-up rate; adjusted R2 ¼ 0.08, F change ¼ 4.76,
+p ¼ 0.03) were added to the model. (Extended Data Fig. 6-2
+shows the full results from the hierarchical modeling procedure.)
+To obtain accurate parameter estimates for the association
+between drift rate () and CPP build-up rate, not influenced by
+other noninformative signals, age and CPP build-up rate were
+entered into a separate linear regression model of drift rate ().
+This model explained 12% of the variance in drift rate (F(2,68) ¼
+5.78, p , 0.005; parameter estimates for CPP build-up rate,
+standardized b ¼ 0.28, t ¼ 2.34, p ¼ 0.022; age, standardized
+b ¼ 0.2, t ¼ 1.57, p ¼ 0.12; Extended Data Fig. 6-3; Fig. 6A).
+Response caution (a)
+The model fit for response caution (a) was significantly improved by the inclusion of both CPP amplitude (adjusted R2 ¼
+0.14, F change ¼ 6.74, p ¼ 0.01) and LHB Latency (adjusted
+R2 ¼ 0.22, F change ¼ 7.39, p ¼ 0.0008; Extended Data Fig. 6-4).
+To obtain accurate parameter estimates for the association
+between response caution (a), CPP amplitude, and LHB latency,
+not influenced by other noninformative signals, age, CPP amplitude, and LHB latency were entered into a separate linear regression model of response caution (a; Extended Data Fig. 6-5. This
+model explained 21.7% of the variance of response caution, and
+
+6410 • J. Neurosci., September 13, 2023 • 43(37):6401–6414
+
+Brosnan et al. · Evidence Accumulation and Neurocognitive Ageing
+
+Figure 6. A, Scatter plot of the association between CPP build-up rate, measured using EEG and drift rate () isolated using a DDM. B, Scatter plot of the association between LHB latency,
+measured using EEG and response caution (a) isolated using a DDM.
+
+only age and LHB latency (Fig. 6B) accounted for independent
+variation in response caution (a; F(3,67) ¼ 7.46, p , 0.001; parameter estimates, age, standardized b ¼ 0.24, t ¼ 2.09, p ¼ 0.04;
+CPP amplitude, standardized b ¼ 0.20, t ¼ 1.83, p ¼ 0.07; LHB
+latency, standardized b ¼ 0.38, t ¼ 3.35, p ¼ 0.001; Fig. 6B).
+The influence of age on the DDM parameters
+Older adults had lower drift rates ( parameter; t(70) ¼ 2.35,
+p ¼ 0.02; 95% CI, 2.06, 0.18; older adults mean ¼ 7.38, SD ¼
+2.05; younger adults mean ¼ 8.49, SD ¼ 1.99), higher response
+caution (a parameter; t(70) ¼ 2.56, p ¼ 0.01; 95% CI, 0.17, 1.40;
+older adults mean ¼ 2.77, SD ¼ 1.54; younger adults mean ¼
+1.98, SD ¼ 0.88), and did not differ in nondecision time (t parameter; t(70) ¼ 0.87, p ¼ 0.39; older adults mean ¼ 0.11, SD ¼
+0.06; younger adults mean ¼ 0.10, SD ¼ 0.03).
+
+Discussion
+Here, we provide direct support for the hypothesis that build-up
+rates of sensory evidence accumulation are a critical neurophysiological mechanism underpinning the preservation of response
+speed in older adults. First, sensory evidence accumulation was
+not only directly related to response speed in older adults but
+also had an indirect impact on performance by modulating subsequent neurophysiological processes, namely, the decision criterion and the timing of the motor response. Second, consistent
+with the concept of neurocognitive reserve, a lifetime of EE offset
+age-related deficits in response speed. Critically, CPP slope moderated this association, such that the mitigating influence of EE
+on age-related declines in response times was most pronounced
+for individuals with relatively less efficient evidence accumulation (shallower build-up rates of CPP). This suggests that evidence accumulation build-up rates may offer rich information
+about which older individuals may benefit most from engaging
+with enriched environments.
+In the current study, we saw concordance between the EEG
+and DDM approaches for estimating sensory evidence accumulation such that higher drift rates (five) were associated with
+steeper CPP build-up rates. In addition, older adults presented
+with both lower drift rates and shallower EEG evidence accumulation build-up rates compared with their younger peers, further
+indicating that the rate of decision formation is disrupted with
+age. These results accord with previous work showing that the
+
+CPP closely conforms to the dynamics predicted by sequential
+sampling models (Twomey et al., 2015; Kelly et al., 2021), including in older populations (McGovern et al., 2018).
+Deriving drift rate from the DDM holds distinct practical
+clinical advantages over isolating the CPP using EEG, given that
+this parameter can be isolated from behavioral data alone. An
+interesting question for future longitudinal work will be to assess
+the utility of drift rate () as an index of cognitive decline. In particular, it will be important to address whether this parameter
+provides more sensitivity as a clinical indicator of cognitive difficulties than behavioral assays of response speed alone or markers
+of evidence accumulation rate isolated with EEG. In accordance
+with our findings, previous work has shown age-related differences in drift rate during random-dot motion task (McGovern et
+al., 2018). Yet, McGovern et al. (2018) observed no differences in
+drift rate on a contrast change task in the same cohort of older
+adults. As such, an important avenue for future work will be to
+determine the extent to which drift rate () is a general index of
+response speed in aging as opposed to a metric that is specific to
+particular cognitive scenarios and tasks (for review, see Dully et
+al., 2018).
+A key insight from decision modeling work with older adults
+has been that slowed RTs may not relate purely to sluggish information processing but might actually reflect a strategic preference for greater caution reflected in higher decision bounds
+(Ratcliff et al., 2004, 2006a,b). These previous modeling studies
+have interpreted age-related increases in response caution (a),
+derived using drift-diffusion modeling, as a more conservative
+decision threshold (and greater strategic preference for caution).
+In line with previous findings, older adults did show greater
+response caution (a) compared with younger adults on the
+DDM. However, our combined EEG modeling results here suggest that independent variation in a is captured by the timing of
+the motor response (LHB latency) and not a higher decision
+threshold (CPP amplitude). In addition, older adults showed
+a lower CPP amplitude suggestive of a lower decision threshold. As such, our results show at least under the current task
+demands, age-related changes in response caution arise not
+from a rise in the decision threshold but rather from slower
+preparation of the motor response. Although neural metrics
+of both the decision bound and the timing of motor preparation accounted for independent variation in response speeds,
+these relationships were contingent on the build-up rate of
+
+Brosnan et al. · Evidence Accumulation and Neurocognitive Ageing
+
+the CPP, such that slower build-up rates of sensory evidence
+corresponded to lower decision bounds and longer response
+preparation speeds. Together these findings further indicate
+that response speed deficits obtained on an easy detection
+task in older adults result from a core deficit in the formation
+of perceptual decisions as opposed to a more cautious approach
+to the decision-making process.
+Although the collection and analysis of EEG data can be relatively time consuming, the data confer several distinct advantages
+that cannot be gleaned from behavioral analysis or modeling
+alone.Through measuring brain activity with EEG, it is possible to
+distinguish the evidence accumulation process from other neurophysiological processes such as earlier sensory selection and later
+motor preparation processes, thereby offering unique insight into
+the neurobiology of age-related response speed slowing. In clinical
+cohorts, the same behavioral deficit (i.e., slowed response speed)
+can arise from a multitude of disrupted neural processes. By using
+EEG, one can disentangle various processes in the brain and begin
+to identify the precise locus of dysfunction in clinical disorders
+such as stroke, Parkinson’s disease, and multiple sclerosis. This information about the brain systems and markers can then be used
+to assess deficits and develop novel interventions. Moreover, this
+is the first study to our knowledge to demonstrate the phenomenon of cognitive reserve outside of the imaging modalities,
+thereby providing a means to investigate the precise mechanisms
+by which EE alters brain function (as opposed to structure) in
+future neurophysiological research.
+Future work may shed further light on the relationship
+between the formation of perceptual decisions and the motor
+response by incorporating measurements with equivalent millisecond precision. For example, subthreshold changes in the
+effector might be measured using continuous response measures such as voltage changes in hand-held force-sensing resistors (McBride et al., 2018) or changes in muscle activation with
+electromyography (Steinemann et al., 2018).
+The results presented here are in keeping with the concept of
+cognitive reserve as defined by previous work (Stern et al., 2020;
+but see Cabeza et al., 2018, 2019; Stern et al., 2019), whereby the
+proxy of reserve (here EE captured by the CRIq) exerts a moderating influence on the relationship between markers of brain health
+and cognitive function (Stern et al., 2020). Our findings show that
+when evidence accumulation build-up rates are relatively shallower, individuals with relatively higher EE can nonetheless maintain faster response speeds than those with lower EE. One of the
+predominant principles of cognitive reserve is that high EE individuals are less reliant on established markers of brain health for
+facilitating behavior. Our findings accord with a large body of
+work that has demonstrated the phenomenon of cognitive reserve
+with structural [e.g., gray matter atrophy in healthy individuals
+(Chan et al., 2018)] and neuropathological [e.g., amyloid plaques
+and tangles in Alzheimer’s patients (Xu et al., 2019)] markers of
+compromised brain health. Here, we show that cognitive reserve
+can also be observed using neurophysiological markers of aging.
+Although our results provide evidence that cognitive reserve can
+be indexed using EEG, the mechanisms supporting cognitive resilience in high EE individuals is an avenue for future work (Cabeza
+et al., 2018, 2019; Stern et al., 2019, 2020). An important direction
+will be to capitalize on the current findings and harness neurophysiological techniques to understand the neurobiological substrates of
+cognitive reserve that may contribute to preserved RT in higher EE
+individuals, even when they experience compromised markers of
+brain health. Converging evidence from structural MRI, resting
+state MRI, transcranial electrical stimulation, and postmortem
+
+J. Neurosci., September 13, 2023 • 43(37):6401–6414 • 6411
+
+histology in healthy older adults, patients with mild cognitive
+impairment, and individuals with Alzheimer’s disease points to a
+critical role for the frontal lobes, particularly the prefrontal cortex
+(PFC), in supporting resilience (Valenzuela and Sachdev, 2006;
+Brosnan and Wiegand, 2017; Franzmeier et al., 2017a,b; Brosnan et
+al., 2018, 2022; Shalev et al., 2020). The PFC (specifically the dorsolateral PFC) is the largest functional component of a domain-general multiple demands system of frontoparietal and insular brain
+areas (Duncan, 2001, 2013), which is activated during a wide range
+of cognitive operations (Fedorenko et al., 2013). This system exerts
+a top-down modulatory influence over many brain areas and cognitive processes (Cristescu et al., 2006; Summerfield et al., 2006;
+Voytek et al., 2010; Nelissen et al., 2013; Brosnan et al., 2018). It is
+possible that the multiple cognitive demands necessitated by
+enriched environments such as educational settings, complex
+occupational environments, and social and leisure activities continuously require recruitment of this network, which, over time,
+may benefit cognition. Accordingly, a number of studies have shown
+that connectivity within the frontoparietal networks (FPN) accounts
+for substantial interindividual variability in neurocognitive resilience
+in older adults (Franzmeier et al., 2017a,b; Veldsman et al., 2020;
+Brosnan et al., 2022).
+In younger adults, we have previously shown that neural metrics of evidence accumulation rate vary according to individual
+differences in connectivity within the dorsal FPN (white matter
+macrostructural organization of the superior longitudinal fasciculus and resting-state functional connectivity within the dorsal
+FPN; Brosnan et al., 2020). The results of the current study provide an unprecedented framework for exploring whether higher
+EE individuals should show differences in structure and/or function in frontoparietal regions to allow them to maintain preserved
+response speeds despite suboptimal evidence accumulation capacities in future work. Using EEG in combination with techniques
+that allow examination of the FPN with more precise spatial specificity (diffusion MRI, functional MRI, and MEG) will be particularly useful for asking how higher EE individuals might preserve
+fast responses despite compromised evidence accumulation buildup rates. This would help disentangle the interacting influences of
+EE, frontoparietal regions, and distinct stages of information processing and perceptual decision formation to cognition.
+A question of pressing societal relevance is to identify enriched
+cognitive, social, and leisure environments with which older adults
+could engage in later in life to optimize resilience to cognitive
+decline. Several lines of evidence suggest the association between
+EE and cognition is causal. For example, monozygotic twin pairs
+exposed to greater levels of enrichment throughout life show relatively faster response speed in later years (Lee et al., 2014).
+Similarly, a 3 month intervention of learning new skills in healthy
+older adults improves response speed (Park et al., 2014). Finally,
+emerging results from a large (N ¼ 2832) multicenter longitudinal
+clinical trial using computerized speed-based cognitive training in older adults shows that training may causally improve
+neurocognitive health in older adults (Ball et al., 2002;
+Wolinsky et al., 2009; Rebok et al., 2014; Edwards et al.,
+2017). In our data, the association between EE and behavior
+was driven exclusively by the leisure, and not education and
+occupation subscales, of the CRIq. These findings accord
+with growing evidence that leisure and social activities are
+critical for supporting brain health in aging (Lee et al.,
+2014; Xu et al., 2019). This is of relevance to public health
+interventions, given the accessible and potentially modifiable nature of leisure and social activities, particularly in
+later years of life. Further work using the CRIq in larger sample
+
+6412 • J. Neurosci., September 13, 2023 • 43(37):6401–6414
+
+sizes to run item-level analyses would help understand precisely
+which type of leisure activities would optimally facilitate resilience.
+This in turn would pave the way toward developing scalable,
+affordable public health interventions to induce lasting, positive changes in aging brain function and resilience to cognitive decline. A limitation of the current design is that we did
+not measure socioeconomic status (SES), which is known to
+independently contribute to brain health and neurocognitive
+resilience (Jones et al., 2011). As such, it is not possible for us
+to disentangle the extent to which the association between
+EE with our neurocognitive markers is mediated by socioeconomic factors. It is important for future studies, using larger
+cohorts, to investigate this and identify facets of brain health
+that are modifiable, regardless of SES, to increase resilience to
+cognitive decline.
+There has been a focus on the motivational processes that
+govern how resources are allocated to effortful tasks (Chong,
+2018; Westbrook and Frank, 2018; McGuigan et al., 2019;
+Westbrook et al., 2020). This idea is particularly relevant to
+our study, given that older adults have been shown to outperform their younger counterparts on cognitively effortful tasks
+(Mather and Carstensen, 2005; Ennis et al., 2013). For example, older adults demonstrate a positivity bias resulting from
+enhanced cognitive control over positive emotions (Mather
+and Carstensen, 2005). In our study, the CRI data suggest that
+high EE individuals tended to engage in activities associated
+with higher levels of motivation relative to their low EE peers
+(e.g., social activities, attending conferences, exhibitions, and
+concerts, and using modern technology). Future work with
+larger cohorts could directly test whether motivation in older
+adults, and especially those with high EE, can overcome evidence accumulation deficits to facilitate fast responses.
+Finally, identifying the precise stage of information processing driving slowed response speed with aging might hold
+valuable prognostic information and could provide a sensitive
+addition to future large-scale epidemiological and translational studies. In addition, our framework outlines a means to
+investigate the mechanisms by which high EE individuals may
+compensate for deficits in evidence accumulation to maintain
+fast responding. Future work should expand our targeted and
+comprehensive EEG analysis to explore the role of motivation
+and cognitive control in this regard. We present further evidence here that we can obtain reliable (large effect sizes) and
+meaningful (strongly predictive of response speed) measurements of the CPP build-up rate with as few as 40 trials.
+Together, our work suggests that measuring the CPP via low
+density and potentially portable EEG might have significant
+value for exploring the mechanisms by which EE positively
+benefits brain function.
+These findings suggest that neural metrics of evidence accumulation build-up rate index an important facet of neurocognitive vulnerability in the aging brain. Moreover, they suggest that
+CPP build-up rate holds promise as an EEG marker indexing a
+critical facet of neurophysiological vulnerability of the aging
+brain that could be incorporated into large-scale epidemiological
+studies. It will be important for future work to replicate these
+effects and interrogate mechanisms supporting the maintenance
+of fast response speed in higher EE individuals.
+
+References
+Allen M, Poggiali D, Whitaker K, Marshall TR, Kievit R (2018)
+RainCloudPlots tutorials and codebase. https://doi.org/10.5281/
+ZENODO.1402959
+
+Brosnan et al. · Evidence Accumulation and Neurocognitive Ageing
+Allen M, Poggiali D, Whitaker K, Marshall TR, Kievit RA (2019) Raincloud
+plots: a multi-platform tool for robust data visualization. Wellcome Open
+Res 4:63.
+Ball K, Berch DB, Helmers KF, Jobe JB, Leveck MD, Marsiske M, Morris JN,
+Rebok GW, Smith DM, Tennstedt SL, Unverzagt FW, Willis SL;
+Advanced Cognitive Training for Independent and Vital Elderly Study
+Group (2002) Effects of cognitive training interventions with older adults:
+a randomized controlled trial. JAMA 288:2271–2281.
+Ball K, Edwards JD, Ross LA, McGwin G (2010) Cognitive training decreases
+motor vehicle collision involvement of older drivers. J Am Geriatr Soc
+58:2107–2113.
+Barker-Collo S, Feigin V (2006) The impact of neuropsychological deficits on
+functional stroke outcomes. Neuropsychol Rev 16:53–64.
+Brainard DH (1997) The Psychophysics Toolbox. Spatial Vis 10:433–436.
+Brosnan MB, Wiegand I (2017) The Dorsolateral Prefrontal Cortex, a
+Dynamic Cortical Area to Enhance Top-Down Attentional Control. J
+Neurosci 37:3445–3446.
+Brosnan MB, Demaria G, Petersen A, Dockree PM, Robertson IH, Wiegand I
+(2018) Plasticity of the Right-Lateralized Cognitive Reserve Network in
+Ageing. Cereb Cortex 28:1749–1759.
+Brosnan MB, Sabaroedin K, Silk T, Genc S, Newman DP, Loughnane GM,
+Fornito A, O’Connell RG, Bellgrove MA (2020) Evidence accumulation
+during perceptual decisions in humans varies as a function of dorsal frontoparietal organization. Nat Hum Behav 4:844–855.
+Brosnan MB, Shalev N, Ramduny J, Sotiropoulos SN, Chechlacz M (2022)
+Right fronto-parietal networks mediate the neurocognitive benefits of
+enriched environments. Brain Commun 4:fcac080.
+Bublak P, Redel P, Sorg C, Kurz A, Förstl H, Müller HJ, Schneider WX, Finke K
+(2011) Staged decline of visual processing capacity in mild cognitive impairment and Alzheimer’s disease. Neurobiol Aging 32:1219–1230.
+Cabeza R, Albert M, Belleville S, Craik FIM, Duarte A, Grady CL,
+Lindenberger U, Nyberg L, Park DC, Reuter-Lorenz PA, Rugg MD,
+Steffener J, Rajah MN (2018) Maintenance, reserve and compensation:
+the cognitive neuroscience of healthy ageing. Nat Rev Neurosci 19:701–
+710.
+Cabeza R, Albert M, Belleville S, Craik FIM, Duarte A, Grady CL,
+Lindenberger U, Nyberg L, Park DC, Reuter-Lorenz PA, Rugg MD,
+Steffener J, Rajah MN (2019) Reply to ‘Mechanisms underlying resilience
+in ageing’. Nat Rev Neurosci 20:247.
+Chan D, Shafto M, Kievit R, Matthews F, Spink M, Valenzuela M, Henson
+RN (2018) Lifestyle activities in mid-life contribute to cognitive reserve in
+late-life, independent of education, occupation, and late-life activities.
+Neurobiol Aging 70:180–183.
+Chong TTJ (2018) Updating the role of dopamine in human motivation and
+apathy. Curr Opin Behav Sci 22:35–41.
+Cisek P, Kalaska JF (2005) Neural correlates of reaching decisions in dorsal
+premotor cortex: specification of multiple direction choices and final
+selection of action. Neuron 45:801–814.
+Cohen J (1988) Statistical Power Analysis for the Behavioral Sciences (2nd
+ed). Hillsdale, NJ: Lawrence Erlbaum Associates, Publishers.
+Cristescu TC, Devlin JT, Nobre AC (2006) Orienting attention to semantic
+categories. NeuroImage 33:1178–1187.
+Cornelissen FW, Peters EM, Palmer J (2002) The Eyelink Toolbox: eye tracking with MATLAB and the Psychophysics Toolbox. Behav Res Methods
+Instrum Comput 34:613–617.
+Deary IJ, Johnson W, Starr JM (2010) Are processing speed tasks biomarkers
+of cognitive aging? Psychol Aging 25:219–228.
+de Gee JW, Tsetsos K, Schwabe L, Urai AE, McCormick D, McGinley MJ,
+Donner TH (2020) Pupil-linked phasic arousal predicts a reduction of
+choice bias across species and decision domains. eLife 9:e54014.
+Ding L, Gold JI (2010) Caudate encodes multiple computations for perceptual decisions. J Neurosci 30:15747–15759.
+Duncan J (2001) An adaptive coding model of neural function in prefrontal
+cortex. Nat Rev Neurosci 2:820–829.
+Duncan J (2013) The structure of cognition: attentional episodes in mind
+and brain. Neuron 80:35–50.
+Dully J, McGovern DP, O’Connell RG (2018) The impact of natural aging on
+computational and neural indices of perceptual decision making: a
+review. Behav Brain Res 355:48–55.
+Delorme A, Makeig S (2004) EEGLAB: an open source toolbox for analysis
+of single-trial EEG dynamics including independent component analysis.
+J Neurosci Methods 134:9–21.
+
+Brosnan et al. · Evidence Accumulation and Neurocognitive Ageing
+Edwards JD, Xu H, Clark DO, Guey LT, Ross LA, Unverzagt FW (2017)
+Speed of processing training results in lower risk of dementia. Alzheimer’s &
+dementia 3:603–611.
+Ennis GE, Hess TM, Smith BT (2013) The impact of age and motivation on
+cognitive effort: implications for cognitive engagement in older adulthood. Psychol Aging 28:495–504.
+Fedorenko E, Duncan J, Kanwisher N (2013) Broad domain generality in
+focal regions of frontal and parietal cortex. Proc Natl Acad Sci U S A
+110:16616–16621.
+Foxe JJ, Simpson GV (2002) Flow of activation from V1 to frontal cortex in
+humans: A framework for defining “early” visual processing. Exp Brain
+Res 142:139–150.
+Franzmeier N, Duering M, Weiner M, Dichgans M, Ewers M (2017a) Left
+frontal cortex connectivity underlies cognitive reserve in prodromal
+Alzheimer disease. Neurology 88:1054–1061.
+Franzmeier N, Göttler J, Grimmer T, Drzezga A, Áraque-Caballero MA,
+Simon-Vermot L, Taylor ANW, Bürger K, Catak C, Janowitz D, Müller
+C, Duering M, Sorg C, Ewers M (2017b) Resting-state connectivity of the
+left frontal cortex to the default mode and dorsal attention network supports reserve in mild cognitive impairment. Front Aging Neurosci 9:264.
+Gregory T, Nettelbeck T, Howard S, Wilson C (2008) Inspection Time: A
+biomarker for cognitive decline. Intelligence 36:664–671.
+Habib R, Nyberg L. Nilsson LG (2007) Cognitive and non-cognitive factors
+contributing to the longitudinal identification of successful older adults
+in the Betula study. Aging Neuropsychol Cogn 14:257–273.
+Hayes AF (2012) PROCESS: A versatile computational tool for observed variable mediation, moderation, and conditional process modeling.
+Hayes AF (2014) Introduction to mediation, moderation, and conditional
+process analysis: a regression-based approach. New York: Guilford.
+Huk AC, Shadlen MN (2005) Neural activity in macaque parietal cortex
+reflects temporal integration of visual motion signals during perceptual
+decision making. J Neurosci 25:10420–10436.
+Jones RN, Manly J, Glymour MM, Rentz DM, Jefferson AL, Stern Y (2011)
+Conceptual and measurement challenges in research on cognitive reserve.
+J Int Neuropsychol Soc 17:593–601.
+Kayser J, Tenke CE (2006) Principal components analysis of Laplacian waveforms as a generic method for identifying ERP generator patterns: I.
+Evaluation with auditory oddball tasks. Clin Neurophysiol 117:348–368.
+Kelly SP, Gomez-Ramirez M, Foxe JJ (2008) Spatial attention modulates initial afferent activity in human primary visual cortex. Cereb Cortex
+18:2629–2636.
+Kelly SP, Corbett EA, O’Connell RG (2021) Neurocomputational mechanisms of prior-informed perceptual decision-making in humans. Nat
+Hum Behav 5:467–481.
+Kelly SP, O’Connell RG (2013) Internal and external influences on the rate
+of sensory evidence accumulation in the human brain. J Neurosci
+33:19434–19441.
+Kochan NA, Bunce D, Pont S, Crawford JD, Brodaty H, Sachdev PS
+(2016) Reaction time measures predict incident dementia in community-living older adults: the sydney memory and ageing study. Am J
+Geriatr Psychiatry 24:221–231.
+Lee T, Lipnicki DM, Crawford JD, Henry JD, Trollor JN, Ames D, Wright
+MJ, Sachdev PS (2014) Leisure activity, health, and medical correlates of
+neurocognitive performance among monozygotic twins: the older
+Australian twins study. J Gerontol B Psychol Sci Soc Sci 69:514–522.
+Loughnane GM, Newman DP, Bellgrove MA, Lalor EC, Kelly SP,
+O’Connell RG (2016) Target selection signals influence perceptual decisions by modulating the onset and rate of evidence accumulation. Curr
+Biol 26:496–502.
+Mather M, Carstensen LL (2005) Aging and motivated cognition: the positivity effect in attention and memory. Trends Cogn Sci 9:496–502.
+McBride J, Sumner P, Husain M (2018) Masked primes evoke partial
+responses. Q J Exp Psychol 71:1431–1439.
+McGovern DP, Hayes A, Kelly SP, O’Connell RG (2018) Reconciling agerelated changes in behavioural and neural indices of human perceptual
+decision-making. Nat Hum Behav 2:955–966.
+McGuigan S, Zhou SH, Brosnan MB, Thyagarajan D, Bellgrove MA, Chong
+TTJ (2019) Dopamine restores cognitive motivation in Parkinson’s disease. Brain 142:719–732.
+McKoon G, Ratcliff R (2012) Aging and IQ effects on associative recognition
+and priming in item recognition. J Mem Lang 66:416–437.
+
+J. Neurosci., September 13, 2023 • 43(37):6401–6414 • 6413
+Morel P (2018) Gramm: grammar of graphics plotting in Matlab. JOSS
+3:568.
+Murphy PR, Robertson IH, Harty S, O’Connell RG (2015) Neural evidence
+accumulation persists after choice to inform metacognitive judgments.
+Elife 4:1–23.
+Myers CE, Interian A, Moustafa AA (2022) A practical introduction to using
+the drift diffusion model of decision-making in cognitive psychology,
+neuroscience, and health sciences. Front Psychol 13:1039172.
+Nasreddine ZS, Phillips NA, Bédirian V, Charbonneau S, Whitehead V,
+Collin I, Cummings JL, Chertkow H (2005) The Montreal Cognitive
+Assessment, MoCA: a brief screening tool for mild cognitive impairment.
+J Am Geriatr Soc 53:695–699.
+Nelissen N, Stokes M, Nobre AC, Rushworth MF (2013) Frontal and parietal
+cortical interactions with distributed visual representations during selective attention and action selection. The Journal of neuroscience
+33:16443–16458.
+Nelson HE (1982) The National Adult Reading Test (NART): Test Manual.
+Windsor, UK: NFER-Nelson.
+Newman DP, Loughnane GM, Kelly SP, O’Connell RG, Bellgrove MA (2017)
+Visuospatial asymmetries arise from differences in the onset time of perceptual evidence accumulation. J Neurosci 37:3378–3385.
+Newsome WT, Britten KH, Movshon JA (1989) Neuronal correlates of a perceptual decision. Nature 341:52–54.
+Norton S, Matthews FE, Barnes DE, Yaffe K., Brayne C (2014) Potential for
+primary prevention of Alzheimer’s disease: an analysis of populationbased data. Lancet Neurol 13:788–794.
+Nucci M, Mapelli D, Mondini S (2012) Cognitive Reserve Index questionnaire (CRIq): a new instrument for measuring cognitive reserve. Aging
+Clin Exp Res 24:218–226.
+O’Connell RG, Dockree PM, Kelly SP (2012) A supramodal accumulationto-bound signal that determines perceptual decisions in humans. Nat
+Neurosci 15:1729–1735.
+O’Halloran AM, Finucane C, Savva GM, Robertson IH, Kenny RA (2013)
+Sustained attention and frailty in the older adult population. J Gerontol B
+Psychol Sci Soc Sci 69:147–156.
+Opdebeeck C, Martyr A, Clare L (2016) Cognitive reserve and cognitive function in healthy older people: A meta-analysis. Aging, Neuropsychol Cogn
+23:40–60.
+Pape AA, Siegel M (2016) Motor cortex activity predicts response alternation
+during sensorimotor decisions. Nat Commun 7:13098.
+Park DC, Lodi-Smith J, Drew L, Haber S, Hebrank A, Bischof GN, Aamodt
+W (2014) The impact of sustained engagement on cognitive function in
+older adults: the Synapse Project. Psychol Sci 25:103–112.
+Pelli DG (1997) The VideoToolbox software for visual psychophysics: transforming numbers into movies. Spatial Vis 10:437–442.
+Powell MJD (1964) An efficient method for finding the minimum of a function
+of several variables without calculating derivatives. Comput J 7:155–162.
+Prince M, Wimo A, Guerchet M, Gemma-Claire A, Wu Y-T, Prina M (2015)
+World Alzheimer Report 2015: the global impact of dementia: an analysis
+of prevalence, incidence, cost and trends. London: Alzheimer’s Disease
+International.
+Rapp PR, Amaral DG (1992) Individual differences in the cognitive and neurobiological consequences of normal aging. Trends Neurosci 15:340–345.
+Ratcliff R, Thapar A, Gomez P, McKoon G (2004) A diffusion model analysis of
+the effects of aging in the lexical-decision task. Psychol Aging 19:278–289.
+Ratcliff R, Thapar A, McKoon G (2006a) Aging, practice, and perceptual
+tasks: a diffusion model analysis. Psychol Aging 21:353–371.
+Ratcliff R, Thapar A, McKoon G (2006b) Aging and individual differences in
+rapid two-choice decisions. Psychon Bull Rev 13:626–635.
+Ratcliff R, Cherian A, Segraves M (2003) A comparison of macaque behavior
+and superior colliculus neuronal activity to predictions from models of
+two-choice decisions. J Neurophysiol 90:1392–1407.
+Ratcliff R, McKoon G (2015) Aging effects in item and associative recognition memory for pictures and words. Psychol Aging 30:669–674.
+Ratcliff R, Smith PL, Brown SD, McKoon G (2016) Diffusion Decision
+Model: Current Issues and History. Trends Cogn Sci 20:260–281.
+Ratcliff R, Huang-Pollock C, McKoon G (2018) Modeling Individual Differences
+in the Go/No-go Task with a Diffusion Model. Decision 5:42–62.
+Ritchie SJ, Tucker-Drob EM, Deary IJ (2014) A strong link between speed of
+visual discrimination and cognitive ageing. Curr Biol 24:R681–R683.
+Rebok GW, Ball K, Guey LT, Jones RN, Kim HY, King JW, Marsiske M,
+Morris JN, Tennstedt SL, Unverzagt FW, Willis SL; ACTIVE Study
+
+6414 • J. Neurosci., September 13, 2023 • 43(37):6401–6414
+Group (2014) Ten-year effects of the advanced cognitive training for independent and vital elderly cognitive training trial on cognition and
+everyday functioning in older adults. J Am Geriatr Soc 62:16–24.
+Robertson IH (2014) A right hemisphere role in cognitive reserve. Neurobiol
+Aging 35:1375–1385.
+Rouder JN, Morey RD (2009) The nature of psychological thresholds.
+Psychol Rev 116:655–660.
+Salthouse TA (1996) The processing-speed theory of adult age differences in
+cognition. Psychol Rev 103:403–428.
+Shalev N, Brosnan MB, Chechlacz M (2020) Right Lateralized Brain Reserve
+Offsets Age-Related Deficits in Ignoring Distraction. Cereb Cortex
+Commun 1:tgaa049.
+Stefanac N, Spencer-Smith M, Brosnan M, Vangkilde S, Castles A, Bellgrove
+M (2019) Visual processing speed as a marker of immaturity in lexical
+but not sublexical dyslexia. Cortex 120:567–581.
+Steinemann NA, O’Connell RG, Kelly SP (2018) Decisions are expedited
+through multiple neural adjustments spanning the sensorimotor hierarchy. Nat Commun 9:3627.
+Stern Y, Alexander GE, Prohovnik I, Mayeux R (1992) Inverse relationship
+between education and parietotemporal perfusion deficit in Alzheimer’s
+disease. Ann Neurol 32:371–375.
+Stern Y, et al. (2019) Mechanisms underlying resilience in ageing. Nat Rev
+Neurosci 20:246.
+Stern Y, Arenaza-Urquijo EM, Bartrés-Faz D, Belleville S, Cantilon M,
+Chetelat G, Ewers M, Franzmeier N, Kempermann G, Kremen WS,
+Okonkwo O, Scarmeas N, Soldan A, Udeh-Momoh C, Valenzuela M,
+Vemuri P, Vuoksimaa E (2020) Whitepaper: defining and investigating
+cognitive reserve, brain reserve, and brain maintenance. Alzheimers
+Dement 16:1305–1311.
+Summerfield C, Egner T, Greene M, Koechlin E, Mangels J, Hirsch J (2006)
+Predictive codes for forthcoming perception in the frontal cortex. Science
+314:1311–1314.
+Thut G, Nietzel A, Brandt SA, Pascual-Leone A (2006) a-Band electroencephalographic activity over occipital cortex indexes visuospatial attention bias and predicts visual target detection. J Neurosci 26:9494–9502.
+
+Brosnan et al. · Evidence Accumulation and Neurocognitive Ageing
+Twomey DM, Murphy PR, Kelly SP, O’Connell RG (2015) The classic P300
+encodes a build-to-threshold decision variable. Eur J Neurosci 42:1636–
+1643.
+Valenzuela M, Sachdev P (2006) Brain reserve and dementia: a systematic
+review. Psychol Med 36:441–454.
+Van Kempen J, Loughnane GM, Newman DP, Kelly SP, Thiele A, O’Connell
+RG, Bellgrove MA (2019) Behavioural and neural signatures of perceptual decision-making are modulated by pupil-linked arousal. Elife 8:
+e42541.
+Veldsman M, Tai XY, Nichols T, Smith S, Peixoto J, Manohar S, Husain M
+(2020) Cerebrovascular risk factors impact frontoparietal network integrity and executive function in healthy ageing. Nat Commun 11:4340.
+Voytek B, Davis M, Yago E, Barceló F, Vogel EK, Knight RT (2010) Dynamic
+neuroplasticity after human prefrontal cortex damage. Neuron 68:401–
+408.
+Weaver B, Bédard M, McAuliffe, Parkkari M (2009) Using the Attention
+Network Test to predict driving test scores. Accid Anal Prev 41:76–83.
+Wechsler D (1981) Wechsler Adult Intelligence Scale–revised. New York:
+Psychological.
+Westbrook A, Frank M (2018) Dopamine and proximity in motivation and
+cognitive control. Curr Opin Behav Sci 22:28–34.
+Westbrook A, van den Bosch R, Määttä JI, Hofmans L, Papadopetraki D,
+Cools R, Frank MJ (2020) Dopamine promotes cognitive effort by biasing
+the benefits versus costs of cognitive work. Science 367:1362–1366.
+Wiecki TV, Sofer I, Frank MJ (2013) HDDM: Hierarchical Bayesian estimation of the Drift-Diffusion Model in Python. Front Neuroinform 7:14.
+Wolinsky FD, Vander Weg MW, Martin R, Unverzagt FW, Ball KK, Jones
+RN, Tennstedt SL (2009) The effect of speed-of-processing training on
+depressive symptoms in ACTIVE. J Gerontol A Biol Sci Med Sci 64:468–
+472.
+Xu H, Yang R, Qi X, Dintica C, Song R, Bennett D, Xu W (2019) Association
+of lifespan cognitive reserve indicator with dementia risk in the presence
+of brain pathologies. JAMA Neurol 76:1184–1191.
+Zhou S-H, Loughnane G, O’Connell R, Bellgrove MA, Chong TT-J (2021)
+Distractors selectively modulate electrophysiological markers of perceptual decisions. J Cogn Neurosci 33:1020–1031.
+
+

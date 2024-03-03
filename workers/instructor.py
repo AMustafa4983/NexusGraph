@@ -10,7 +10,7 @@ class Instructor:
         print('Instructor Generating Instructions...')
         prediction = self.client.chat.completions.create(
         model='gpt-3.5-turbo',
-        temperature=0.2,
+        temperature=1.0,
         messages=[
             {'role':'system','content':'''you're an ner system used to extract and form instructions and methodolgies to help researcher do an experiment from a given text and form it in a JSON file.
                                             the output should be in this structure:

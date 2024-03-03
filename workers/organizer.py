@@ -1,4 +1,5 @@
 import psycopg2
+import traceback
 
 class Organizer:
     def __init__(self, dbname, user, password, host='localhost', port='5432'):
@@ -249,20 +250,24 @@ CREATE TABLE paper_methodologies (
 
     def insert_methodology_and_instructions(self, paper_id, methodologies, instructions):
         for methodology in methodologies:
-            # Insert methodology and get methodology_id
-            insert_methodology_query = "INSERT INTO methodologies (description) VALUES (%s) RETURNING methodology_id;"
-            self.cur.execute(insert_methodology_query, (methodology,))
-            methodology_id = self.cur.fetchone()[0]
-            self.conn.commit()
+            try:
+                # Insert methodology and get methodology_id
+                insert_methodology_query = "INSERT INTO methodologies (description) VALUES (%s) RETURNING methodology_id;"
+                self.cur.execute(insert_methodology_query, (methodology,))
+                methodology_id = self.cur.fetchone()[0]
+                self.conn.commit()
 
-            # Link paper and methodology
-            self.link_paper_methodology(paper_id, methodology_id)
+                # Link paper and methodology
+                self.link_paper_methodology(paper_id, methodology_id)
 
-        for instruction in instructions:
-            # Insert instruction
-            insert_instruction_query = "INSERT INTO instructions (paper_id, methodology_id, content) VALUES (%s, %s, %s);"
-            self.cur.execute(insert_instruction_query, (paper_id, methodology_id, instruction))
-            self.conn.commit()
+                for instruction in instructions:
+                    # Insert instruction
+                    insert_instruction_query = "INSERT INTO instructions (paper_id, methodology_id, content) VALUES (%s, %s, %s);"
+                    self.cur.execute(insert_instruction_query, (paper_id, methodology_id, instruction))
+                    self.conn.commit()
+            except Exception as e:
+                print(f"Error inserting methodology and instructions: {e}")
+                
     
     def link_paper_methodology(self, paper_id, methodology_id):
         # Link paper and methodology
@@ -306,20 +311,26 @@ CREATE TABLE paper_methodologies (
     
     def process_json(self, json_data):
         paper_id = None
+        try:
+            for data in json_data:
+                if 'title' in data:
+                    paper_id = self.insert_paper(data['title'], data.get('tags', []))
+                    for author in data.get('authors', []):
+                        self.insert_author(author['name'], author['affiliation'], paper_id)
 
-        for data in json_data:
-            if 'title' in data:
-                paper_id = self.insert_paper(data['title'], data.get('tags', []))
-                for author in data.get('authors', []):
-                    self.insert_author(author['name'], author['affiliation'], paper_id)
+                if 'experiments' in data and paper_id:
+                    for experiment in data['experiments']:
+                        self.insert_experiment(experiment['experiment_title'], paper_id, experiment.get('experiment_items', []))
 
-            if 'experiments' in data and paper_id:
-                for experiment in data['experiments']:
-                    self.insert_experiment(experiment['experiment_title'], paper_id, experiment.get('experiment_items', []))
+                if 'instructions' in data and paper_id:
+                    self.insert_methodology_and_instructions(paper_id, data.get('methodologies', []), data.get('instructions', []))
+                
+            print("Organizer saved information in the database successfully!")
 
-            if 'instructions' in data and paper_id:
-                self.insert_methodology_and_instructions(paper_id, data.get('methodologies', []), data.get('instructions', []))
-
+        except Exception as e:
+            print(f"Error processing JSON data: {e}")
+            traceback.print_exc()
+        
     def get_all_papers(self):
         try:
             select_papers_query = """
@@ -413,6 +424,8 @@ GROUP BY
                     paper_details['methodologies'].append(methodology)
                 if instruction:
                     paper_details['instructions'].append(instruction)
+                if supplier:
+                    paper_details['suppliers'].append(supplier)
             return paper_details
         except Exception as e:
             print(f"Error: {e}")
