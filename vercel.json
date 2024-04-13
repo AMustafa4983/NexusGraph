@@ -1,8 +1,8 @@
 {
-    "rewrites": [
-        {
-            "source": "/api/(.*)",
-            "destination": "/api/handler"
-        }
-    ]
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/ParallelRun"
+    }
+  ]
 }

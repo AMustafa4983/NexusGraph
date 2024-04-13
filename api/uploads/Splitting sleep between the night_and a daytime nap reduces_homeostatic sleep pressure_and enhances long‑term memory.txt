@@ -1,0 +1,1373 @@
+www.nature.com/scientificreports
+
+OPEN
+
+Splitting sleep between the night
+and a daytime nap reduces
+homeostatic sleep pressure
+and enhances long‑term memory
+James N. Cousins1,2,3,5, Ruth L. F. Leong1,5, S. Azrin Jamaluddin1, Alyssa S. C. Ng1,
+Ju Lynn Ong1 & Michael W. L. Chee1,2,4*
+Daytime naps have been linked with enhanced memory encoding and consolidation. It remains
+unclear how a daily napping schedule impacts learning throughout the day, and whether these effects
+are the same for well-rested and sleep restricted individuals. We compared memory in 112 adolescents
+who underwent two simulated school weeks containing 8 or 6.5 h sleep opportunities each day. Sleep
+episodes were nocturnal or split between nocturnal sleep and a 90-min afternoon nap, creating four
+experimental groups: 8 h-continuous, 8 h-split, 6.5 h-continuous and 6.5 h-split. Declarative memory
+was assessed with picture encoding and an educationally realistic factual knowledge task. Splitting
+sleep significantly enhanced afternoon picture encoding and factual knowledge under both 6.5 h and
+8 h durations. Splitting sleep also significantly reduced slow-wave energy during nocturnal sleep,
+suggesting lower homeostatic sleep pressure during the day. There was no negative impact of the
+split sleep schedule on morning performance, despite a reduction in nocturnal sleep. These findings
+suggest that naps could be incorporated into a daily sleep schedule that provides sufficient sleep and
+benefits learning.
+Daytime naps consistently improve memory in a laboratory ­setting1–6, but how these benefits translate to real
+world sleep and learning is less well understood. The optimisation of sleep occurring during the school day
+could provide large benefits for ­learning7. Sleep schedules that include regular daytime naps have the potential to
+both alleviate learning deficits associated with poor nocturnal s­ leep8–13, and take advantage of sleep-dependent
+memory benefits to the encoding and consolidation of declarative m
+­ emories1–6,14–18.
+Napping has been proposed as a potential remedy for insufficient nocturnal ­sleep11, particularly during adolescence where nocturnal sleep is often below the optimal recommended 8–10 h on weekdays, and even below
+the wider margin of 7–11 h that “may be appropriate”19,20. This restricted sleep stems from a number of factors
+that coalesce during adolescence—including a delayed circadian cycle that is incompatible with earlier school
+start ­times21—and is linked to impaired c­ ognition9–11,14 and academic p
+­ erformance22. Unlike working adults who
+have limited opportunities to take an afternoon nap, 40–60% of adolescents report napping on w
+­ eekdays23–25.
+This may be in response to reduced nocturnal sleep, given that more adolescents nap regularly on weekdays
+compared to ­weekends26,27, while those who nap regularly tend to have shorter nocturnal sleep ­duration27.
+Furthermore, experimental evidence shows that naps alleviate the negative impact of restricted sleep on several
+cognitive ­faculties11,14,15,28, therefore many adolescents may already be dealing with the effects of restricted sleep
+by taking regular daytime naps.
+While naps are primarily viewed as a consequence of deficient nocturnal sleep, or as a potential remedy for it,
+an alternative view is that naps could be beneficial for everyone as part of a daily schedule. There is a biological
+propensity to sleep in the afternoon—the circadian d
+­ ip29,30—and napping at this time of day is encouraged in
+some ­cultures31. This capacity to nap is also implied by laboratory studies, where the majority of participants are
+capable of napping in the afternoon for 10–90 min even after a night of sufficient nocturnal s­ leep2,4.
+1
+
+Yong Loo Lin School of Medicine, Centre for Sleep and Cognition, National University of Singapore, Singapore,
+Singapore. 2Neuroscience and Behavioral Disorders Program, Duke-NUS Medical School, Singapore,
+Singapore. 3Donders Institute for Brain, Cognition & Behaviour, Radboud University Medical Centre, 6525
+EN Nijmegen, The Netherlands. 4Human Potential Program, Yong Loo Lin School of Medicine, Centre for Sleep
+and Cognition, National University of Singapore, MD1, 12 Science Drive 2, Singapore 117549, Singapore. 5These
+authors contributed equally: James N. Cousins and Ruth L. F. Leong. *email: michael.chee@nus.edu.sg
+
+Scientific Reports |
+
+(2021) 11:5275
+
+| https://doi.org/10.1038/s41598-021-84625-8
+
+1
+Vol.:(0123456789)
+
+www.nature.com/scientificreports/
+The barrier to understanding whether daily naps are a useful tool to optimize learning is that most prior
+studies examined naps in isolation, rather than integrated into a daily schedule. These studies have overwhelmingly shown that a single daytime nap enhances the consolidation of information learned before n
+­ apping1,5,6,
+and the encoding of materials encountered after the ­nap3,4. In all of these studies however, the nap forms an
+additional period that supplements nocturnal sleep, so that the nap condition comprises significantly greater
+total sleep achieved over a 24-h period. In order to assess the benefits of daily naps as part of a regular sleep
+schedule, the focus must be on splitting sleep rather than supplementing sleep. That is, a fixed sleep opportunity
+must be split between the night and a nap, then compared to the same opportunity of purely nocturnal sleep
+over several consecutive days. A handful of studies investigated this with the aim of optimizing shift work in
+­adults32–37. While none assessed learning, they did show that core cognitive functions that underscore learning
+such as vigilance and processing speed were unaffected by splitting sleep, and instead were determined by total
+sleep duration across each day.
+To assess the impact of splitting sleep on learning, we recently examined performance during two typical
+school weeks of restricted sleep in adolescents (6.5 h sleep opportunity each day), when sleep was either split
+between the night (5 h) and a daytime nap (1.5 h), or obtained nocturnally in one continuous sleep ­episode15.
+We found that splitting sleep significantly improved declarative learning shortly after the nap in the afternoon.
+Importantly there were no negative effects of the split sleep schedule on performance at other times of d
+­ ay15.
+These findings suggest that splitting sleep can maximize learning outcomes in those obtaining insufficient sleep,
+but raised the question of whether splitting sleep might also benefit long-term memory in those obtaining a
+more adequate amount of sleep.
+In addition to the behavioral outcomes of splitting sleep, the impact upon sleep physiology also remains
+to be determined. Slow-wave sleep (N3) and spindles have been consistently linked with declarative memory
+­consolidation1,16,38 and ­encoding4,18,39 in both naps and nocturnal sleep. These sleep features have been linked
+to synaptic downscaling in order to prevent saturation in memory ­networks40, as well as the active replay of
+memories to reorganize them across systems in the ­brain17. It remains unclear how these different sleep processes
+are affected by splitting sleep and how they relate to long-term learning outcomes.
+Addressing this, the current study used the same experimental framework as our prior study with two additional groups of adolescents that were afforded the minimum recommended sleep opportunity for this age group
+each day (8 h-split and 8 h-continuous), then compared their performance with groups from the prior study
+(6.5 h-split and 6.5 h-continuous)15. The effect of these schedules on sleep physiology and declarative memory
+(picture encoding and factual knowledge task) was investigated across two simulated school weeks (Fig. 1). This
+included two baseline days ­(B1–B2), a first manipulation week ­(M11–M15) followed by 2 recovery days ­(R11–R12),
+then a second manipulation week ­(M21–M23) followed by recovery ­(R21–R22).
+To assess memory encoding, on the fifth day of the first week (­ M15) participants incidentally encoded pictures in the late afternoon (Fig. 2). Recognition was tested after groups obtained two recovery nights of 9 h sleep
+opportunity. This delayed test ensured that groups were equally well rested during retrieval, and had the same
+post-encoding opportunity for consolidation, therefore any differences in memory could be attributed to the
+effects of sleep schedules specifically on memory encoding.
+To examine a more ecologically valid learning task, in the second week participants spent an hour learning facts about six amphibians in the morning, and an hour learning about six different amphibians in the late
+afternoon (Factual Knowledge Task). This was repeated across three consecutive days (­ M21–M23), then tested
+the following evening after one night of recovery sleep (9 h sleep opportunity).
+We predicted that with the increased 8 h sleep opportunity, the split sleep schedule would provide a similar
+boost to afternoon performance as it did for both memory tasks under the restricted 6.5 h sleep opportunity. This
+would be shown by significantly better afternoon performance of the 8 h-split group relative to the 8 h-continuous
+group. We also expected that duration of sleep would impact performance, with the 8 h duration groups outperforming 6.5 h groups for learning in the morning and afternoon. In terms of sleep physiology, we predicted that
+splitting sleep would reduce nocturnal sleep p
+­ ressure41, while memory performance might correlate with sleep
+metrics that were previously associated with memory (i.e., slow-wave sleep and spindles)1,16,18,38,39.
+
+Results
+
+Picture encoding in the afternoon was enhanced by splitting sleep, irrespective of sleep
+duration. Split and continuous sleep groups did not significantly differ in demographic characteristics
+
+and habitual sleep patterns measured prior to commencement of the protocol (Table 1). The incidental encoding session occurred after 5-days in the first manipulation week on ­M15 (16:45). Participants viewed pictures
+and made judgments concerning whether they contained buildings or not, for which accuracy was very high
+(6.5 h-split = [Mean ± Standard Deviation] 0.97 ± 0.03; 6.5 h-continuous = 0.94 ± 0.06; 8 h-split = 0.98 ± 0.01;
+8 h-continuous = 0.96 ± 0.03; Supplementary Materials).
+Our primary measure of encoding performance was picture recognition (A’) when probed at the surprise
+retrieval session on R
+­ 12 (16:45), for which no participants reported expectation of a memory test. A 2 × 2 ANOVA
+showed a significant main effect of schedule (F(1,107) = 7.358, p = 0.008), driven by significantly enhanced memory in split sleep groups under the 8 h (8 h-continuous vs. 8 h-split: t(51) = 2.038, p = 0.047, d = 0.562) and 6.5 h
+durations (6.5 h-continuous vs. 6.5 h-split: t(56) = 2.456, p = 0.017, d = 0.645; Fig. 3a). There was no significant
+main effect of duration (F(1,107) = 1.880, p = 0.173), and no interaction (F(1,107) = 0.341, p = 0.560). These findings suggest that splitting sleep improved afternoon encoding irrespective of total sleep duration.
+As expected, the 8 h-continuous group had significantly better memory than the 6.5 h-continuous group,
+(t(56) = 2.22, p = 0.03, d = 0.581), indicating the inadequacy of 5 successive nights of sleep restricted to 6.5 h. However, memory in the 6.5 h-split sleep group did not differ significantly from the 8 h-split (t(51) = 1.425, p = 0.16,
+
+Scientific Reports |
+Vol:.(1234567890)
+
+(2021) 11:5275 |
+
+https://doi.org/10.1038/s41598-021-84625-8
+
+2
+
+www.nature.com/scientificreports/
+
+Figure 1.  Study Protocol. All groups began the study with two baseline nights ­(B1–B2) of 9 h nocturnal sleep
+opportunity. This was followed by a 5-day “school week” manipulation period (­ M11–M15) where groups
+diverged in terms of their sleep duration (6.5 h or 8 h opportunity) and distribution of sleep throughout each
+day (split or continuous). Continuous sleep groups slept only nocturnally, while split sleep groups obtained
+their sleep nocturnally with a 1.5 h afternoon nap (14:00–15:30). This first week was followed by a recovery
+“weekend” of two days with 9 h nocturnal sleep opportunities ­(R11–R12). The second “school week” was
+identical to the first except it lasted 3-days rather than 5-days ­(M21–M23). The study concluded with a second
+recovery “weekend” with 9 h sleep opportunities ­(R21–R22). Participants incidentally encoded pictures at the
+end of the first manipulation period ­(M15) in the afternoon and were tested on their memory after two nights of
+recovery ­(R12). Participants learned factual knowledge in the morning and afternoon on each day of the second
+manipulation period ­(M21–M23) and were tested after one night of recovery sleep (­ R21). Sleep physiology was
+assessed with polysomnography on several nights and naps throughout the protocol (­ B2, ­M11, ­M13, ­M15, ­R11,
+­M21, ­M23, and ­R21).
+d = 0.394) or 8 h-continuous groups (t(56) = 0.415, p = 0.68, d = 0.109), suggesting that a 6.5 h-split schedule was
+sufficient to return afternoon encoding performance to a form of baseline.
+
+Factual knowledge learning in the afternoon benefited from splitting sleep, irrespective of
+sleep duration. A pretest was performed shortly before learning to assess participants’ prior knowledge of
+
+the to-be-learned ­materials15. One-way ANOVAs identified no significant group differences for pretest measures
+of general knowledge, specific knowledge, picture identification, subjective knowledge and subjective disgust
+(p > 0.05). General knowledge for amphibians was relatively low (M = 62.39 ± 9.79%), but was significantly above
+chance (p < 0.001). Specific knowledge (M = 51.08 ± 9.54%) did not differ from chance (p > 0.05) while picture
+identification (M = 53.85 ± 14.25%) was significantly above chance (p < 0.05). Subjective knowledge ratings were
+very low (M = 1.31 ± 0.59) with a rating of 1 representing no knowledge, while participants indicated moderate
+levels of disgust for the amphibian species (M = 4.98 ± 2.18). Participants also rated their subjective alertness,
+focus, ability and motivation during all subsequent learning sessions (Supplementary Fig. S1, Table S1).
+The morning and afternoon learning sessions took place over three consecutive days (­ M21–M23). Memory was
+tested after one night of recovery sleep on day ­R22 (20:30) via two-alternative forced choice questions followed
+by confidence ratings (certain, somewhat certain and guess). Consistent with prior work using this t­ ask2,10,15, our
+analysis focussed on certain responses that were corrected for response bias (correct-incorrect). We conducted
+a 2 × 2 × 2 mixed ANOVA to examine the effects of schedule (split/continuous), duration (6.5 h/8 h), and time
+(morning/afternoon) on certain memory (correct–incorrect). We found a significant main effect of schedule
+(F(1,107) = 6.816, p = 0.010), but no effects of duration (F(1,107) = 0.490, p = 0.486) and time (F(1,107) = 0.049,
+p = 0.825). Only the schedule*time interaction was significant (F(1,107) = 10.108, p = 0.002), while the 3-way and
+all other 2-way interactions were not (p > 0.05).
+Given the main effect of schedule, we first examined the effect of splitting sleep by comparing memory performance between split and continuous groups for each duration separately. Compared to the continuous sleep
+groups, split sleep groups in both the 8 h and 6.5 h durations had significantly better memory of the species
+Scientific Reports |
+
+(2021) 11:5275 |
+
+https://doi.org/10.1038/s41598-021-84625-8
+
+3
+Vol.:(0123456789)
+
+www.nature.com/scientificreports/
+
+Figure 2.  Stimuli. (a) For picture encoding, participants were not aware that it was a memory task and simply
+viewed 160 pictures, each followed by a building/no-building judgment. All 160 old images were presented
+again during retrieval, randomly intermixed with 80 new images. Participants were required to indicate their
+confidence that images were old or new on a 5-point scale. (b) Factual knowledge encoding involved slides with
+detailed information and pictures about 12 species of amphibians. Each encoding session included six species
+and lasted 1 h. Participants were encouraged to take notes to help them learn. Retrieval consisted of 2-alternative
+forced choice questions of varying difficulty (360 questions in total) followed by a confidence rating.
+learned in the afternoon (8 h-continuous vs. 8 h-split: t(51) = 2.074, p = 0.043, d = 0.572; 6.5 h-continuous vs.
+6.5 h-split: t(51) = 2.700, p = 0.009, d = 0.709; Fig. 3b). In contrast, there were no significant group differences for
+morning learning (8 h-continuous vs. 8 h-split: t(51) = 1.198, p = 0.236, d = 0.331; 6.5 h-continuous vs. 6.5 h-split:
+t(56) = 1.189, p = 0.239, d = 0.312).
+Next, we explored the interaction between schedule and time by comparing performance for material learned
+in the morning and afternoon within each group. Figure 3b shows that numerically, memory improved from
+morning to afternoon for the split sleep groups, while it declined for the continuous sleep groups. This change was
+significant for the 6.5 h-split group (t(28) = 2.088, p = 0.046, d = 0.388), but not the other three groups (p > 0.05).
+Tentatively, this may indicate that the nap restores encoding capacity that has declined during wakefulness,
+particularly under conditions of sleep restriction.
+Finally, to fully characterize the nap benefit for afternoon learning we compared memory for species encoded
+in the afternoon across all groups. Unlike the picture encoding task, sleep duration did not have a significant effect
+on afternoon performance as there were no significant differences between continuous sleep groups (8 h-continuous vs. 6.5 h-continuous: t(56) = 0.451, p = 0.654, d = 0.119) or split sleep groups (8 h-split vs. 6.5 h-split:
+t(51) = 0.422, p = 0.675, d = 0.120). This contributed towards the lack of a main effect of sleep duration on factual
+knowledge, which may relate to the sleep restriction period being shorter for this task (3 days) than picture
+encoding (5 days). Remarkably, the 6.5 h-split group significantly outperformed the 8 h-continuous group
+(t(56) = 2.01, p < 0.05, d = 0.527).
+Overall, these findings are consistent with the picture encoding task and suggest that splitting sleep is an
+effective strategy to improve afternoon learning without any negative impact on morning performance.
+
+Splitting sleep relieved homeostatic sleep pressure, despite a reduction in sleep dura‑
+tion. Sleep was recorded and analysed on eight days during the protocol (Fig. 4). For group comparisons
+
+we compared the nocturnal sleep parameters of continuous sleep groups with the combined nap and nocturnal
+sleep parameters for split sleep groups, since we were interested in the impact of sleep schedules on overall sleep
+characteristics. Splitting sleep significantly reduced total sleep time (TST) by 6–21 min each day, but in turn it
+
+Scientific Reports |
+Vol:.(1234567890)
+
+(2021) 11:5275 |
+
+https://doi.org/10.1038/s41598-021-84625-8
+
+4
+
+www.nature.com/scientificreports/
+
+Split sleep
+
+N
+
+Continuous sleep
+
+6.5 h-split
+
+8 h-split
+
+6.5 h-continuous
+
+8 h-continuous
+
+Mean
+
+SD
+
+Mean
+
+SD
+
+Mean
+
+SD
+
+Mean
+
+SD
+
+P
+
+29
+
+–
+
+24
+
+–
+
+29
+
+–
+
+29
+
+–
+
+–
+
+Age (years)
+
+16.55
+
+0.74
+
+16.72
+
+1.16
+
+16.58
+
+1.12
+
+16.18
+
+0.88
+
+0.22
+
+Gender (% male)
+
+51.70
+
+–
+
+45.83
+
+–
+
+51.70
+
+–
+
+48.28
+
+–
+
+0.97
+
+Body mass index
+
+20.67
+
+2.80
+
+20.17
+
+3.13
+
+21.3
+
+3.5
+
+20.49
+
+3.08
+
+0.64
+
+Daily caffeine intake (cups)
+
+0.55
+
+0.69
+
+0.63
+
+0.82
+
+0.58
+
+0.80
+
+0.72
+
+1.00
+
+0.87
+
+Morningness–eveningness questionnaire
+
+50.72
+
+7.07
+
+48.83
+
+6.80
+
+48.97
+
+7.54
+
+49.45
+
+6.18
+
+0.73
+
+Epworth sleepiness scale
+
+7.86
+
+3.78
+
+7.42
+
+3.09
+
+8.21
+
+3.43
+
+7.66
+
+3.04
+
+0.85
+
+Chronic sleep reduction Questionnaire
+
+36.10
+
+4.66
+
+37.00
+
+5.23
+
+35.24
+
+5.96
+
+36.59
+
+4.04
+
+0.61
+
+Pittsburgh sleep quality index
+Weekday TIB (h)
+
+6.78
+
+0.89
+
+7.36
+
+1.16
+
+6.85
+
+1.35
+
+7.59
+
+1.38
+
+0.33
+
+Weekend TIB (h)
+
+8.76
+
+1.23
+
+9.10
+
+1.32
+
+8.93
+
+1.18
+
+8.52
+
+1.32
+
+0.74
+
+Weekday TST (h)
+
+6.47
+
+0.86
+
+6.87
+
+1.22
+
+6.46
+
+1.19
+
+6.62
+
+1.00
+
+0.75
+
+Weekend TST (h)
+
+8.41
+
+1.18
+
+8.78
+
+2.19
+
+8.56
+
+1.20
+
+8.43
+
+1.25
+
+0.97
+
+Nap TST (min)
+
+62.93
+
+65.66
+
+58.54
+
+60.00
+
+68.52
+
+64.76
+
+42.59
+
+53.71
+
+0.42
+
+Global score
+
+4.17
+
+1.77
+
+4.22
+
+1.24
+
+4.48
+
+1.50
+
+4.48
+
+1.70
+
+0.82
+
+Actigraphy
+Weekday TIB (h)
+
+6.84
+
+1.13
+
+7.22
+
+0.85
+
+7.00
+
+0.77
+
+7.21
+
+0.74
+
+0.32
+
+Weekend TIB (h)
+
+8.15
+
+1.05
+
+8.40
+
+1.17
+
+8.45
+
+1.13
+
+8.36
+
+1.04
+
+0.74
+
+Weekday TST (h)
+
+5.50
+
+0.89
+
+5.74
+
+0.84
+
+5.51
+
+0.75
+
+5.73
+
+0.65
+
+0.50
+
+Weekend TST (h)
+
+6.64
+
+1.00
+
+6.74
+
+1.26
+
+6.76
+
+1.14
+
+6.65
+
+0.94
+
+0.97
+
+Average TST (h)
+
+5.83
+
+0.73
+
+5.98
+
+0.78
+
+5.86
+
+0.68
+
+5.97
+
+0.58
+
+0.80
+
+SE (%)
+
+81.04
+
+6.64
+
+79.85
+
+6.87
+
+79.02
+
+5.57
+
+79.45
+
+6.10
+
+0.65
+
+Table 1.  Characteristics of split and continuous sleep groups prior to commencement of the experimental
+protocol. All measures were obtained during a briefing, except the actigraphic measures of habitual sleep that
+were acquired during a one week period after the briefing. TIB time in bed, TST total sleep time, SE sleep
+efficiency. P values from one-way ANOVA and Chi-squared tests contrasting the 4 groups are listed.
+
+Figure 3.  Memory performance. (a) Splitting sleep led to significantly better picture recognition (A’) for both
+the 6.5 h and 8 h durations, indicating a benefit of the nap for subsequent encoding. A longer sleep duration
+also provided better memory for groups that slept only nocturnally (8 h-continuous vs. 6.5 h-continuous), but
+duration did not significantly influence memory on the split sleep schedule (8 h-split vs. 6.5 h-split). Memory
+performance was similar between the 8 h-continuous and the 6.5 h-split groups. (b) For the factual knowledge
+task, splitting sleep also provided significantly better memory (certain correct–incorrect) for species learned
+in the afternoon for both 6.5 h and 8 h durations. Memory for species learned in the morning did not differ
+between groups. Together this suggests that a split sleep schedule benefits afternoon learning with no “cost” to
+morning learning. Mean ± standard error of the mean (SEM). *p < 0.05, **p < 0.01.
+Scientific Reports |
+
+(2021) 11:5275 |
+
+https://doi.org/10.1038/s41598-021-84625-8
+
+5
+Vol.:(0123456789)
+
+www.nature.com/scientificreports/
+▸
+Figure 4.  Sleep macrostructure as assessed with polysomnography. Nocturnal sleep periods were combined
+with the subsequent nap to compare sleep features within each 24-h period. Splitting sleep was associated with
+significantly reduced total sleep time (TST) throughout the protocol, as well as reduced rapid-eye-movemement
+(REM) and stage 2 (N2) sleep duration on some manipulation days. Increased N3 was observed on recovery
+days in the 6.5 h-continuous group, suggesting a greater accumulation of homeostatic sleep pressure in this
+group. Splitting sleep led to increased N3 at the beginning of each manipulation period. This was due to N3
+during the first nocturnal sleep period being similar between groups (i.e., because this sleep period occurred
+before any naps had taken place), therefore the N3 achieved by split sleep groups during the subsequent nap
+led to overall longer duration during that 24 h period. Sleep spindles were unaffected by splitting sleep. Sleep
+was assessed on the second baseline night ­(B2), sleep manipulation nights and naps ­(M11, ­M13, ­M15, ­M21,
+­M23; shaded areas), and recovery nights (­ R11, ­R21). Mean ± SEM. ***p < 0.001, **p < 0.01, *p < 0.05 for contrasts
+between split and continuous groups under the 6.5 h duration (light grey asterisks) and the 8 h duration (dark
+grey asterisks).
+
+also reduced the amount of homeostatic sleep pressure accumulated during the day for both sleep restricted and
+well-rested conditions (Figs. 5, 6).
+The reduction in TST was primarily due to reduced nocturnal REM and N2 sleep that was not recovered during the naps. Nap sleep architecture did not differ between the two split sleep groups (6.5 h-split vs
+8 h-split: p > 0.05). Both groups obtained a similar amount of TST (mean ± SD, 6.5 h-split: 77.41 ± 9.00, 8 h-split:
+75.811 ± 8.656), N2 sleep (6.5 h-split: 33.25 ± 10.73, 8 h-split: 34.29 ± 9.89) and N3 sleep (6.5 h-split: 30.55 ± 12.35,
+8 h-split: 30.39 ± 12.75).
+We previously showed that the accumulation of homeostatic sleep pressure could be observed in nocturnal
+weekday N2 latency, sleep efficiency and slow-wave energy (SWE; 0.6–4 Hz), as well as weekend recovery sleep
+measures of nocturnal TST, sleep efficiency and wake after sleep onset (WASO)41. We assessed these 6 metrics
+in our groups by examining the change between baseline (­ B2) and M
+­ 15 (N2 latency, sleep efficiency, SWE), and
+between ­B2 and R
+­ 11 (TST, sleep efficiency and WASO). Together these measures indicated reduced sleep pressure
+in both split sleep groups (Table 2, Fig. 5).
+On all nights, SWE decreased as sleep progressed and appeared to plateau after 4 h in all groups (Fig. 6).
+However, on the later manipulation nights ­(M13, ­M15 and M
+­ 23) and both recovery nights ­(R11 and R
+­ 21), the
+6.5 h-continuous and 8 h-continuous sleep groups showed elevated SWE compared to the 6.5 h-split and 8 h-split
+groups respectively, particularly in the first hour of sleep (ps < 0.034). This suggests less accumulation of homeostatic sleep pressure in the split sleep groups over the day. By the 3rd hour of sleep on all nights, groups had
+comparable SWE (ps > 0.107).
+As expected, a longer sleep opportunity led to more sleep spindles (12–15 Hz; 6.5 h-split vs 8 h-split: ps < 0.05,
+6.5 h-continuous vs 8 h-continuous: ps < 0.05), but splitting sleep had no effect (6.5 h-split vs 6.5 h-continuous:
+ps > 0.108, 8 h-split vs 8 h-continuous: ps > 0.162). Last, to explore associations between long-term memory and
+sleep, we correlated several sleep parameters with memory scores, but found no significant relationships for
+either memory task (p > 0.05; Supplementary Tables S2, S3).
+
+Discussion
+
+We previously showed that a daytime nap enhanced afternoon learning when sleep during a typical school week
+was restricted to an opportunity of only 6.5 h each ­day15, far below the recommended daily amount of 8–10 h for
+­adolescents19. The current study examined whether that nap benefit could be applied more broadly to adolescents
+that are not sleep deprived, by replicating our previous study with adolescents who were afforded an adequate
+sleep opportunity of 8 h each day. By combining results from both studies, we showed that splitting sleep between
+a nocturnal bout and a daytime nap consistently improved afternoon learning, irrespective of the total amount
+of sleep obtained. Crucially, this sleep schedule was not detrimental to memory for information learned in the
+morning, despite the fact that splitting sleep reduced the amount of nocturnal sleep prior to morning learning.
+These findings suggest that facilitating naps in education could markedly improve educational outcomes.
+The nap benefit for afternoon learning was consistent not only across sleep deprived and well-rested subjects,
+but also over both declarative memory tasks. The factual knowledge task in particular provides evidence that
+the types of information encountered in daily life are more likely to be retained under a split sleep schedule.
+This builds upon findings that memory gains after a one hour daytime nap were equivalent to gains made from
+an hour of c­ ramming2, and translational research showing that regular naps taken in school can improve test
+­scores31,42,43. The ‘split sleep’ design we employed goes beyond most prior nap studies of m
+­ emory1–4,42,43 by matching the total sleep opportunity over 24 h in those who napped (split sleep) and those who did not (continuous
+sleep). The memory benefits we observed can therefore be attributed to the daily naps taken under the split sleep
+schedule, rather than overall sleep duration as was indicated in some earlier studies of split ­sleep32–34. Surprisingly,
+memory for materials learned in the morning did not differ significantly between groups, even when comparing
+an 8 h-continuous sleep opportunity to the 5 h nocturnal opportunity of the 6.5 h-split group. This suggests that
+morning learning may be resilient to these levels of sleep restriction.
+The core functions of declarative memory include the initial encoding of stimuli, offline processes that
+strengthen and stabilise representations (consolidation), and finally the reinstatement of memories during
+retrieval. Research has largely focussed on sleep’s role in ­consolidation17, but our findings most likely relate
+to the effect of naps on refreshing one’s capacity to e­ ncode3,4. First, those on the split sleep schedule obtained
+less nocturnal sleep in which to consolidate materials learned in the afternoon, which makes it unlikely that
+consolidation was a contributing factor to their afternoon memory advantage. Second, all groups were afforded
+
+Scientific Reports |
+Vol:.(1234567890)
+
+(2021) 11:5275 |
+
+https://doi.org/10.1038/s41598-021-84625-8
+
+6
+
+www.nature.com/scientificreports/
+
+Scientific Reports |
+
+(2021) 11:5275 |
+
+https://doi.org/10.1038/s41598-021-84625-8
+
+7
+Vol.:(0123456789)
+
+www.nature.com/scientificreports/
+
+Figure 5.  Homeostatic sleep pressure. Sleep pressure is indicated by several metrics by comparing baseline
+­(B2) to the final day of the first manipulation week ­(M15). (a) A decrease in nocturnal N2 latency from baseline
+suggests a relative increase of sleep pressure over the manipulation week. That is, participants fall asleep faster
+if they have higher sleep pressure. N2 latency showed a similar increase of sleep pressure across groups, except
+for the 8 h-split group who showed little change. This suggests that splitting sleep for the 8 h duration led to
+a relative decrease in the amount of homeostatic sleep pressure. (b) Sleep efficiency tends to increase as sleep
+pressure increases, because participants fall asleep faster and are less likely to wake during the night. Sleep
+efficiency remained at baseline levels for both split sleep groups, but was significantly increased for continuous
+sleep groups. Again this suggests relatively lower sleep pressure under the split sleep schedule (Table 2 for main
+effects). (c) Slow-wave energy (SWE) in the first hour of nocturnal sleep (H1) provides an indication of sleep
+pressure accumulated during the day. SWE remained at baseline levels for the continuous sleep groups, while
+it significantly decreased for both split sleep groups, suggesting reduced sleep pressure under the split sleep
+schedule. Mean ± SEM. ***p < 0.001, **p < 0.01, *p < 0.05 for contrasts between split and continuous groups
+under 6.5 h (light grey asterisks) and 8 h durations (dark grey asterisks).
+
+Figure 6.  Slow wave energy (SWE) by hour from the onset of N2 sleep (normalized to SWE in the first hour
+[H1] of the baseline night ­[B2]). The split sleep schedule was associated with lower SWE in the first hour of
+nocturnal sleep on manipulation nights that were later in the week (­ M13, ­M15 and ­M23) and recovery nights
+­(R11 and ­R21). This suggests reduced sleep pressure for both the 6.5-split and 8 h-split groups. On nights that
+did not have a preceding nap (­ M11, ­M21), there were no significant differences in SWE for the first hour of sleep
+(ps > 0.214). Across all days and under all sleep schedules, the amount of SWE decreased as sleep progressed and
+levelled off after approximately 4 h of sleep. This would indicate that sleep pressure experienced by participants
+after waking in the morning would be similar across groups. Mean ± SEM. ***p < 0.001, **p < 0.01, *p < 0.05 for
+split and continuous contrasts under 6.5 h (light grey asterisks) and 8 h durations (dark grey asterisks).
+the same sleep opportunity during the consolidation periods after learning. For the picture encoding task in
+particular, this means that any group differences can most likely be attributed to the effects of splitting sleep on
+the single encoding session that occurred at the end of the first week.
+What neural mechanisms could account for this nap benefit? The synaptic homeostasis hypothesis (SHY)
+posits that slow-wave activity during sleep globally downscales the synaptic weights that are potentiated during
+encoding across the day, and this avoids saturation in memory ­networks40. It follows that encoding capacity
+Scientific Reports |
+Vol:.(1234567890)
+
+(2021) 11:5275 |
+
+https://doi.org/10.1038/s41598-021-84625-8
+
+8
+
+www.nature.com/scientificreports/
+
+Homeostatic sleep pressure (F values)
+Schedule
+
+Duration
+
+Schedule × duration
+
+M15 relative to ­B2
+N2 latency (min)
+
+7.948**
+
+2.978
+
+4.287*
+
+Sleep efficiency (%)
+
+4.805*
+
+0.783
+
+0.462
+
+Slow wave energy (% ­B2)
+
+18.859***
+
+0.553
+
+0.068
+
+R11 relative to ­B2
+Total sleep time (min)
+
+1.299
+
+5.396*
+
+0.027
+
+Sleep efficiency (%)
+
+1.281
+
+5.536*
+
+0.017
+
+WASO (min)
+
+0.014
+
+0.516
+
+0.798
+
+Table 2.  Main and interaction effects of schedule (split/continuous) and duration (6.5 h/8 h) on metrics of
+homeostatic sleep pressure. WASO Wake after sleep onset. ***p < 0.001, **p < 0.01, and *p < 0.05.
+
+should be maximal after waking, and subsequently declines during extended w
+­ akefulness3,8–10,13,44. This framework accounts for why groups did not differ in their encoding capacity in the morning, since all achieved
+approximately 110–140 min of nocturnal slow-wave sleep (N3) and had been awake for a similar amount of time
+before learning began. This was also reflected in our analysis of slow-wave energy (SWE) where levels plateaued
+and groups converged after 3–4 h of nocturnal sleep each night (Fig. 6), indicating relative normalisation of
+homeostatic sleep pressure across groups prior to waking in the morning. In the afternoon however, those under
+the split sleep schedule encoded only 1 h 15 min after waking from a nap that included approximately 30 min
+of N3. The nap could therefore be considered to ‘reset’ encoding ­capacity3,4. Supporting this point, we found
+that splitting sleep significantly reduced homeostatic sleep pressure across several metrics, including reduced
+nocturnal N2 latency and SWE in the first hour of nocturnal sleep (Fig. 5). This suggests a reduction of sleep
+pressure during the daytime when memory tasks were performed. There were also hints toward these relationships in the behaviour, with parallel rates of performance decline from morning to afternoon for both continuous
+sleep groups. By contrast, the split sleep groups demonstrated parallel increases in performance at a similar rate
+(Fig. 3b). While the consistency of these changes in our four experimental groups is striking, only one of these
+within group changes across the day was statistically significant (6.5 h-split group), therefore further studies are
+required to verify this variation in encoding capacity with time spent awake.
+Our analysis of sleep architecture showed that splitting sleep led to a significant reduction in sleep duration
+over each weekday. For both sleep durations (6.5 h and 8 h), REM sleep was the most consistently reduced by
+splitting sleep, due to the fact that REM sleep occurs predominantly toward the end of nocturnal sleep and is
+therefore more likely to be cut by shortening sleep. Prior studies suggest that sleep duration must be reduced
+by many hours before cognitive deficits are o
+­ bserved8–10, therefore the differences we observed in the range of
+minutes may have been too small to impact upon performance. Under a split sleep schedule, it appears that the
+benefits to declarative memory of reduced daytime sleep pressure outweigh any losses associated with reduced
+REM or N2 sleep. However, our study does not preclude possible negative effects to cognitive faculties that have
+been linked to these sleep stages (e.g., procedural m
+­ emory45) and these should be a target for future research.
+The timing of the afternoon learning sessions may also be an important factor, occurring in close proximity
+to the circadian ­dip30. Several studies have examined split sleep schedules in the context of shift ­work32–37, suggesting vigilance and subjective alertness are optimal when sleep is scheduled during circadian low ­points35,36.
+Our findings are consistent with the idea that continuous sleep groups were impacted by the afternoon dip in
+performance, while the nap counteracted such effects for split sleep groups. The nap was positioned to coincide
+with this dip in alertness when many people have a propensity to ­nap46. Indeed, all of our participants could adapt
+to a daily napping schedule despite most reporting that they did not nap habitually in their daily lives (napping
+once or more per week). This capacity for all subjects to nap in the afternoon, coupled with the observed improvements to learning and memory, support the notion that napping could be an adaptive behaviour in humans.
+Our data also allow examination of possible negative consequences of splitting sleep. The reduction in nocturnal sleep pressure in split sleep groups could make it harder for individuals to fall asleep, particularly given
+the delay in circadian phase that occurs during ­adolescence21. The 8 h-split group demonstrated no change from
+baseline in N2 latency or sleep efficiency, therefore suggesting that naps were not detrimental to nocturnal sleep
+under this 8 h sleep duration. It is also possible that the reduced nocturnal sleep experienced by those under the
+split sleep schedule did in fact impair encoding capacity in the morning, but the nap that followed was able to
+compensate for this deficit by enhancing consolidation. Future studies that probe memory immediately before
+and after the nap will clarify whether or not this is the case.
+We also found that both memory tasks displayed clear linear relationships between sleep duration and encoding performance (Fig. 3). However, comparison of 6.5 h and 8 h duration groups within each sleep schedule
+only showed a significant impairment for picture encoding, where sleep was reduced to 6.5 h sleep opportunity
+for 5 consecutive days. This may suggest that the 3-days of accumulated sleep loss in the week when the factual
+knowledge task was being performed was not large enough to induce a significant memory impairment. Prior
+to this, encoding deficits had only been observed for more severe manipulations that restricted a whole night
+of ­sleep12,13 or allowed an opportunity of only 5 h sleep for 4–5 consecutive n
+­ ights9,10. Here we show a learning
+deficit after 5-days under a relatively milder pattern of sleep loss that is common for a­ dolescents20.
+
+Scientific Reports |
+
+(2021) 11:5275 |
+
+https://doi.org/10.1038/s41598-021-84625-8
+
+9
+Vol.:(0123456789)
+
+www.nature.com/scientificreports/
+The National Sleep Foundation provide broad guidelines for sleep duration across the ­lifespan19, but there
+remains little consensus over the exact durations that could be considered sufficient for most individuals. Our 8 h
+TIB conditions are at the borderline of what might be considered “well-rested”. By comparing baseline days (9 h
+TIB) to manipulation days (8 h TIB) in the 8 h-continuous group, we observed decreased TST and N2 latency,
+as well as increased sleep efficiency, all indicators of a mild form of sleep restriction. By contrast, SWE did not
+change from baseline in this group, while across several studies we have observed no evidence that cognition is
+impaired under an 8 h TIB sleep schedule. For psychomotor vigilance we found no change from b­ aseline44, while
+performance levels for picture ­encoding9 and short-term topographical ­memory14,47 were also very similar under
+9 h and 8 h sleep schedules. This suggests that whatever slight “sleep restriction” might be involved in the 8 h
+TIB schedule, it is too subtle to influence these measures of cognition. Furthermore, 8 h TIB does appear to be
+sufficient when you split sleep, because the 8 h-split group did not show the same changes in N2 latency and sleep
+efficiency from baseline. This may suggest that distribution of sleep should also be considered in future guidelines.
+These findings form part of a broader picture where both sleep before and after learning contribute to longterm learning outcomes (for review s­ ee8), therefore both must be considered when determining the optimal sleeplearning schedules in education. Some earlier laboratory studies indicated that sleeping shortly after learning
+provided the best learning o
+­ utcomes48, since such memories will encounter less interference prior to sleep and
+therefore maximise on sleep-dependent consolidation p
+­ rocesses7. However, when splitting sleep between the
+night and a daytime nap, our findings indicate that sleep occurring shortly before learning is also critical due to
+its beneficial effect on encoding. One caveat to consider is that we did not examine memory for materials learned
+in the late evening, therefore potentially these would benefit to a greater degree from consolidation processes
+during nocturnal s­ leep48 than the afternoon learning that we assessed.
+To optimise sleep schedules in adolescents it will be important to further explore the cognitive effects of nap
+length. The current study chose a 90-min nap opportunity to allow one cycle of sleep, but shorter naps may also
+be beneficial. Naps of 10–20 min can improve ­vigilance46, and these were shown to reduce afternoon sleepiness
+across 5 consecutive days in a small sample of young a­ dults49. Another interesting avenue for future studies would
+be to examine individual differences in napping behavior. It was recently shown that the long-term memory
+benefits associated with daytime naps were not affected by whether individuals reported napping regularly in
+their daily lives or ­not47, but further research is needed to assess whether this extends to other cognitive faculties.
+There are also considerable practical challenges to implementing naps during school hours. In the current
+study we were able to control noise levels and provide bedrooms with only two occupants, but this level of control
+may not be feasible in most school environments. Lessons could be learned from cultures that already facilitate
+napping. For example, many Chinese schools include a 2 h lunch break, and taking a nap of up to an hour during
+this period—either at home or in school—is viewed by many as part of a healthy ­lifestyle50. Last, it is important
+that efforts continue to extend adolescents’ nocturnal sleep, for example by delaying school start ­times51, while
+facilitating naps during school hours could be an additional strategy to address this issue.
+To conclude, we show that afternoon learning is enhanced by a split sleep schedule that includes regular
+daytime naps, irrespective of whether individuals are sleep deprived or well-rested. Furthermore, there is no
+negative effect of splitting sleep on morning learning. These findings suggest that naps could be incorporated into
+a daily sleep schedule that provides sufficient sleep and benefits cognition. We hope this serves as a springboard
+for further translational research regarding the efficacy of daily naps in education.
+
+Methods
+
+Participants. Participants (n = 112) comprised adolescents in the Need for Sleep (NFS) ­415,28 and ­NFS544
+
+studies. They were between 15 and 19 years old, had no history of chronic medical, psychiatric or sleep disorders,
+a body mass index (BMI) of ≤ 30 kg/m2, were not habitually short sleepers (actigraphically assessed TIB ≥ 6 h
+with weekend sleep extension ≤ 1 h), consumed ≤ 5 caffeinated beverages per day, and did not travel across > 2
+time zones one month prior to the study.
+Participants in both studies were randomised into continuous and split sleep groups with total sleep opportunity differing between the two studies (6.5 h in NFS4 and 8 h in NFS5), resulting in four groups: 6.5 h-continuous
+(n = 29), 6.5 h-split (n = 29), 8 h-continuous (n = 29) and 8 h-split (n = 24). Those in the continuous groups were
+afforded an opportunity to sleep only at night, while those in the split sleep groups had a night sleep opportunity and a 1.5-h afternoon nap. Both studies were registered clinical trials (NCT03333512 and NCT04044885).
+Groups did not significantly differ in age, sex, BMI, daily caffeine consumption, morningness-eveningness
+preference (Morningness Eveningness Questionnaire), levels of excessive daytime sleepiness (Epworth Sleepiness Scale), symptoms of chronic sleep reduction (Chronic Sleep Reduction Questionnaire), self-reported sleep
+quality (Pittsburgh Sleep Quality Index) and actigraphically assessed sleep patterns (p > 0.22; Table 1). Informed
+consent was obtained from all participants and legal guardians in compliance with a protocol approved by the
+National University of Singapore Institutional Review Board. All experiments were performed in accordance with
+relevant guidelines and regulations. Participants were compensated financially upon completion of the study.
+
+Procedure. The NFS4 and NFS5 study protocols tracked cognitive performance across 15 days (Fig. 1) as
+part of a summer camp at a local boarding school. Participants first attended a briefing at least two weeks prior to
+commencement of the study where an actiwatch was provided for a one week period in order to assess habitual
+sleep (Table 1). Subsequently, participants also wore an actiwatch in the one week period immediately prior to
+commencement of the summer camp protocols. This confirmed that all participants refrained from napping
+and adhered to a 9 h sleep schedule (23:00–08:00), and were therefore well-rested at the beginning of the camp.
+The protocol was conducted in a boarding school. Both protocols began with two baseline nights of 9 h TIB
+followed by two cycles of sleep manipulation and recovery (9 h TIB). The first cycle consisted of five nights of
+Scientific Reports |
+Vol:.(1234567890)
+
+(2021) 11:5275 |
+
+https://doi.org/10.1038/s41598-021-84625-8
+
+10
+
+www.nature.com/scientificreports/
+manipulation ­(M11–M15) followed by two nights of recovery ­(R11–R12), while the second cycle involved three
+nights of manipulation ­(M21–M23) followed by two nights of recovery ­(R21–R22). The second week was shorter
+purely for logistic reasons. On manipulation nights, the 6.5 h-continuous schedule included 6.5 h nocturnal TIB
+(00:15–06:45), while the 6.5 h-split schedule included 5 h nocturnal TIB (01:00–06:00) followed by a 1.5 h nap
+opportunity (14:00–15:30). The 8 h-continuous schedule included 8 h nocturnal TIB (23:30–07:30) while the
+8 h-split schedule included 6.5 h nocturnal TIB (00:15–06:45) and a 1.5 h daytime nap opportunity (14:00–15:30).
+Thus, nocturnal sleep episodes were anchored to mid-sleep at 03:30 for all sleep schedules. This provided bedtimes and wake times that were practicable, while minimizing the confounding influence of evening or morning
+light exposure on circadian phase. Sleep–wake patterns were monitored throughout the protocol using actigraphy. Polysomnography (PSG) was recorded on nine nights ­(B1, ­B2, ­M11, ­M13, ­M15, ­R11, ­M21, ­M23, and ­R21), and
+daytime naps were monitored with PSG on five manipulation days (­ M11, ­M13, ­M15, ­M21, and M
+­ 23). Split and
+continuous groups were housed on different floors. All participants slept in twin-share, air-conditioned rooms.
+Participants were allowed to adjust their room temperature according to their own comfort. Bedroom windows
+were fitted with blackout panels to prevent participants from being awoken by sunlight.
+All cognitive tasks were programmed in E-Prime 2.0 (Psychology Software Tools, Inc., Sharpsburg, PA) and
+were administered via individual laptops in a classroom setting. Participants were required to wear earphones
+to minimize distraction. To avoid circadian confounds, timing of tasks was identical for all groups. Picture
+encoding took place on M
+­ 15, and retrieval after two recovery nights on R
+­ 12, both at 16:45. Learning sessions
+for the factual knowledge task took place during the second week of sleep manipulation (­ M21–M23) with the
+morning session at 11:00 and the afternoon session at 16:45. The factual knowledge retrieval took place after
+one recovery night on ­R21 at 20:30. This evening test ensured that the circadian context during retrieval would
+not favour retrieval of materials learned in either the morning or afternoon. The difference in length of recovery
+periods between learning and testing of the two memory tasks was for camp scheduling reasons. There is little
+evidence that sleep deprivation impairs retrieval processes ­themselves8, therefore a one night recovery period
+was deemed to be sufficient.
+Apart from cognitive testing periods, participants spent their time in a common room that received natural
+as well as electrical lighting. During free periods, participants were allowed to play board games, read, and use
+their own electronic devices. They were allowed to interact freely with research staff and the other participants.
+Strenuous physical activities and the consumption of caffeine were prohibited. Activities and cognitive tasks
+were similar across NFS studies. No additional memory tasks occurred in the period between learning and
+test sessions for our two reported memory tasks in order to minimise interference effects. All participants were
+constantly monitored by the research staff.
+
+Picture‑encoding task. The task consisted of 240 coloured scene images presented centrally on a computer
+screen one at a time. Half of the images depicted scenes containing buildings while the remaining half depicted
+landscapes with no buildings. The images were split into 3 sets of 80 images (40 buildings and 40 no-buildings).
+Two sets (160 images) were presented during both the encoding and retrieval sessions while the last remaining set (80 images) served as foil images to be presented during retrieval. Image sets used during encoding and
+retrieval sessions were counterbalanced across participants.
+The encoding session took place in a single 15-min block. Participants were instructed to indicate whether or
+not the image contained a building. They were not informed that their memory for the images would be tested
+later. The images were presented for 2500 ms each, followed by a response screen showing ‘(1) building, (2) no
+building’. After having made a response with the corresponding keypress, an inter-trial interval of 1000 ms followed before the start of a new trial. The order of presentation for the images was randomized.
+The retrieval session tested the participants’ recognition of 160 ‘old’ images presented during encoding randomly intermixed with 80 ‘new’ foil images. A five-point confidence scale was presented below the images: ‘(1)
+definitely did not see, (2) probably did not see, (3) unsure, (4) probably saw, (5) definitely saw’. Participants were
+instructed to indicate whether or not they remembered seeing the image from the previous session. Trials ended
+once a response was made or after a time limit of 5000 ms, then followed by an inter-trial interval of 1000 ms.
+Responses were recorded for the encoding and retrieval sessions. Trials with incorrect responses during
+encoding were excluded from retrieval analyses as they indicate that images were not adequately attended to.
+Responses from the retrieval session were categorized into four outcome measures: (1) ‘hits’ included confidence
+ratings of 4 (probably saw) and 5 (definitely saw) to old images, (2) ‘false alarms’ included confidence ratings of
+4 and 5 to new images, (3) ‘misses’ included ratings of 1 (definitely did not see) and 2 (probably did not see) to
+old images, and (4) ‘correct rejections’ included ratings of 1 and 2 to new images. To account for participants’
+response bias toward old/new responses, the non-parametric signal detection measure A’ was calculated (Supplementary Eq. (S1)) where 0.5 indicates chance p
+­ erformance52.
+Factual knowledge task—pretest. The pretest was administered before learning began to gauge prior
+
+knowledge of the species to-be-learned. This involved five stages: (1) picture identification: participants identified the name of each species (two options) from an image. (2) General knowledge: 20 two-alternative forced
+choice questions about general characteristics of amphibians. (3) Specific knowledge: 20 two-alternative forced
+choice questions on to-be-learned material, similar to questions that would be administered in the final retrieval
+test. (4) Subjective disgust: participants rated the amount of disgust they felt toward each species on a scale of 1–9
+(no disgust to extreme disgust), to control for the influence of emotion on memory. (5) Subjective knowledge:
+participants rated the amount of prior knowledge they had for each species on a scale of 1–9 (no knowledge to
+extensive knowledge). All questions were self-paced and presented in a random order.
+
+Scientific Reports |
+
+(2021) 11:5275 |
+
+https://doi.org/10.1038/s41598-021-84625-8
+
+11
+Vol.:(0123456789)
+
+www.nature.com/scientificreports/
+Factual knowledge task—encoding. Participants learned factual information about 12 species of
+
+amphibians consisting of different animal types: three frogs (Poison Dart Frog, Flying Frog, Gray Tree Frog),
+three toads (Burrowing Toad, Yellow-bellied Toad, Cane Toad), three newts (Alpine Newt, Orange-bellied Newt,
+Great Crested Newt), and three salamanders (Giant Salamander, Green Salamander, Mud Puppy). Information
+regarding the characteristics of the species were adapted from their actual biology and behaviours. At the start
+of the session, participants were informed that all of the information they learned would be tested at a later date
+with example test questions shown using different species. Additionally, participants were instructed not to discuss or look up information about amphibians outside of the learning sessions.
+Learning took place over 3 days. Each day participants underwent two learning blocks in the morning and
+two blocks in the afternoon, with each block focusing on a different type of animal (e.g., newts). Learning blocks
+lasted 30 min each. Participants always learned the same pairs of animal in the morning (e.g., newts and frogs)
+and afternoon (e.g., toads and salamanders) with the order of learning these pairs switched each day. Animal
+type was counterbalanced across participants for the morning and afternoon sessions. This ensured that information learned in the morning and afternoon was comparable. The repetition of learning over 3 consecutive days
+was intended to examine the interaction between memory and sleep in an ecologically valid way. It mimicked
+the way students learn information on separate occasions spaced in time, while also accounting for the effect
+of repeated cycles of sleep on learning. A single nap or nocturnal sleep episode can inform about how sleep
+impacts on memory encoding or consolidation, but it is necessary to examine several sleep episodes and learning
+opportunities together in order to understand the overall impact of daily sleep patterns on long-term memory.
+The learning materials consisted of approximately 80 slides of factual information for each animal type presented in the form of numbered points and images. Participants were able to go through the slides at their own
+pace (moving forwards and backwards freely), but they were advised to keep to a certain pace to ensure that all
+slides were seen. To facilitate this, a timer was visible throughout the learning session with slides having markers
+indicating how much time should have passed in 5-min intervals.
+To assist with learning, some slides asked participants to write down on a piece of paper what they could recall
+about the information learned in the previous slides. Participants were also encouraged to take notes which were
+returned to the experimenter at the end of each block. The final slide of each block instructed participants to use
+the remaining time to revise the information learned.
+At the end of each block participants completed the Karolinska Sleepiness Scale (KSS) and were asked to rate
+three questions on a 7-point scale: “Was your attention focused on the task or something unrelated to the task?
+(1 = completely on task, 7 = completely off task)”, “How motivated were you to learn the information? (1 = completely motivated, 7 = completely unmotivated)”, and “How well do you feel you could learn the information?
+(1 = extremely well, 7 = extremely poorly)”. These scales measured subjective ‘focus’, ‘motivation’, and ‘ability’
+respectively. Scores were subsequently inverted for analysis so that higher values represented higher levels for
+each measure (Supplementary Fig. S1, Table S1).
+
+Factual knowledge task—retrieval. Questions were presented in a two-alternative forced choice format followed by a confidence rating (certain, somewhat certain, guess). The foil was usually the answer to the
+same question for a different species. Analysis focussed on participants most confident responses (those rated as
+“certain”) because these were less likely to be contaminated with noise introduced by g­ uessing2,10,15. These were
+corrected for response bias by subtracting incorrect from correct responses. Questions and confidence ratings
+remained on screen until participants gave a response or after 10 s had elapsed. In total there were 360 questions
+(90 questions for each animal type). Half of the questions were related to the material learned in the morning
+and the other half in the afternoon. Questions were presented randomly in six blocks separated by 30 s breaks.
+Participants were instructed to think carefully about their responses within the given time limit.
+Actigraphy.
+
+Participants wore an Actiwatch AW-2 (Phillips Respironics Inc., Pittsburgh, PA) during three
+different periods: (1) 1 week of screening, (2) 1 week immediately before the camp, and (3) two weeks during
+the camp. Sleep diaries were used to clean and verify the data. Data were scored with Actiware software (version
+6.0.2) at 30-s resolution and medium sensitivity.
+
+Polysomnography. Electroencephalography (EEG) was performed via a SOMNOtouch recorder (SOMNOmedics GmbH, Randersacker, Germany) on two channels (C3 and C4) in the international 10–20 system),
+referenced to contralateral mastoids. Cz and Fpz were used as common reference and ground electrodes respectively. EEG electrode impedances were kept < 5 kΩ and electrooculography (EOG) and submental electromyography (EMG) impedances were kept < 10 kΩ. Pulse oximetry was measured on the first night (­ B1) to assess for
+undiagnosed sleep apnoea.
+EEG signal was sampled at 256 Hz and band-pass filtered between 0.2 and 35 Hz for EEG, and between 0.2 and
+10 Hz for EOG. Automated scoring of sleep stages and artefacts were performed using Z
+­ 3Score53 (https​://z3sco​
+re.com) in conjunction with the FASST EEG toolbox, and was also visually checked by trained staff following
+criteria from the American Academy of Sleep Medicine Manual for the Scoring of Sleep and Associated ­Events23.
+For each recording, the following parameters were computed: TST, N2 latency (time from lights off to N2
+onset), durations of N1, N2, N3 and REM sleep, as well as sleep efficiency and WASO. As a measure of homeostatic sleep pressure, we computed slow wave energy (SWE; 0.6–4 Hz) in the first hour of sleep from N2 onset by
+integrating power in the delta band summed across all NREM epochs, and normalized to SWE in the first hour
+of ­B241. Automatic sleep spindle detection analysis was performed using the Wonambi Python package, v5.24
+(https​://wonam​bi-pytho​n.githu​b.io) with an automated ­algorithm54. Spindle count was computed for NREM
+epochs using C3-A2 electrodes.
+Scientific Reports |
+Vol:.(1234567890)
+
+(2021) 11:5275 |
+
+https://doi.org/10.1038/s41598-021-84625-8
+
+12
+
+www.nature.com/scientificreports/
+Statistical analysis. For picture encoding we assessed accuracy during encoding and memory at retrieval
+
+(A’) via a 2 × 2 ANOVA with between-subject factors of sleep schedule (split/continuous) and duration (6.5 h/8 h).
+For the factual knowledge task, we assessed prior knowledge of the stimuli via one-way ANOVA on test scores
+for general knowledge, specific knowledge, picture identification, as well as subjective knowledge and disgust.
+Certain memory (correct-incorrect) during retrieval was analysed with a 2 × 2 × 2 mixed ANOVA including
+schedule (split/continuous), duration (6.5 h/8 h), and the within-subject factor of time (morning/afternoon).
+Paired and independent sample t-tests were used for follow-up comparisons. Subjective measures (alertness,
+focus, ability, motivation) were assessed via the same 2 × 2 × 2 mixed ANOVA.
+For PSG, total sleep time and duration spent in sleep stages across 24 h were compared using a one-way
+ANOVA, and independent t-tests. Pearson’s correlations were performed between memory and sleep measures:
+picture encoding used the total sleep period 24 h prior to encoding (­ M15) and recovery sleep shortly after encoding ­(R11). Factual knowledge learning took place from M
+­ 21 to M
+­ 23, therefore we averaged the PSG-assessed sleep
+parameters obtained across M
+­ 21 and M
+­ 2 3.
+All effect sizes were computed with Cohen’s d (d) for t-tests of key comparisons. All statistical tests were twotailed with significance level of p < 0.05 (uncorrected).
+
+Data availability
+
+The datasets generated during and/or analysed during the current study are available from the corresponding
+author on reasonable request.
+Received: 19 November 2020; Accepted: 12 February 2021
+
+References
+
+1. Alger, S. E., Lau, H. & Fishbein, W. Slow wave sleep during a daytime nap is necessary for protection from subsequent interference
+and long-term retention. Neurobiol. Learn. Mem. 98, 188–196. https​://doi.org/10.1016/j.nlm.2012.06.003 (2012).
+2. Cousins, J. N., Wong, K. F., Raghunath, B. L., Look, C. & Chee, M. W. L. The long-term memory benefits of a daytime nap compared
+with cramming. Sleep. https​://doi.org/10.1093/sleep​/zsy20​7 (2019).
+3. Mander, B. A., Santhanam, S., Saletin, J. M. & Walker, M. P. Wake deterioration and sleep restoration of human learning. Curr.
+Biol. 21, R183–R184. https​://doi.org/10.1016/j.cub.2011.01.019 (2011).
+4. Ong, J. L., Lau, T. Y., Lee, X. K., van Rijn, E. & Chee, M. W. L. A daytime nap restores hippocampal function and improves declarative learning. Sleep. https​://doi.org/10.1093/sleep​/zsaa0​58 (2020).
+5. Cellini, N., Torre, J., Stegagno, L. & Sarlo, M. Sleep before and after learning promotes the consolidation of both neutral and emotional information regardless of REM presence. Neurobiol. Learn. Mem. 133, 136–144. https​://doi.org/10.1016/j.nlm.2016.06.015
+(2016).
+6. van der Helm, E., Gujar, N., Nishida, M. & Walker, M. P. Sleep-dependent facilitation of episodic memory details. PLoS ONE 6,
+e27421. https​://doi.org/10.1371/journ​al.pone.00274​21 (2011).
+7. Ribeiro, S. & Stickgold, R. Sleep and school education. Trends Neurosci. Educ. 3, 18–23. https​://doi.org/10.1016/j.tine.2014.02.004
+(2014).
+8. Cousins, J. N. & Fernandez, G. The impact of sleep deprivation on declarative memory. Prog. Brain Res. 246, 27–53. https​://doi.
+org/10.1016/bs.pbr.2019.01.007 (2019).
+9. Cousins, J. N., Sasmita, K. & Chee, M. W. L. Memory encoding is impaired after multiple nights of partial sleep restriction. J. Sleep
+Res. 27, 138–145. https​://doi.org/10.1111/jsr.12578​ (2018).
+10. Cousins, J. N., Wong, K. F. & Chee, M. W. L. Multi-night sleep restriction impairs long-term retention of factual knowledge in
+adolescents. J. Adolesc. Health 65, 549–557. https​://doi.org/10.1016/j.jadoh​ealth​.2019.04.030 (2019).
+11. Lo, J. C. & Chee, M. W. L. Cognitive effects of multi-night adolescent sleep restriction: Current data and future possibilities. Curr.
+Opin. Behav. Sci. 33, 34–41. https​://doi.org/10.1016/j.cobeh​a.2019.12.005 (2020).
+12. Poh, J. H. & Chee, M. W. L. Degradation of cortical representations during encoding following sleep deprivation. Neuroimage 153,
+131–138. https​://doi.org/10.1016/j.neuro​image​.2017.01.080 (2017).
+13. Yoo, S. S., Hu, P. T., Gujar, N., Jolesz, F. A. & Walker, M. P. A deficit in the ability to form new human memories without sleep. Nat.
+Neurosci. 10, 385–392. https​://doi.org/10.1038/nn185​1 (2007).
+14. Cousins, J. N., Van Rijn, E., Ong, J. L. & Chee, M. W. L. A split sleep schedule rescues short-term topographical memory after
+multiple nights of sleep restriction. Sleep. https​://doi.org/10.1093/sleep​/zsz01​8 (2019).
+15. Cousins, J. N., van Rijn, E., Ong, J. L., Wong, K. F. & Chee, M. W. L. Does splitting sleep improve long-term memory in chronically
+sleep deprived adolescents? NPJ Sci. Learn. 4, 8. https​://doi.org/10.1038/s4153​9-019-0047-z (2019).
+16. Ngo, H. V., Martinetz, T., Born, J. & Molle, M. Auditory closed-loop stimulation of the sleep slow oscillation enhances memory.
+Neuron 78, 545–553. https​://doi.org/10.1016/j.neuro​n.2013.03.006 (2013).
+17. Rasch, B. & Born, J. About sleep’s role in memory. Physiol. Rev. 93, 681–766. https​://doi.org/10.1152/physr​ev.00032​.2012 (2013).
+18. Van Der Werf, Y. D. et al. Sleep benefits subsequent hippocampal functioning. Nat. Neurosci. 12, 122–123. https:​ //doi.org/10.1038/
+nn.2253 (2009).
+19. Hirshkowitz, M. et al. National sleep foundation’s sleep time duration recommendations: Methodology and results summary. Sleep
+Health 1, 40–43. https​://doi.org/10.1016/j.sleh.2014.12.010 (2015).
+20. Yeo, S. C. et al. Associations of sleep duration on school nights with self-rated health, overweight, and depression symptoms in
+adolescents: Problems and possible solutions. Sleep Med. 60, 96–108. https​://doi.org/10.1016/j.sleep​.2018.10.041 (2019).
+21. Carskadon, M. A. Sleep in adolescents: The perfect storm. Pediatr. Clin. N. Am. 58, 637–647. https​://doi.org/10.1016/j.
+pcl.2011.03.003 (2011).
+22. Okano, K., Kaczmarzyk, J. R., Dave, N., Gabrieli, J. D. E. & Grossman, J. C. Sleep quality, duration, and consistency are associated
+with better academic performance in college students. NPJ Sci. Learn. 4, 16. https​://doi.org/10.1038/s4153​9-019-0055-z (2019).
+23. Calamaro, C. J., Mason, T. B. & Ratcliffe, S. J. Adolescents living the 24/7 lifestyle: Effects of caffeine and technology on sleep duration and daytime functioning. Pediatrics 123, e1005–e1010. https​://doi.org/10.1542/peds.2008-3641 (2009).
+24. Jakubowski, K. P., Hall, M. H., Marsland, A. L. & Matthews, K. A. Is daytime napping associated with inflammation in adolescents?
+Health Psychol. 35, 1298–1306. https​://doi.org/10.1037/hea00​00369​ (2016).
+25. Thorleifsdottir, B., Bjornsson, J. K., Benediktsdottir, B., Gislason, T. & Kristbjarnarson, H. Sleep and sleep habits from childhood
+to young adulthood over a 10-year period. J. Psychom. Res. 53, 529–537 (2002).
+26. National Sleep Foundation. Communications Technology in the Bedroom (2011).
+
+Scientific Reports |
+
+(2021) 11:5275 |
+
+https://doi.org/10.1038/s41598-021-84625-8
+
+13
+Vol.:(0123456789)
+
+www.nature.com/scientificreports/
+27. Jakubowski, K. P., Hall, M. H., Lee, L. & Matthews, K. A. Temporal relationships between napping and nocturnal sleep in healthy
+adolescents. Behav. Sleep Med. 15, 257–269. https​://doi.org/10.1080/15402​002.2015.11265​95 (2017).
+28. Lo, J. C. et al. Differential effects of split and continuous sleep on neurobehavioral function and glucose tolerance in sleep-restricted
+adolescents. Sleep. https​://doi.org/10.1093/sleep​/zsz03​7 (2019).
+29. Brooks, A. & Lack, L. A brief afternoon nap following nocturnal sleep restriction: Which nap duration is most recuperative? Sleep
+29, 831–840 (2006).
+30. Monk, T. H. The post-lunch dip in performance. Clin. Sports Med. 24, e15–e23. https​://doi.org/10.1016/j.csm.2004.12.002 (2005).
+31. Ji, X., Li, J. & Liu, J. The relationship between midday napping and neurocognitive function in early adolescents. Behav. Sleep Med.
+17, 537–551. https​://doi.org/10.1080/15402​002.2018.14258​68 (2019).
+32. Jackson, M. L., Banks, S. & Belenky, G. Investigation of the effectiveness of a split sleep schedule in sustaining sleep and maintaining performance. Chronobiol. Int. 31, 1218–1230. https​://doi.org/10.3109/07420​528.2014.95730​5 (2014).
+33. Kosmadopoulos, A. et al. The effects of a split sleep-wake schedule on neurobehavioural performance and predictions of performance under conditions of forced desynchrony. Chronobiol. Int. 31, 1209–1217. https​://doi.org/10.3109/07420​528.2014.95776​3
+(2014).
+34. Mollicone, D. J., Van Dongen, H. P., Rogers, N. L. & Dinges, D. F. Response surface mapping of neurobehavioral performance:
+Testing the feasibility of split sleep schedules for space operations. Acta Astronaut. 63, 833–840. https​://doi.org/10.1016/j.actaa​
+stro.2007.12.005 (2008).
+35. Zhou, X. et al. Do split sleep/wake schedules reduce or increase sleepiness for continuous operations? Accid. Anal. Prev. 99, 434–439.
+https​://doi.org/10.1016/j.aap.2015.10.027 (2017).
+36. Short, M. A. et al. The effect of split sleep schedules (6h-on/6h-off) on neurobehavioural performance, sleep and sleepiness. Appl.
+Ergon. 54, 72–82. https​://doi.org/10.1016/j.aperg​o.2015.12.004 (2016).
+37. Roach, G. D. et al. Are two halves better than one whole? A comparison of the amount and quality of sleep obtained by healthy
+adult males living on split and consolidated sleep-wake schedules. Accid. Anal. Prev. 99, 428–433. https​://doi.org/10.1016/j.
+aap.2015.10.012 (2017).
+38. Schabus, M. et al. Sleep spindles and their significance for declarative memory consolidation. Sleep 27, 1479–1485 (2004).
+39. Ong, J. L. et al. Auditory stimulation of sleep slow oscillations modulates subsequent memory encoding through altered hippocampal function. Sleep. https​://doi.org/10.1093/sleep​/zsy03​1 (2018).
+40. Tononi, G. & Cirelli, C. Sleep and the price of plasticity: From synaptic and cellular homeostasis to memory consolidation and
+integration. Neuron 81, 12–34. https​://doi.org/10.1016/j.neuro​n.2013.12.025 (2014).
+41. Ong, J. L., Lo, J. C., Gooley, J. J. & Chee, M. W. L. EEG changes accompanying successive cycles of sleep restriction with and without
+naps in adolescents. Sleep. https​://doi.org/10.1093/sleep​/zsx03​0 (2017).
+42. Cabral, T. et al. Post-class naps boost declarative learning in a naturalistic school setting. NPJ Sci. Learn. 3, 14. https​://doi.
+org/10.1038/s4153​9-018-0031-z (2018).
+43. Lemos, N., Weissheimer, J. & Ribeiro, S. Naps in school can enhance the duration of declarative memories learned by adolescents.
+Front. Syst. Neurosci. 8, 103. https​://doi.org/10.3389/fnsys​.2014.00103​ (2014).
+44. Lo, J. C. et al. Cognitive effects of split and continuous sleep schedules in adolescents differ according to total sleep opportunity.
+Sleep. https​://doi.org/10.1093/sleep​/zsaa1​29 (2020).
+45. Laventure, S. et al. NREM2 and sleep spindles are instrumental to the consolidation of motor sequence memories. PLoS Biol. 14,
+e1002429 (2016).
+46. Lovato, N. & Lack, L. The effects of napping on cognitive functioning. Prog. Brain Res. 185, 155–166. https​://doi.org/10.1016/
+B978-0-444-53702​-7.00009​-9 (2010).
+47. Leong, R. L. F. et al. Memory performance following napping in habitual and non-habitual nappers. Sleep. https:​ //doi.org/10.1093/
+sleep​/zsaa2​77 (2020).
+48. Gais, S., Lucas, B. & Born, J. Sleep after learning aids memory recall. Learn. Mem. 13, 259–262. https​://doi.org/10.1101/lm.13210​
+6 (2006).
+49. Hayashi, M. H. F. & Hori, T. The effects of short daytime naps for five consecutive days. Sleep Res. Online 5, 13–17 (2003).
+50. Liu, X., Liu, L., Owens, J. A. & Kaplan, D. L. Sleep patterns and sleep problems among school children in the United States and
+China. Pediatrics 115, 241–249. https​://doi.org/10.1542/peds.2004-0815F​ (2005).
+51. Owens, J. A., Belon, K. & Moss, P. Impact of delaying school start time on adolescent sleep, mood, and behavior. Arch. Pediatr.
+Adoles. Med. 164, 608–614 (2010).
+52. Stanislaw, H. & Todorov, N. Calculation of signal detection theory measures. Behav. Res. Method Instrum. C 31, 137–149 (1999).
+53. Patanaik, A., Ong, J. L., Gooley, J. J., Ancoli-Israel, S. & Chee, M. W. L. An end-to-end framework for real-time automatic sleep
+stage classification. Sleep. https​://doi.org/10.1093/sleep​/zsy04​1 (2018).
+54. Molle, M., Marshall, L., Gais, S. & Born, J. Grouping of spindle activity during slow oscillations in human non-rapid eye movement
+sleep. J. Neurosci. 22, 10941–10947 (2002).
+
+Acknowledgements
+
+The authors thank Elaine van Rijn, Stijn Massar, Soon Chun Siong, June Lo, Andrew Dicom, Christina Chen,
+Nicholas Chee, Nicole Yu, Xin Yu Chua, TeYang Lau, Ksenia Vinogradova, Zhenghao Pu, Teck Boon Teo, Brian
+Teo, Jesisca Tandi, Tiffany Koa, Jessica Lee, James Teng, Kian Wong, Zaven Leow, Litali Mohapatra, Caryn Yuen,
+Yuvan C, Aleksi Rantanen and Karthika Muthiah for their assistance in data collection and sleep scoring. We
+also thank Hosein Golkashani and Shohreh Ghorbani for their help in extracting spindle metrics from polysomnography data.
+
+Author contributions
+
+J.N.C., R.L.F.L., J.L.O. and M.W.L.C. designed the study, R.L.F.L., S.A.J., A.S.C.N. and J.L.O. collected data, J.N.C.,
+R.L.F.L., S.A.J., A.S.C.N. and J.L.O. analyzed data, all authors contributed to writing the manuscript.
+
+Funding
+
+This work was supported by grants from the National Medical Research Council, Singapore (NMRC/
+STaR/015/2013), National Research Foundation (NRF2016-SOL002-001) and the Far East Organization awarded
+to Michael W.L. Chee.
+
+Competing interests
+
+Michael W.L. Chee and Ju Lynn Ong have a patent for the Z3-score framework used for sleep analyses. The other
+authors declare no competing interests.
+
+Scientific Reports |
+Vol:.(1234567890)
+
+(2021) 11:5275 |
+
+https://doi.org/10.1038/s41598-021-84625-8
+
+14
+
+www.nature.com/scientificreports/
+
+Additional information
+
+Supplementary Information The online version contains supplementary material available at https​://doi.
+org/10.1038/s4159​8-021-84625​-8.
+Correspondence and requests for materials should be addressed to M.W.L.C.
+Reprints and permissions information is available at www.nature.com/reprints.
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and
+institutional affiliations.
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International
+License, which permits use, sharing, adaptation, distribution and reproduction in any medium or
+format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the
+Creative Commons licence, and indicate if changes were made. The images or other third party material in this
+article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the
+material. If material is not included in the article’s Creative Commons licence and your intended use is not
+permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from
+the copyright holder. To view a copy of this licence, visit http://creat​iveco​mmons​.org/licen​ses/by/4.0/.
+© The Author(s) 2021
+
+Scientific Reports |
+
+(2021) 11:5275 |
+
+https://doi.org/10.1038/s41598-021-84625-8
+
+15
+Vol.:(0123456789)
+
+
