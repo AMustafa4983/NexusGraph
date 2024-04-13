@@ -1,3 +1,3 @@
 {
-    "rewrites": [{ "source": "/(.*)", "destination": "ParallelRun.py" }]
+    "rewrites": [{ "source": "/(.*)", "destination": "ParallelRun" }]
 }
