@@ -30,6 +30,11 @@ organizer = Organizer('railway',
                 'viaduct.proxy.rlwy.net',
                 '36793')
 
+@app.route('/')
+def home():
+    return "Welcome to NexusGraph API!"
+
+
 @app.route('/api/papers', methods=['GET'])
 def get_all_papers():
     papers = organizer.get_all_papers()
@@ -87,4 +92,4 @@ def process_external_data():
     return jsonify({'message': 'Data extracted and processed successfully'}), 200
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', debug=True)
+    app.run(host='0.0.0.0')
