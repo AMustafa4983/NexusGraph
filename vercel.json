@@ -1,13 +1,15 @@
 {
-  "functions": {
-    "api": {
-      "memory": 1024
-    }
-  },
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/api/handler.py"
-    }
-  ]
-}
+    "functions": {
+      "api": {
+        "runtime": "python3.7",
+        "memory": 1024
+      }
+    },
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "/api/handler.py"
+      }
+    ]
+  }
+  
