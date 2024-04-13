@@ -1,14 +1,8 @@
 {
-    "functions": {
-      "api": {
-        "memory": 1024
-      }
-    },
-    "routes": [
-      {
-        "src": "/api/(.*)",
-        "dest": "/api/handler.py"
-      }
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/api/handler"
+        }
     ]
-  }
-  
+}
