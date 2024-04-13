@@ -1,3 +1,14 @@
 {
-    "rewrites": [{ "source": "/(.*)", "destination": "ParallelRun" }]
+  "functions": {
+    "api": {
+      "runtime": "python3.9",
+      "memory": 1024
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/handler.py"
+    }
+  ]
 }
