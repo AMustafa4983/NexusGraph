@@ -90,6 +90,3 @@ def process_external_data():
         extraction_process(file['row']['text'])
 
     return jsonify({'message': 'Data extracted and processed successfully'}), 200
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0')
