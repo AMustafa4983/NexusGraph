@@ -344,15 +344,15 @@ GROUP BY p.paper_id, p.title;
 
             """
             self.cur.execute(select_papers_query)
-            papers = {}
+            papers = []
             for row in self.cur.fetchall():
                 paper_id, title, author, tag = row
-                if paper_id not in papers:
-                    papers[paper_id] = {'title': title, 'authors': [], 'tags': []}
+                paper = {'id':paper_id, 'title': title}
                 if author:
-                    papers[paper_id]['authors'].append(author)
+                    paper['authors'] = author.split(",")
                 if tag:
-                    papers[paper_id]['tags'].append(tag)
+                    paper['tags'] = tag.split(",")
+                papers.append(paper)
             return papers
         except Exception as e:
             print(f"Error: {e}")
