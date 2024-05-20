@@ -8,6 +8,7 @@ import PyPDF2
 import os
 
 
+
 def extract_text_from_pdf(file_path):
     with open(file_path, 'rb') as file:
         reader = PyPDF2.PdfFileReader(file)
@@ -24,11 +25,7 @@ def check_dataset(url):
     return files
 
 app = Flask(__name__)
-organizer = Organizer('railway',
-                'postgres',
-                'ba**64B3f3*dd521Egef3g4*B-E-cA-3',
-                'viaduct.proxy.rlwy.net',
-                '36793')
+organizer = Organizer()
 
 @app.route('/api/papers', methods=['GET'])
 def get_all_papers():

@@ -9,8 +9,8 @@ class MaterialsSuppliersMiner:
     def predict(self, section_text):
         print('MaterialsSuppliersMiner Mining for Materials and Suppliers...')
         prediction = self.client.chat.completions.create(
-        model='gpt-3.5-turbo',
-        temperature=0.8,
+        model='gpt-4-turbo',
+        temperature=1.0,
         messages=[
             {'role':'system','content':'''you're an ner system used to extract features from a given text and form it in a JSON file
                                         the output should be in this structure.
@@ -29,11 +29,12 @@ class MaterialsSuppliersMiner:
                                         ...
                                         ]
                                         }
-                                        return a json file.'''},
+                                        return only json format.'''},
             {'role':'user', 'content':section_text[:4050]},
             {'role':'user', 'content':section_text[4050:] if len(section_text[4050:]) < 4050 else section_text[4050:4050+4050]},
 
-        ]
-    )    
+            ]
+            )    
+        print(prediction)
 
         return prediction
